@@ -1,0 +1,305 @@
+{
+  "year": 2025,
+  "tournaments": [
+    {
+      "id": "R2025016",
+      "name": "The Sentry",
+      "start_date": 1735776000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025006",
+      "name": "Sony Open in Hawaii",
+      "start_date": 1736380800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025002",
+      "name": "The American Express",
+      "start_date": 1736985600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025004",
+      "name": "Farmers Insurance Open",
+      "start_date": 1737504000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025005",
+      "name": "AT&T Pebble Beach Pro-Am",
+      "start_date": 1738195200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025003",
+      "name": "WM Phoenix Open",
+      "start_date": 1738800000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025007",
+      "name": "The Genesis Invitational",
+      "start_date": 1739404800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025540",
+      "name": "Mexico Open at VidantaWorld",
+      "start_date": 1740009600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025010",
+      "name": "Cognizant Classic in The Palm Beaches",
+      "start_date": 1740614400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025009",
+      "name": "Arnold Palmer Invitational presented by Mastercard",
+      "start_date": 1741219200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025483",
+      "name": "Puerto Rico Open",
+      "start_date": 1741219200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025011",
+      "name": "THE PLAYERS Championship",
+      "start_date": 1741824000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025475",
+      "name": "Valspar Championship",
+      "start_date": 1742428800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025020",
+      "name": "Texas Children's Houston Open",
+      "start_date": 1743033600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025041",
+      "name": "Valero Texas Open",
+      "start_date": 1743638400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025014",
+      "name": "Masters Tournament",
+      "start_date": 1744243200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025012",
+      "name": "RBC Heritage",
+      "start_date": 1744848000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025522",
+      "name": "Corales Puntacana Championship",
+      "start_date": 1744848000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025018",
+      "name": "Zurich Classic of New Orleans",
+      "start_date": 1745452800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025019",
+      "name": "THE CJ CUP Byron Nelson",
+      "start_date": 1746057600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025480",
+      "name": "Truist Championship",
+      "start_date": 1746662400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025553",
+      "name": "ONEflight Myrtle Beach Classic",
+      "start_date": 1746662400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025033",
+      "name": "PGA Championship",
+      "start_date": 1747267200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025021",
+      "name": "Charles Schwab Challenge",
+      "start_date": 1747872000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025023",
+      "name": "the Memorial Tournament presented by Workday",
+      "start_date": 1748476800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025032",
+      "name": "RBC Canadian Open",
+      "start_date": 1749081600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025026",
+      "name": "U.S. Open",
+      "start_date": 1749686400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025034",
+      "name": "Travelers Championship",
+      "start_date": 1750291200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025524",
+      "name": "Rocket Classic",
+      "start_date": 1750896000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025030",
+      "name": "John Deere Classic",
+      "start_date": 1751500800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025541",
+      "name": "Genesis Scottish Open",
+      "start_date": 1752105600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025518",
+      "name": "ISCO Championship",
+      "start_date": 1752105600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025100",
+      "name": "The Open Championship",
+      "start_date": 1752710400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025472",
+      "name": "Barracuda Championship",
+      "start_date": 1752710400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025525",
+      "name": "3M Open",
+      "start_date": 1753315200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025013",
+      "name": "Wyndham Championship",
+      "start_date": 1753920000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025027",
+      "name": "FedEx St. Jude Championship",
+      "start_date": 1754524800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025028",
+      "name": "BMW Championship",
+      "start_date": 1755129600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025060",
+      "name": "TOUR Championship",
+      "start_date": 1755734400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025464",
+      "name": "Procore Championship",
+      "start_date": 1757548800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025468",
+      "name": "Ryder Cup",
+      "start_date": 1758844800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025054",
+      "name": "Sanderson Farms Championship",
+      "start_date": 1759363200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025527",
+      "name": "Baycurrent Classic",
+      "start_date": 1759968000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025554",
+      "name": "Bank of Utah Championship",
+      "start_date": 1761177600000,
+      "year": 2025
+    },
+    {
+      "id": "R2025457",
+      "name": "World Wide Technology Championship",
+      "start_date": 1762387200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025528",
+      "name": "Butterfield Bermuda Championship",
+      "start_date": 1762992000000,
+      "year": 2025
+    },
+    {
+      "id": "R2025493",
+      "name": "The RSM Classic",
+      "start_date": 1763596800000,
+      "year": 2025
+    },
+    {
+      "id": "R2025478",
+      "name": "Hero World Challenge",
+      "start_date": 1764806400000,
+      "year": 2025
+    },
+    {
+      "id": "R2025088",
+      "name": "PGA TOUR Q-School presented by Korn Ferry",
+      "start_date": 1765411200000,
+      "year": 2025
+    },
+    {
+      "id": "R2025551",
+      "name": "Grant Thornton Invitational",
+      "start_date": 1765497600000,
+      "year": 2025
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "year": 2016,
+  "tournaments": [
+    {
+      "id": "R2016464",
+      "name": "Frys.com Open",
+      "start_date": 1444867200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016047",
+      "name": "Shriners Hospitals for Children Open",
+      "start_date": 1445472000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016494",
+      "name": "CIMB Classic",
+      "start_date": 1446076800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016489",
+      "name": "World Golf Championships-HSBC Champions",
+      "start_date": 1446681600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016054",
+      "name": "Sanderson Farms Championship",
+      "start_date": 1446681600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016457",
+      "name": "OHL Classic at Mayakoba",
+      "start_date": 1447286400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016493",
+      "name": "The RSM Classic",
+      "start_date": 1447891200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016478",
+      "name": "Hero World Challenge",
+      "start_date": 1449100800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016058",
+      "name": "Franklin Templeton Shootout",
+      "start_date": 1449705600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016016",
+      "name": "Hyundai Tournament of Champions",
+      "start_date": 1452124800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016006",
+      "name": "Sony Open in Hawaii",
+      "start_date": 1452729600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016002",
+      "name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+      "start_date": 1453334400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016004",
+      "name": "Farmers Insurance Open",
+      "start_date": 1453939200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016003",
+      "name": "Waste Management Phoenix Open",
+      "start_date": 1454544000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016005",
+      "name": "AT&T Pebble Beach Pro-Am",
+      "start_date": 1455148800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016007",
+      "name": "Northern Trust Open",
+      "start_date": 1455753600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016010",
+      "name": "The Honda Classic",
+      "start_date": 1456358400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016473",
+      "name": "World Golf Championships-Cadillac Championship",
+      "start_date": 1456963200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016475",
+      "name": "Valspar Championship",
+      "start_date": 1457568000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016009",
+      "name": "Arnold Palmer Invitational presented by MasterCard",
+      "start_date": 1458172800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016470",
+      "name": "World Golf Championships-Dell Match Play",
+      "start_date": 1458691200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016483",
+      "name": "Puerto Rico Open at Coco Beach",
+      "start_date": 1458777600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016020",
+      "name": "Shell Houston Open",
+      "start_date": 1459382400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016014",
+      "name": "Masters Tournament",
+      "start_date": 1459987200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016012",
+      "name": "RBC Heritage",
+      "start_date": 1460592000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016041",
+      "name": "Valero Texas Open",
+      "start_date": 1461196800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016018",
+      "name": "Zurich Classic of New Orleans",
+      "start_date": 1461801600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016480",
+      "name": "Wells Fargo Championship",
+      "start_date": 1462406400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016011",
+      "name": "THE PLAYERS Championship",
+      "start_date": 1463011200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016019",
+      "name": "AT&T Byron Nelson",
+      "start_date": 1463616000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016021",
+      "name": "DEAN & DELUCA Invitational",
+      "start_date": 1464220800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016023",
+      "name": "the Memorial Tournament presented by Nationwide",
+      "start_date": 1464825600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016025",
+      "name": "FedEx St. Jude Classic",
+      "start_date": 1465430400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016026",
+      "name": "U.S. Open",
+      "start_date": 1466035200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016471",
+      "name": "Quicken Loans National",
+      "start_date": 1466640000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016486",
+      "name": "CVS Health Charity Classic",
+      "start_date": 1466985600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016476",
+      "name": "World Golf Championships-Bridgestone Invitational",
+      "start_date": 1467244800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016472",
+      "name": "Barracuda Championship",
+      "start_date": 1467244800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016100",
+      "name": "The Open Championship",
+      "start_date": 1468454400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016518",
+      "name": "Barbasol Championship",
+      "start_date": 1468454400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016032",
+      "name": "RBC Canadian Open",
+      "start_date": 1469059200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016033",
+      "name": "PGA Championship",
+      "start_date": 1469664000000,
+      "year": 2016
+    },
+    {
+      "id": "R2016034",
+      "name": "Travelers Championship",
+      "start_date": 1470268800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016519",
+      "name": "Olympic Men's Golf Competition",
+      "start_date": 1470873600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016030",
+      "name": "John Deere Classic",
+      "start_date": 1470873600000,
+      "year": 2016
+    },
+    {
+      "id": "R2016013",
+      "name": "Wyndham Championship",
+      "start_date": 1471478400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016027",
+      "name": "The Barclays",
+      "start_date": 1472083200000,
+      "year": 2016
+    },
+    {
+      "id": "R2016505",
+      "name": "Deutsche Bank Championship",
+      "start_date": 1472774400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016028",
+      "name": "BMW Championship",
+      "start_date": 1473292800000,
+      "year": 2016
+    },
+    {
+      "id": "R2016060",
+      "name": "TOUR Championship",
+      "start_date": 1474502400000,
+      "year": 2016
+    },
+    {
+      "id": "R2016468",
+      "name": "Ryder Cup",
+      "start_date": 1475193600000,
+      "year": 2016
+    }
+  ]
+}

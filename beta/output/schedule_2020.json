@@ -1,0 +1,257 @@
+{
+  "year": 2020,
+  "tournaments": [
+    {
+      "id": "R2020490",
+      "name": "A Military Tribute at The Greenbrier",
+      "start_date": 1568246400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020054",
+      "name": "Sanderson Farms Championship",
+      "start_date": 1568851200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020464",
+      "name": "Safeway Open",
+      "start_date": 1569456000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020047",
+      "name": "Shriners Hospitals for Children Open",
+      "start_date": 1570060800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020020",
+      "name": "Houston Open",
+      "start_date": 1570665600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020521",
+      "name": "THE CJ CUP @ NINE BRIDGES",
+      "start_date": 1571270400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020530",
+      "name": "MGM Resorts The Challenge: Japan Skins",
+      "start_date": 1571616000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020527",
+      "name": "ZOZO CHAMPIONSHIP",
+      "start_date": 1571875200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020489",
+      "name": "World Golf Championships-HSBC Champions",
+      "start_date": 1572480000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020528",
+      "name": "Bermuda Championship",
+      "start_date": 1572480000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020457",
+      "name": "Mayakoba Golf Classic",
+      "start_date": 1573689600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020493",
+      "name": "The RSM Classic",
+      "start_date": 1574294400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020478",
+      "name": "Hero World Challenge",
+      "start_date": 1575417600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020500",
+      "name": "Presidents Cup",
+      "start_date": 1576108800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020058",
+      "name": "QBE Shootout",
+      "start_date": 1576195200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020016",
+      "name": "Sentry Tournament of Champions",
+      "start_date": 1577923200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020006",
+      "name": "Sony Open in Hawaii",
+      "start_date": 1578528000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020002",
+      "name": "The American Express",
+      "start_date": 1579132800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020004",
+      "name": "Farmers Insurance Open",
+      "start_date": 1579737600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020003",
+      "name": "Waste Management Phoenix Open",
+      "start_date": 1580342400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020005",
+      "name": "AT&T Pebble Beach Pro-Am",
+      "start_date": 1580947200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020007",
+      "name": "The Genesis Invitational",
+      "start_date": 1581552000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020473",
+      "name": "World Golf Championships-Mexico Championship",
+      "start_date": 1582156800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020483",
+      "name": "Puerto Rico Open",
+      "start_date": 1582156800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020010",
+      "name": "The Honda Classic",
+      "start_date": 1582761600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020009",
+      "name": "Arnold Palmer Invitational presented by Mastercard",
+      "start_date": 1583366400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020531",
+      "name": "TaylorMade Driving Relief",
+      "start_date": 1589673600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020532",
+      "name": "Capital One's The Match: Champions for Charity",
+      "start_date": 1590278400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020021",
+      "name": "Charles Schwab Challenge",
+      "start_date": 1591833600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020012",
+      "name": "RBC Heritage",
+      "start_date": 1592438400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020034",
+      "name": "Travelers Championship",
+      "start_date": 1593043200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020524",
+      "name": "Rocket Mortgage Classic",
+      "start_date": 1593648000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020533",
+      "name": "Workday Charity Open",
+      "start_date": 1594252800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020023",
+      "name": "the Memorial Tournament presented by Nationwide",
+      "start_date": 1594857600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020525",
+      "name": "3M Open",
+      "start_date": 1595462400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020476",
+      "name": "World Golf Championships-FedEx St. Jude Invitational",
+      "start_date": 1596067200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020472",
+      "name": "Barracuda Championship",
+      "start_date": 1596067200000,
+      "year": 2020
+    },
+    {
+      "id": "R2020033",
+      "name": "PGA Championship",
+      "start_date": 1596672000000,
+      "year": 2020
+    },
+    {
+      "id": "R2020013",
+      "name": "Wyndham Championship",
+      "start_date": 1597276800000,
+      "year": 2020
+    },
+    {
+      "id": "R2020027",
+      "name": "THE NORTHERN TRUST",
+      "start_date": 1597881600000,
+      "year": 2020
+    },
+    {
+      "id": "R2020028",
+      "name": "BMW Championship",
+      "start_date": 1598486400000,
+      "year": 2020
+    },
+    {
+      "id": "R2020060",
+      "name": "TOUR Championship",
+      "start_date": 1599177600000,
+      "year": 2020
+    }
+  ]
+}
