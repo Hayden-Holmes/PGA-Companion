@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026030",
+        "tournamentName": "John Deere Classic",
+        "seasonYear": "2026",
+        "displayDate": "Jul 2 - 5, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Silvis",
+        "city": "Silvis",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "669",
+            "courseName": "TPC Deere Run",
+            "courseCode": "DR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

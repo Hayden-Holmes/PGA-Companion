@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024032",
+        "tournamentName": "RBC Canadian Open",
+        "seasonYear": "2024",
+        "displayDate": "May 30 - Jun 2, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Hamilton, ON",
+        "city": "Hamilton, ON",
+        "state": "",
+        "country": "CAN",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "874",
+            "courseName": "Hamilton Golf & Country Club",
+            "courseCode": "HG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

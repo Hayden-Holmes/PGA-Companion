@@ -1,0 +1,35 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022004",
+        "tournamentName": "Farmers Insurance Open",
+        "seasonYear": "2022",
+        "displayDate": "Jan 26 - 29, 2022",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "004",
+            "courseName": "Torrey Pines Golf Course (South Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "104",
+            "courseName": "Torrey Pines Golf Course (North Course)",
+            "courseCode": "NC",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

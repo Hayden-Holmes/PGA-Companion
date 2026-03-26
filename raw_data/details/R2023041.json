@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023041",
+        "tournamentName": "Valero Texas Open",
+        "seasonYear": "2023",
+        "displayDate": "Mar 30 - Apr 2, 2023",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "San Antonio",
+        "city": "San Antonio",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "770",
+            "courseName": "TPC San Antonio (Oaks Course)",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

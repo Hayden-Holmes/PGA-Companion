@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026475",
+        "tournamentName": "Valspar Championship",
+        "seasonYear": "2026",
+        "displayDate": "Mar 19 - 22, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Harbor",
+        "city": "Palm Harbor",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "665",
+            "courseName": "Innisbrook Resort and Golf Club - Copperhead Course",
+            "courseCode": "WI",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

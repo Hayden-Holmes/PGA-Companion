@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2024",
+        "displayDate": "Aug 22 - 25, 2024",
+        "timezone": "America/Denver",
+        "tournamentLocation": "Castle Rock",
+        "city": "Castle Rock",
+        "state": "Colorado",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "406",
+            "courseName": "Castle Pines Golf Club",
+            "courseCode": "CP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

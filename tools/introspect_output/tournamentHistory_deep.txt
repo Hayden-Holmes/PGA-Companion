@@ -1,0 +1,49 @@
+
+============================================================
+Type: TournamentHistory  (OBJECT)
+============================================================
+  tourCode                                      TourCode!
+  tournamentNum                                 String!
+  tournamentName                                String!
+  defendingChampion                             TournamentHistoryPlayerTable!
+  pastChampions                                 TournamentHistoryPlayerTable!
+  courses                                       TournamentHistoryCourseTable!
+
+  ==========================================================
+  Type: TourCode  (ENUM)
+  ==========================================================
+    Values: ['R', 'H', 'M', 'S', 'C', 'I', 'Y', 'U', 'E']
+
+  ==========================================================
+  Type: TournamentHistoryPlayerTable  (OBJECT)
+  ==========================================================
+    header                                        String!
+    players                                       [TournamentHistoryPlayer!]!
+
+    ========================================================
+    Type: TournamentHistoryPlayer  (OBJECT)
+    ========================================================
+      playerId                                      String!
+      playerName                                    String!
+      year                                          Int!
+      displaySeason                                 String!
+      totalScore                                    String!
+      relativeToPar                                 String!
+      countryFlag                                   String!
+
+  ==========================================================
+  Type: TournamentHistoryCourseTable  (OBJECT)
+  ==========================================================
+    header                                        String!
+    courses                                       [TournamentHistoryCourse!]!
+
+    ========================================================
+    Type: TournamentHistoryCourse  (OBJECT)
+    ========================================================
+      courseId                                      String!
+      courseName                                    String!
+      year                                          Int!
+      displaySeason                                 String!
+      courseImage                                   String!
+      par                                           String!
+      yardage                                       String!

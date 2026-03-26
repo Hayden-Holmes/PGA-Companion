@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025010",
+        "tournamentName": "Cognizant Classic in The Palm Beaches",
+        "seasonYear": "2025",
+        "displayDate": "Feb 27 - Mar 2, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Beach Gardens",
+        "city": "Palm Beach Gardens",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "928",
+            "courseName": "PGA National Resort (The Champion Course)",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021538",
+        "tournamentName": "Palmetto Championship at Congaree",
+        "seasonYear": "2021",
+        "displayDate": "Jun 10 - 13, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ridgeland",
+        "city": "Ridgeland",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "902",
+            "courseName": "Congaree Golf Club",
+            "courseCode": "CG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

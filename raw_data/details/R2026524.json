@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026524",
+        "tournamentName": "Rocket Classic",
+        "seasonYear": "2026",
+        "displayDate": "Jul 30 - Aug 2, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "876",
+            "courseName": "Detroit Golf Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

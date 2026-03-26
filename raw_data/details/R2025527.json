@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025527",
+        "tournamentName": "Baycurrent Classic",
+        "seasonYear": "2025",
+        "displayDate": "Oct 9 - 12, 2025",
+        "timezone": "Asia/Tokyo",
+        "tournamentLocation": "Yokohama",
+        "city": "Yokohama",
+        "state": "",
+        "country": "JPN",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "936",
+            "courseName": "Yokohama Country Club (West Course)",
+            "courseCode": "YH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

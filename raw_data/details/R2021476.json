@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021476",
+        "tournamentName": "World Golf Championships-FedEx St. Jude Invitational",
+        "seasonYear": "2021",
+        "displayDate": "Aug 5 - 8, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Memphis",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "513",
+            "courseName": "TPC Southwind",
+            "courseCode": "SW",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+
+============================================================
+Type: AllTimeRecordCategories  (OBJECT)
+============================================================
+  tourCode                                      TourCode!
+  categories                                    [AllTimeRecordCategory!]!
+
+  ==========================================================
+  Type: TourCode  (ENUM)
+  ==========================================================
+    Values: ['R', 'H', 'M', 'S', 'C', 'I', 'Y', 'U', 'E']
+
+  ==========================================================
+  Type: AllTimeRecordCategory  (OBJECT)
+  ==========================================================
+    categoryId                                    String!
+    displayText                                   String!
+    subCategories                                 [AllTimeRecordSubCategory!]!
+
+    ========================================================
+    Type: AllTimeRecordSubCategory  (OBJECT)
+    ========================================================
+      displayText                                   String!
+      statistics                                    [AllTimeRecordStatistic!]!
+
+      ======================================================
+      Type: AllTimeRecordStatistic  (OBJECT)
+      ======================================================
+        recordId                                      String!
+        displayText                                   String!

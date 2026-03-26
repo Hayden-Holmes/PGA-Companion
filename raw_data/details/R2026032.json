@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026032",
+        "tournamentName": "RBC Canadian Open",
+        "seasonYear": "2026",
+        "displayDate": "Jun 11 - 14, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Caledon, Ontario",
+        "city": "Caledon, Ontario",
+        "state": "",
+        "country": "CAN",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "935",
+            "courseName": "TPC Toronto at Osprey Valley (North Course)",
+            "courseCode": "OV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023540",
+        "tournamentName": "Mexico Open at Vidanta",
+        "seasonYear": "2023",
+        "displayDate": "Apr 27 - 30, 2023",
+        "timezone": "America/Mexico_City",
+        "tournamentLocation": "Vallarta",
+        "city": "Vallarta",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "978",
+            "courseName": "Vidanta Vallarta",
+            "courseCode": "VV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

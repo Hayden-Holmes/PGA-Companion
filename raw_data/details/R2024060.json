@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024060",
+        "tournamentName": "TOUR Championship",
+        "seasonYear": "2024",
+        "displayDate": "Aug 29 - Sep 1, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Atlanta",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "933",
+            "courseName": "East Lake Golf Club",
+            "courseCode": "EL",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026483",
+        "tournamentName": "Puerto Rico Open",
+        "seasonYear": "2026",
+        "displayDate": "Mar 5 - 8, 2026",
+        "timezone": "America/Puerto_Rico",
+        "tournamentLocation": "Rio Grande",
+        "city": "Rio Grande",
+        "state": "",
+        "country": "PUR",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "940",
+            "courseName": "Grand Reserve Golf Club",
+            "courseCode": "GR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

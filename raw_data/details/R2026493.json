@@ -1,0 +1,35 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026493",
+        "tournamentName": "The RSM Classic",
+        "seasonYear": "2026",
+        "displayDate": "Nov 19 - 22, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "St. Simons Island",
+        "city": "St. Simons Island",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "776",
+            "courseName": "Sea Island Golf Club (Seaside Course)",
+            "courseCode": "SS",
+            "hostCourse": true
+          },
+          {
+            "id": "889",
+            "courseName": "Sea Island Golf Club (Plantation Course)",
+            "courseCode": "PL",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

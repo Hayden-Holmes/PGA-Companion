@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2021",
+        "displayDate": "May 20 - 23, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Kiawah Island",
+        "city": "Kiawah Island",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "697",
+            "courseName": "Ocean Course at Kiawah Island",
+            "courseCode": "KI",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

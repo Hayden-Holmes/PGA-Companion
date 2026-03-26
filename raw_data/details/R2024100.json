@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2024",
+        "displayDate": "Jul 18 - 21, 2024",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Troon, South Ayrshire",
+        "city": "Troon, South Ayrshire",
+        "state": "",
+        "country": "SCO",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "709",
+            "courseName": "Royal Troon",
+            "courseCode": "RT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022026",
+        "tournamentName": "U.S. Open",
+        "seasonYear": "2022",
+        "displayDate": "Jun 16 - 19, 2022",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Brookline",
+        "city": "Brookline",
+        "state": "Massachusetts",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "654",
+            "courseName": "The Country Club",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023468",
+        "tournamentName": "Ryder Cup",
+        "seasonYear": "2023",
+        "displayDate": "Sep 29 - Oct 1, 2023",
+        "timezone": "Europe/Paris",
+        "tournamentLocation": "Rome",
+        "city": "Rome",
+        "state": "",
+        "country": "ITA",
+        "currentRound": 5,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "918",
+            "courseName": "Marco Simone Golf & Country Club",
+            "courseCode": "MS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

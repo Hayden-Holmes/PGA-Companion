@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022027",
+        "tournamentName": "FedEx St. Jude Championship",
+        "seasonYear": "2022",
+        "displayDate": "Aug 11 - 14, 2022",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Memphis",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "513",
+            "courseName": "TPC Southwind",
+            "courseCode": "SW",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

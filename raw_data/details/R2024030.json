@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024030",
+        "tournamentName": "John Deere Classic",
+        "seasonYear": "2024",
+        "displayDate": "Jul 4 - 7, 2024",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Silvis",
+        "city": "Silvis",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "669",
+            "courseName": "TPC Deere Run",
+            "courseCode": "DR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

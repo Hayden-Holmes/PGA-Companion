@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025472",
+        "tournamentName": "Barracuda Championship",
+        "seasonYear": "2025",
+        "displayDate": "Jul 17 - 20, 2025",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Truckee",
+        "city": "Truckee",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "931",
+            "courseName": "Tahoe Mountain Club (Old Greenwood)",
+            "courseCode": "MT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

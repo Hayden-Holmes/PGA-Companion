@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2025",
+        "displayDate": "May 15 - 18, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "241",
+            "courseName": "Quail Hollow Club",
+            "courseCode": "QH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

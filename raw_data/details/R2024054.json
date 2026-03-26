@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024054",
+        "tournamentName": "Sanderson Farms Championship",
+        "seasonYear": "2024",
+        "displayDate": "Oct 3 - 6, 2024",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Jackson",
+        "city": "Jackson",
+        "state": "Mississippi",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "746",
+            "courseName": "The Country Club of Jackson",
+            "courseCode": "CJ",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

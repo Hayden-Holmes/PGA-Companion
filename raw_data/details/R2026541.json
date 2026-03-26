@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026541",
+        "tournamentName": "Genesis Scottish Open",
+        "seasonYear": "2026",
+        "displayDate": "Jul 9 - 12, 2026",
+        "timezone": "Europe/London",
+        "tournamentLocation": "North Berwick",
+        "city": "North Berwick",
+        "state": "",
+        "country": "SCO",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "977",
+            "courseName": "The Renaissance Club",
+            "courseCode": "RC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

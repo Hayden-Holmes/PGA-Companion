@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025020",
+        "tournamentName": "Texas Children's Houston Open",
+        "seasonYear": "2025",
+        "displayDate": "Mar 27 - 30, 2025",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "897",
+            "courseName": "Memorial Park Golf Course",
+            "courseCode": "MP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

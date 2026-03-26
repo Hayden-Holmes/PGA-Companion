@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025013",
+        "tournamentName": "Wyndham Championship",
+        "seasonYear": "2025",
+        "displayDate": "Jul 31 - Aug 3, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Greensboro",
+        "city": "Greensboro",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "752",
+            "courseName": "Sedgefield Country Club",
+            "courseCode": "SF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

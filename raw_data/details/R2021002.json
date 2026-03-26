@@ -1,0 +1,35 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021002",
+        "tournamentName": "The American Express",
+        "seasonYear": "2021",
+        "displayDate": "Jan 21 - 24, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "La Quinta",
+        "city": "La Quinta",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "704",
+            "courseName": "Pete Dye Stadium Course",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "233",
+            "courseName": "Nicklaus Tournament Course",
+            "courseCode": "NT",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

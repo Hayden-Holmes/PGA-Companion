@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024500",
+        "tournamentName": "Presidents Cup",
+        "seasonYear": "2024",
+        "displayDate": "Sep 26 - 29, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Montreal, Quebec",
+        "city": "Montreal, Quebec",
+        "state": "",
+        "country": "CAN",
+        "currentRound": 5,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "436",
+            "courseName": "The Royal Montreal GC",
+            "courseCode": "RM",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

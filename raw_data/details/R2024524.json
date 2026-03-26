@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024524",
+        "tournamentName": "Rocket Mortgage Classic",
+        "seasonYear": "2024",
+        "displayDate": "Jun 27 - 30, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "876",
+            "courseName": "Detroit Golf Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

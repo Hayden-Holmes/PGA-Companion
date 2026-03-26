@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021027",
+        "tournamentName": "THE NORTHERN TRUST",
+        "seasonYear": "2021",
+        "displayDate": "Aug 19 - 22, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Jersey City",
+        "city": "Jersey City",
+        "state": "New Jersey",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "886",
+            "courseName": "Liberty National Golf Club",
+            "courseCode": "LN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

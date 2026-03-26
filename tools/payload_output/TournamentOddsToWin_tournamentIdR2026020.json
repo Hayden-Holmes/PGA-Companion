@@ -1,0 +1,806 @@
+{
+  "tournamentOddsToWin": {
+    "tournamentId": "R2026020",
+    "tournamentName": "Texas Children's Houston Open",
+    "players": [
+      {
+        "playerId": "32102",
+        "oddsToWin": "+3300",
+        "oddsSwing": "DOWN",
+        "oddsSort": 34.0
+      },
+      {
+        "playerId": "36689",
+        "oddsToWin": "+2200",
+        "oddsSwing": "UP",
+        "oddsSort": 23.0
+      },
+      {
+        "playerId": "24502",
+        "oddsToWin": "+4500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 46.0
+      },
+      {
+        "playerId": "30926",
+        "oddsToWin": "+15000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 151.0
+      },
+      {
+        "playerId": "23108",
+        "oddsToWin": "+50000",
+        "oddsSwing": "DOWN",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "29420",
+        "oddsToWin": "+17500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "29268",
+        "oddsToWin": "+25000",
+        "oddsSwing": "UP",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "47504",
+        "oddsToWin": "+2200",
+        "oddsSwing": "UP",
+        "oddsSort": 23.0
+      },
+      {
+        "playerId": "46443",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "32070",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "28089",
+        "oddsToWin": "+6000",
+        "oddsSwing": "DOWN",
+        "oddsSort": 61.0
+      },
+      {
+        "playerId": "37338",
+        "oddsToWin": "+22500",
+        "oddsSwing": "UP",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "34099",
+        "oddsToWin": "+4000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 41.0
+      },
+      {
+        "playerId": "29725",
+        "oddsToWin": "+5500",
+        "oddsSwing": "UP",
+        "oddsSort": 56.0
+      },
+      {
+        "playerId": "29936",
+        "oddsToWin": "+5500",
+        "oddsSwing": "UP",
+        "oddsSort": 56.0
+      },
+      {
+        "playerId": "29535",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "25900",
+        "oddsToWin": "+50000",
+        "oddsSwing": "DOWN",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "31646",
+        "oddsToWin": "+17500",
+        "oddsSwing": "UP",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "47987",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "12716",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "35532",
+        "oddsToWin": "+35000",
+        "oddsSwing": "DOWN",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "35461",
+        "oddsToWin": "+25000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "36801",
+        "oddsToWin": "+35000",
+        "oddsSwing": "UP",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "35506",
+        "oddsToWin": "+10000",
+        "oddsSwing": "UP",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "36799",
+        "oddsToWin": "+5000",
+        "oddsSwing": "UP",
+        "oddsSort": 51.0
+      },
+      {
+        "playerId": "32757",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "47420",
+        "oddsToWin": "+2000",
+        "oddsSwing": "UP",
+        "oddsSort": 21.0
+      },
+      {
+        "playerId": "35296",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "36326",
+        "oddsToWin": "+15000",
+        "oddsSwing": "UP",
+        "oddsSort": 151.0
+      },
+      {
+        "playerId": "33204",
+        "oddsToWin": "+4000",
+        "oddsSwing": "UP",
+        "oddsSort": 41.0
+      },
+      {
+        "playerId": "34466",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "47993",
+        "oddsToWin": "+12500",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "46601",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "33968",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "28723",
+        "oddsToWin": "+12500",
+        "oddsSwing": "UP",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "40250",
+        "oddsToWin": "+4500",
+        "oddsSwing": "UP",
+        "oddsSort": 46.0
+      },
+      {
+        "playerId": "34256",
+        "oddsToWin": "+22500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "47983",
+        "oddsToWin": "+15000",
+        "oddsSwing": "UP",
+        "oddsSort": 151.0
+      },
+      {
+        "playerId": "47995",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "36699",
+        "oddsToWin": "+8000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 81.0
+      },
+      {
+        "playerId": "40115",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "27064",
+        "oddsToWin": "+35000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "31113",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "32139",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "31323",
+        "oddsToWin": "+8000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 81.0
+      },
+      {
+        "playerId": "47483",
+        "oddsToWin": "+8000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 81.0
+      },
+      {
+        "playerId": "39546",
+        "oddsToWin": "+4000",
+        "oddsSwing": "UP",
+        "oddsSort": 41.0
+      },
+      {
+        "playerId": "28252",
+        "oddsToWin": "+17500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "47347",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "37275",
+        "oddsToWin": "+25000",
+        "oddsSwing": "DOWN",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "49771",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "47591",
+        "oddsToWin": "+15000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 151.0
+      },
+      {
+        "playerId": "50286",
+        "oddsToWin": "+22500",
+        "oddsSwing": "UP",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "47393",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "48117",
+        "oddsToWin": "+2700",
+        "oddsSwing": "UP",
+        "oddsSort": 28.0
+      },
+      {
+        "playerId": "54591",
+        "oddsToWin": "+3500",
+        "oddsSwing": "UP",
+        "oddsSort": 36.0
+      },
+      {
+        "playerId": "49766",
+        "oddsToWin": "+25000",
+        "oddsSwing": "UP",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "49964",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "51634",
+        "oddsToWin": "+4000",
+        "oddsSwing": "UP",
+        "oddsSort": 41.0
+      },
+      {
+        "playerId": "51600",
+        "oddsToWin": "+22500",
+        "oddsSwing": "UP",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "51933",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "46464",
+        "oddsToWin": "+4500",
+        "oddsSwing": "UP",
+        "oddsSort": 46.0
+      },
+      {
+        "playerId": "40006",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "48887",
+        "oddsToWin": "+12500",
+        "oddsSwing": "UP",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "48153",
+        "oddsToWin": "+17500",
+        "oddsSwing": "UP",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "46414",
+        "oddsToWin": "+10000",
+        "oddsSwing": "DOWN",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "34371",
+        "oddsToWin": "+22500",
+        "oddsSwing": "UP",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "45522",
+        "oddsToWin": "+10000",
+        "oddsSwing": "UP",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "39971",
+        "oddsToWin": "+7000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 71.0
+      },
+      {
+        "playerId": "46340",
+        "oddsToWin": "+5500",
+        "oddsSwing": "UP",
+        "oddsSort": 56.0
+      },
+      {
+        "playerId": "51977",
+        "oddsToWin": "+6000",
+        "oddsSwing": "UP",
+        "oddsSort": 61.0
+      },
+      {
+        "playerId": "51766",
+        "oddsToWin": "+3500",
+        "oddsSwing": "UP",
+        "oddsSort": 36.0
+      },
+      {
+        "playerId": "51696",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "47917",
+        "oddsToWin": "+35000",
+        "oddsSwing": "UP",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "37378",
+        "oddsToWin": "+1300",
+        "oddsSwing": "UP",
+        "oddsSort": 14.0
+      },
+      {
+        "playerId": "52375",
+        "oddsToWin": "+10000",
+        "oddsSwing": "UP",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "49855",
+        "oddsToWin": "+6000",
+        "oddsSwing": "UP",
+        "oddsSort": 61.0
+      },
+      {
+        "playerId": "45242",
+        "oddsToWin": "+12500",
+        "oddsSwing": "UP",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "35658",
+        "oddsToWin": "+15000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 151.0
+      },
+      {
+        "playerId": "52453",
+        "oddsToWin": "+2500",
+        "oddsSwing": "UP",
+        "oddsSort": 26.0
+      },
+      {
+        "playerId": "55573",
+        "oddsToWin": "+25000",
+        "oddsSwing": "UP",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "48001",
+        "oddsToWin": "+25000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "52686",
+        "oddsToWin": "+3500",
+        "oddsSwing": "UP",
+        "oddsSort": 36.0
+      },
+      {
+        "playerId": "54628",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "55851",
+        "oddsToWin": "+17500",
+        "oddsSwing": "UP",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "51349",
+        "oddsToWin": "+7000",
+        "oddsSwing": "UP",
+        "oddsSort": 71.0
+      },
+      {
+        "playerId": "54607",
+        "oddsToWin": "+25000",
+        "oddsSwing": "UP",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "54422",
+        "oddsToWin": "+25000",
+        "oddsSwing": "UP",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "51894",
+        "oddsToWin": "+22500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "51950",
+        "oddsToWin": "+10000",
+        "oddsSwing": "UP",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "54421",
+        "oddsToWin": "+17500",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "50188",
+        "oddsToWin": "+10000",
+        "oddsSwing": "UP",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "57364",
+        "oddsToWin": "+2500",
+        "oddsSwing": "UP",
+        "oddsSort": 26.0
+      },
+      {
+        "playerId": "57362",
+        "oddsToWin": "+22500",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 226.0
+      },
+      {
+        "playerId": "54783",
+        "oddsToWin": "+25000",
+        "oddsSwing": "UP",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "48867",
+        "oddsToWin": "+10000",
+        "oddsSwing": "UP",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "54576",
+        "oddsToWin": "+35000",
+        "oddsSwing": "UP",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "51003",
+        "oddsToWin": "+3000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 31.0
+      },
+      {
+        "playerId": "57900",
+        "oddsToWin": "+35000",
+        "oddsSwing": "UP",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "56781",
+        "oddsToWin": "+17500",
+        "oddsSwing": "UP",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "54788",
+        "oddsToWin": "+15000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 151.0
+      },
+      {
+        "playerId": "57975",
+        "oddsToWin": "+4500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 46.0
+      },
+      {
+        "playerId": "38991",
+        "oddsToWin": "+12500",
+        "oddsSwing": "UP",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "58168",
+        "oddsToWin": "+6500",
+        "oddsSwing": "UP",
+        "oddsSort": 66.0
+      },
+      {
+        "playerId": "55182",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "39335",
+        "oddsToWin": "+17500",
+        "oddsSwing": "DOWN",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "59440",
+        "oddsToWin": "+6500",
+        "oddsSwing": "UP",
+        "oddsSort": 66.0
+      },
+      {
+        "playerId": "57586",
+        "oddsToWin": "+8000",
+        "oddsSwing": "UP",
+        "oddsSort": 81.0
+      },
+      {
+        "playerId": "59143",
+        "oddsToWin": "+7000",
+        "oddsSwing": "UP",
+        "oddsSort": 71.0
+      },
+      {
+        "playerId": "59866",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "59836",
+        "oddsToWin": "+4000",
+        "oddsSwing": "UP",
+        "oddsSort": 41.0
+      },
+      {
+        "playerId": "55893",
+        "oddsToWin": "+4500",
+        "oddsSwing": "UP",
+        "oddsSort": 46.0
+      },
+      {
+        "playerId": "52689",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "60067",
+        "oddsToWin": "+75000",
+        "oddsSwing": "UP",
+        "oddsSort": 751.0
+      },
+      {
+        "playerId": "57259",
+        "oddsToWin": "+17500",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "57123",
+        "oddsToWin": "+17500",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 176.0
+      },
+      {
+        "playerId": "61522",
+        "oddsToWin": "+7000",
+        "oddsSwing": "UP",
+        "oddsSort": 71.0
+      },
+      {
+        "playerId": "59095",
+        "oddsToWin": "+1800",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 19.0
+      },
+      {
+        "playerId": "60019",
+        "oddsToWin": "+50000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "63121",
+        "oddsToWin": "+8000",
+        "oddsSwing": "UP",
+        "oddsSort": 81.0
+      },
+      {
+        "playerId": "59018",
+        "oddsToWin": "+3000",
+        "oddsSwing": "UP",
+        "oddsSort": 31.0
+      },
+      {
+        "playerId": "50497",
+        "oddsToWin": "+10000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 101.0
+      },
+      {
+        "playerId": "49120",
+        "oddsToWin": "+100000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 1001.0
+      },
+      {
+        "playerId": "63343",
+        "oddsToWin": "+7000",
+        "oddsSwing": "UP",
+        "oddsSort": 71.0
+      },
+      {
+        "playerId": "59006",
+        "oddsToWin": "+75000",
+        "oddsSwing": "UP",
+        "oddsSort": 751.0
+      },
+      {
+        "playerId": "64442",
+        "oddsToWin": "+50000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "60386",
+        "oddsToWin": "+6500",
+        "oddsSwing": "UP",
+        "oddsSort": 66.0
+      },
+      {
+        "playerId": "54304",
+        "oddsToWin": "+35000",
+        "oddsSwing": "UP",
+        "oddsSort": 351.0
+      },
+      {
+        "playerId": "65256",
+        "oddsToWin": "+12500",
+        "oddsSwing": "UP",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "63807",
+        "oddsToWin": "+50000",
+        "oddsSwing": "UP",
+        "oddsSort": 501.0
+      },
+      {
+        "playerId": "66743",
+        "oddsToWin": "+25000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 251.0
+      },
+      {
+        "playerId": "63454",
+        "oddsToWin": "+12500",
+        "oddsSwing": "UP",
+        "oddsSort": 126.0
+      },
+      {
+        "playerId": "68607",
+        "oddsToWin": "+50000",
+        "oddsSwing": "CONSTANT",
+        "oddsSort": 501.0
+      }
+    ]
+  }
+}

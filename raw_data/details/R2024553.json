@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024553",
+        "tournamentName": "Myrtle Beach Classic",
+        "seasonYear": "2024",
+        "displayDate": "May 9 - 12, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Myrtle Beach",
+        "city": "Myrtle Beach",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "925",
+            "courseName": "Dunes Golf and Beach Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

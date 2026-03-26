@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023032",
+        "tournamentName": "RBC Canadian Open",
+        "seasonYear": "2023",
+        "displayDate": "Jun 8 - 11, 2023",
+        "timezone": "America/Toronto",
+        "tournamentLocation": "Toronto, Ontario",
+        "city": "Toronto, Ontario",
+        "state": "",
+        "country": "CAN",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "908",
+            "courseName": "Oakdale Golf & Country Club",
+            "courseCode": "OC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

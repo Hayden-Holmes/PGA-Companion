@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026027",
+        "tournamentName": "FedEx St. Jude Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 13 - 16, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Memphis",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "513",
+            "courseName": "TPC Southwind",
+            "courseCode": "SW",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

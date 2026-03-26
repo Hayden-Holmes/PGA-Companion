@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021026",
+        "tournamentName": "U.S. Open (2020)",
+        "seasonYear": "2021",
+        "displayDate": "Sep 17 - 20, 2020",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Mamaroneck",
+        "city": "Mamaroneck",
+        "state": "New York",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "891",
+            "courseName": "Winged Foot Golf Club",
+            "courseCode": "WF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

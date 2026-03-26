@@ -1,0 +1,14 @@
+{
+  "scorecardStatsComparison": {
+    "tournamentId": "R2024017",
+    "category": "STROKES_GAINED",
+    "roundNum": null,
+    "roundDisplay": null,
+    "table": {
+      "header": "",
+      "headerRow": [],
+      "rows": []
+    },
+    "noDataMessage": "No data for performance analysis with selected players."
+  }
+}

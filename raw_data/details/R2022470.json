@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022470",
+        "tournamentName": "World Golf Championships-Dell Technologies Match Play",
+        "seasonYear": "2022",
+        "displayDate": "Mar 23 - 27, 2022",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Austin",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 7,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "185",
+            "courseName": "Austin Country Club",
+            "courseCode": "AC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

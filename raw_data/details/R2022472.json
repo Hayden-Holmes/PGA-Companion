@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022472",
+        "tournamentName": "Barracuda Championship",
+        "seasonYear": "2022",
+        "displayDate": "Jul 14 - 17, 2022",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Truckee",
+        "city": "Truckee",
+        "state": "California",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "890",
+            "courseName": "Tahoe Mountain Club (Old Greenwood)",
+            "courseCode": "MT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

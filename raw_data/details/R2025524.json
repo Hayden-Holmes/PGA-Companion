@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025524",
+        "tournamentName": "Rocket Classic",
+        "seasonYear": "2025",
+        "displayDate": "Jun 26 - 29, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "876",
+            "courseName": "Detroit Golf Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

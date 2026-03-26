@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025475",
+        "tournamentName": "Valspar Championship",
+        "seasonYear": "2025",
+        "displayDate": "Mar 20 - 23, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Harbor",
+        "city": "Palm Harbor",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "665",
+            "courseName": "Innisbrook Resort (Copperhead Course)",
+            "courseCode": "WI",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

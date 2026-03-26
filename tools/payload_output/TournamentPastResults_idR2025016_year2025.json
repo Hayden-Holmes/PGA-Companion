@@ -1,0 +1,2502 @@
+{
+  "tournamentPastResults": {
+    "id": "R2025016",
+    "rounds": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "additionalDataHeaders": [
+      "FedExCup Pts",
+      "Official Money"
+    ],
+    "winner": {
+      "id": "32839",
+      "firstName": "Hideki",
+      "lastName": "Matsuyama",
+      "totalStrokes": 257,
+      "totalScore": "-35",
+      "countryName": "Japan",
+      "purse": null,
+      "points": null,
+      "pointsLabel": null,
+      "roundScores": null
+    },
+    "players": [
+      {
+        "id": "32839",
+        "position": "1",
+        "total": "257",
+        "parRelativeScore": "-35",
+        "additionalData": [
+          "700.000",
+          "$3,600,000.00"
+        ],
+        "player": {
+          "id": "32839",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Hideki Matsuyama",
+          "country": "Japan",
+          "countryFlag": "JPN",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "62",
+            "parRelativeScore": "-11"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          }
+        ]
+      },
+      {
+        "id": "50525",
+        "position": "2",
+        "total": "260",
+        "parRelativeScore": "-32",
+        "additionalData": [
+          "400.000",
+          "$2,160,000.00"
+        ],
+        "player": {
+          "id": "50525",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Collin Morikawa",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "62",
+            "parRelativeScore": "-11"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "39971",
+        "position": "3",
+        "total": "263",
+        "parRelativeScore": "-29",
+        "additionalData": [
+          "350.000",
+          "$1,360,000.00"
+        ],
+        "player": {
+          "id": "39971",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Sungjae Im",
+          "country": "Republic of Korea",
+          "countryFlag": "KOR",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "62",
+            "parRelativeScore": "-11"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          }
+        ]
+      },
+      {
+        "id": "27064",
+        "position": "4",
+        "total": "267",
+        "parRelativeScore": "-25",
+        "additionalData": [
+          "325.000",
+          "$975,000.00"
+        ],
+        "player": {
+          "id": "27064",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Jhonattan Vegas",
+          "country": "Venezuela",
+          "countryFlag": "VEN",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          }
+        ]
+      },
+      {
+        "id": "52955",
+        "position": "T5",
+        "total": "268",
+        "parRelativeScore": "-24",
+        "additionalData": [
+          "266.667",
+          "$744,166.67"
+        ],
+        "player": {
+          "id": "52955",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Ludvig \u00c5berg",
+          "country": "Sweden",
+          "countryFlag": "SWE",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          }
+        ]
+      },
+      {
+        "id": "39997",
+        "position": "T5",
+        "total": "268",
+        "parRelativeScore": "-24",
+        "additionalData": [
+          "266.667",
+          "$744,166.67"
+        ],
+        "player": {
+          "id": "39997",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Corey Conners",
+          "country": "Canada",
+          "countryFlag": "CAN",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "33653",
+        "position": "T5",
+        "total": "268",
+        "parRelativeScore": "-24",
+        "additionalData": [
+          "266.667",
+          "$744,166.67"
+        ],
+        "player": {
+          "id": "33653",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Thomas Detry",
+          "country": "Belgium",
+          "countryFlag": "BEL",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          }
+        ]
+      },
+      {
+        "id": "47504",
+        "position": "T8",
+        "total": "269",
+        "parRelativeScore": "-23",
+        "additionalData": [
+          "155.000",
+          "$550,000.00"
+        ],
+        "player": {
+          "id": "47504",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Sam Burns",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          }
+        ]
+      },
+      {
+        "id": "46442",
+        "position": "T8",
+        "total": "269",
+        "parRelativeScore": "-23",
+        "additionalData": [
+          "155.000",
+          "$550,000.00"
+        ],
+        "player": {
+          "id": "46442",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Maverick McNealy",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "57366",
+        "position": "T8",
+        "total": "269",
+        "parRelativeScore": "-23",
+        "additionalData": [
+          "155.000",
+          "$550,000.00"
+        ],
+        "player": {
+          "id": "57366",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Cameron Young",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "35532",
+        "position": "T8",
+        "total": "269",
+        "parRelativeScore": "-23",
+        "additionalData": [
+          "155.000",
+          "$550,000.00"
+        ],
+        "player": {
+          "id": "35532",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Tom Hoge",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          }
+        ]
+      },
+      {
+        "id": "57975",
+        "position": "T8",
+        "total": "269",
+        "parRelativeScore": "-23",
+        "additionalData": [
+          "155.000",
+          "$550,000.00"
+        ],
+        "player": {
+          "id": "57975",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Harry Hall",
+          "country": "England",
+          "countryFlag": "ENG",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "40250",
+        "position": "T13",
+        "total": "270",
+        "parRelativeScore": "-22",
+        "additionalData": [
+          "105.000",
+          "$410,000.00"
+        ],
+        "player": {
+          "id": "40250",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Taylor Pendrith",
+          "country": "Canada",
+          "countryFlag": "CAN",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "45157",
+        "position": "T13",
+        "total": "270",
+        "parRelativeScore": "-22",
+        "additionalData": [
+          "105.000",
+          "$410,000.00"
+        ],
+        "player": {
+          "id": "45157",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Cam Davis",
+          "country": "Australia",
+          "countryFlag": "AUS",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          }
+        ]
+      },
+      {
+        "id": "52215",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "52215",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Robert MacIntyre",
+          "country": "Scotland",
+          "countryFlag": "SCO",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          }
+        ]
+      },
+      {
+        "id": "46414",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "46414",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Aaron Rai",
+          "country": "England",
+          "countryFlag": "ENG",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          }
+        ]
+      },
+      {
+        "id": "57362",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "57362",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Austin Eckroat",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "33141",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "33141",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Keegan Bradley",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "29725",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "29725",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Tony Finau",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          }
+        ]
+      },
+      {
+        "id": "51766",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "51766",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Wyndham Clark",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          }
+        ]
+      },
+      {
+        "id": "35450",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "35450",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Patrick Cantlay",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "24502",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "24502",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Adam Scott",
+          "country": "Australia",
+          "countryFlag": "AUS",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "49960",
+        "position": "T15",
+        "total": "271",
+        "parRelativeScore": "-21",
+        "additionalData": [
+          "62.667",
+          "$292,000.00"
+        ],
+        "player": {
+          "id": "49960",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Sepp Straka",
+          "country": "Austria",
+          "countryFlag": "AUT",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "40098",
+        "position": "T24",
+        "total": "272",
+        "parRelativeScore": "-20",
+        "additionalData": [
+          "43.000",
+          "$196,000.00"
+        ],
+        "player": {
+          "id": "40098",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Matt Fitzpatrick",
+          "country": "England",
+          "countryFlag": "ENG",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "51977",
+        "position": "T24",
+        "total": "272",
+        "parRelativeScore": "-20",
+        "additionalData": [
+          "43.000",
+          "$196,000.00"
+        ],
+        "player": {
+          "id": "51977",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Max Greyserman",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "63",
+            "parRelativeScore": "-10"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          }
+        ]
+      },
+      {
+        "id": "39977",
+        "position": "T26",
+        "total": "273",
+        "parRelativeScore": "-19",
+        "additionalData": [
+          "38.000",
+          "$163,333.33"
+        ],
+        "player": {
+          "id": "39977",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Max Homa",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "33448",
+        "position": "T26",
+        "total": "273",
+        "parRelativeScore": "-19",
+        "additionalData": [
+          "38.000",
+          "$163,333.33"
+        ],
+        "player": {
+          "id": "33448",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Justin Thomas",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "63",
+            "parRelativeScore": "-10"
+          }
+        ]
+      },
+      {
+        "id": "47483",
+        "position": "T26",
+        "total": "273",
+        "parRelativeScore": "-19",
+        "additionalData": [
+          "38.000",
+          "$163,333.33"
+        ],
+        "player": {
+          "id": "47483",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Will Zalatoris",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          }
+        ]
+      },
+      {
+        "id": "33399",
+        "position": "29",
+        "total": "274",
+        "parRelativeScore": "-18",
+        "additionalData": [
+          "34.000",
+          "$148,000.00"
+        ],
+        "player": {
+          "id": "33399",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Adam Hadwin",
+          "country": "Canada",
+          "countryFlag": "CAN",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "34098",
+        "position": "T30",
+        "total": "275",
+        "parRelativeScore": "-17",
+        "additionalData": [
+          "31.750",
+          "$137,500.00"
+        ],
+        "player": {
+          "id": "34098",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Russell Henley",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "48081",
+        "position": "T30",
+        "total": "275",
+        "parRelativeScore": "-17",
+        "additionalData": [
+          "31.750",
+          "$137,500.00"
+        ],
+        "player": {
+          "id": "48081",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Xander Schauffele",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "51349",
+        "position": "T32",
+        "total": "276",
+        "parRelativeScore": "-16",
+        "additionalData": [
+          "27.250",
+          "$118,000.00"
+        ],
+        "player": {
+          "id": "51349",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Nico Echavarria",
+          "country": "Colombia",
+          "countryFlag": "COL",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "33948",
+        "position": "T32",
+        "total": "276",
+        "parRelativeScore": "-16",
+        "additionalData": [
+          "27.250",
+          "$118,000.00"
+        ],
+        "player": {
+          "id": "33948",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Byeong Hun An",
+          "country": "Republic of Korea",
+          "countryFlag": "KOR",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "37455",
+        "position": "T32",
+        "total": "276",
+        "parRelativeScore": "-16",
+        "additionalData": [
+          "27.250",
+          "$118,000.00"
+        ],
+        "player": {
+          "id": "37455",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Si Woo Kim",
+          "country": "Republic of Korea",
+          "countryFlag": "KOR",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "76",
+            "parRelativeScore": "+3"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "65",
+            "parRelativeScore": "-8"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "56630",
+        "position": "T32",
+        "total": "276",
+        "parRelativeScore": "-16",
+        "additionalData": [
+          "27.250",
+          "$118,000.00"
+        ],
+        "player": {
+          "id": "56630",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Akshay Bhatia",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          }
+        ]
+      },
+      {
+        "id": "46717",
+        "position": "T36",
+        "total": "277",
+        "parRelativeScore": "-15",
+        "additionalData": [
+          "22.500",
+          "$97,750.00"
+        ],
+        "player": {
+          "id": "46717",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Viktor Hovland",
+          "country": "Norway",
+          "countryFlag": "NOR",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "36799",
+        "position": "T36",
+        "total": "277",
+        "parRelativeScore": "-15",
+        "additionalData": [
+          "22.500",
+          "$97,750.00"
+        ],
+        "player": {
+          "id": "36799",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Stephan Jaeger",
+          "country": "Germany",
+          "countryFlag": "GER",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "58168",
+        "position": "T36",
+        "total": "277",
+        "parRelativeScore": "-15",
+        "additionalData": [
+          "22.500",
+          "$97,750.00"
+        ],
+        "player": {
+          "id": "58168",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Davis Thompson",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "78",
+            "parRelativeScore": "+5"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          }
+        ]
+      },
+      {
+        "id": "51634",
+        "position": "T36",
+        "total": "277",
+        "parRelativeScore": "-15",
+        "additionalData": [
+          "22.500",
+          "$97,750.00"
+        ],
+        "player": {
+          "id": "51634",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Sahith Theegala",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "76",
+            "parRelativeScore": "+3"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          }
+        ]
+      },
+      {
+        "id": "32757",
+        "position": "T40",
+        "total": "278",
+        "parRelativeScore": "-14",
+        "additionalData": [
+          "19.125",
+          "$81,000.00"
+        ],
+        "player": {
+          "id": "32757",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Patton Kizzire",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          }
+        ]
+      },
+      {
+        "id": "45522",
+        "position": "T40",
+        "total": "278",
+        "parRelativeScore": "-14",
+        "additionalData": [
+          "19.125",
+          "$81,000.00"
+        ],
+        "player": {
+          "id": "45522",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Christiaan Bezuidenhout",
+          "country": "South Africa",
+          "countryFlag": "RSA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "63",
+            "parRelativeScore": "-10"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          }
+        ]
+      },
+      {
+        "id": "28089",
+        "position": "T40",
+        "total": "278",
+        "parRelativeScore": "-14",
+        "additionalData": [
+          "19.125",
+          "$81,000.00"
+        ],
+        "player": {
+          "id": "28089",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Jason Day",
+          "country": "Australia",
+          "countryFlag": "AUS",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "49771",
+        "position": "T40",
+        "total": "278",
+        "parRelativeScore": "-14",
+        "additionalData": [
+          "19.125",
+          "$81,000.00"
+        ],
+        "player": {
+          "id": "49771",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "J.T. Poston",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          }
+        ]
+      },
+      {
+        "id": "30926",
+        "position": "T44",
+        "total": "279",
+        "parRelativeScore": "-13",
+        "additionalData": [
+          "16.875",
+          "$69,000.00"
+        ],
+        "player": {
+          "id": "30926",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Chris Kirk",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "45242",
+        "position": "T44",
+        "total": "279",
+        "parRelativeScore": "-13",
+        "additionalData": [
+          "16.875",
+          "$69,000.00"
+        ],
+        "player": {
+          "id": "45242",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Kevin Yu",
+          "country": "Chinese Taipei",
+          "countryFlag": "TPE",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "47993",
+        "position": "T46",
+        "total": "280",
+        "parRelativeScore": "-12",
+        "additionalData": [
+          "15.375",
+          "$62,000.00"
+        ],
+        "player": {
+          "id": "47993",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Denny McCarthy",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "59095",
+        "position": "T46",
+        "total": "280",
+        "parRelativeScore": "-12",
+        "additionalData": [
+          "15.375",
+          "$62,000.00"
+        ],
+        "player": {
+          "id": "59095",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Chris Gotterup",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "29535",
+        "position": "T48",
+        "total": "281",
+        "parRelativeScore": "-11",
+        "additionalData": [
+          "13.583",
+          "$57,000.00"
+        ],
+        "player": {
+          "id": "29535",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Brice Garnett",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          }
+        ]
+      },
+      {
+        "id": "25493",
+        "position": "T48",
+        "total": "281",
+        "parRelativeScore": "-11",
+        "additionalData": [
+          "13.583",
+          "$57,000.00"
+        ],
+        "player": {
+          "id": "25493",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Nick Taylor",
+          "country": "Canada",
+          "countryFlag": "CAN",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "66",
+            "parRelativeScore": "-7"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          }
+        ]
+      },
+      {
+        "id": "48153",
+        "position": "T48",
+        "total": "281",
+        "parRelativeScore": "-11",
+        "additionalData": [
+          "13.583",
+          "$57,000.00"
+        ],
+        "player": {
+          "id": "48153",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Matthieu Pavon",
+          "country": "France",
+          "countryFlag": "FRA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          }
+        ]
+      },
+      {
+        "id": "29420",
+        "position": "51",
+        "total": "282",
+        "parRelativeScore": "-10",
+        "additionalData": [
+          "12.500",
+          "$54,000.00"
+        ],
+        "player": {
+          "id": "29420",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Billy Horschel",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "69",
+            "parRelativeScore": "-4"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          }
+        ]
+      },
+      {
+        "id": "47591",
+        "position": "52",
+        "total": "283",
+        "parRelativeScore": "-9",
+        "additionalData": [
+          "12.000",
+          "$53,000.00"
+        ],
+        "player": {
+          "id": "47591",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Eric Cole",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          }
+        ]
+      },
+      {
+        "id": "34466",
+        "position": "T53",
+        "total": "284",
+        "parRelativeScore": "-8",
+        "additionalData": [
+          "11.250",
+          "$51,500.00"
+        ],
+        "player": {
+          "id": "34466",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Peter Malnati",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "64",
+            "parRelativeScore": "-9"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          }
+        ]
+      },
+      {
+        "id": "59141",
+        "position": "T53",
+        "total": "284",
+        "parRelativeScore": "-8",
+        "additionalData": [
+          "11.250",
+          "$51,500.00"
+        ],
+        "player": {
+          "id": "59141",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Matt McCarty",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "67",
+            "parRelativeScore": "-6"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          }
+        ]
+      },
+      {
+        "id": "59866",
+        "position": "55",
+        "total": "285",
+        "parRelativeScore": "-7",
+        "additionalData": [
+          "10.500",
+          "$50,000.00"
+        ],
+        "player": {
+          "id": "59866",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Nick Dunlap",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "76",
+            "parRelativeScore": "+3"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "68",
+            "parRelativeScore": "-5"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          }
+        ]
+      },
+      {
+        "id": "47420",
+        "position": "56",
+        "total": "286",
+        "parRelativeScore": "-6",
+        "additionalData": [
+          "10.000",
+          "$49,500.00"
+        ],
+        "player": {
+          "id": "47420",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Jake Knapp",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          }
+        ]
+      },
+      {
+        "id": "32070",
+        "position": "57",
+        "total": "288",
+        "parRelativeScore": "-4",
+        "additionalData": [
+          "9.500",
+          "$49,000.00"
+        ],
+        "player": {
+          "id": "32070",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Rafael Campos",
+          "country": "Puerto Rico",
+          "countryFlag": "PUR",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "72",
+            "parRelativeScore": "-1"
+          },
+          {
+            "score": "71",
+            "parRelativeScore": "-2"
+          },
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          }
+        ]
+      },
+      {
+        "id": "27644",
+        "position": "58",
+        "total": "289",
+        "parRelativeScore": "-3",
+        "additionalData": [
+          "9.000",
+          "$48,500.00"
+        ],
+        "player": {
+          "id": "27644",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Brian Harman",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "75",
+            "parRelativeScore": "+2"
+          },
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          },
+          {
+            "score": "70",
+            "parRelativeScore": "-3"
+          }
+        ]
+      },
+      {
+        "id": "47995",
+        "position": "W/D",
+        "total": "227",
+        "parRelativeScore": "+8",
+        "additionalData": [
+          "0.000",
+          "$0.00"
+        ],
+        "player": {
+          "id": "47995",
+          "firstName": "",
+          "lastName": "",
+          "displayName": "Davis Riley",
+          "country": "United States",
+          "countryFlag": "USA",
+          "amateur": false
+        },
+        "rounds": [
+          {
+            "score": "73",
+            "parRelativeScore": "E"
+          },
+          {
+            "score": "80",
+            "parRelativeScore": "+7"
+          },
+          {
+            "score": "74",
+            "parRelativeScore": "+1"
+          }
+        ]
+      }
+    ],
+    "availableSeasons": [
+      {
+        "year": 20250,
+        "displaySeason": "2025"
+      },
+      {
+        "year": 20240,
+        "displaySeason": "2024"
+      },
+      {
+        "year": 20230,
+        "displaySeason": "2022-2023"
+      },
+      {
+        "year": 20220,
+        "displaySeason": "2021-2022"
+      },
+      {
+        "year": 20210,
+        "displaySeason": "2020-2021"
+      },
+      {
+        "year": 20200,
+        "displaySeason": "2019-2020"
+      },
+      {
+        "year": 20190,
+        "displaySeason": "2018-2019"
+      },
+      {
+        "year": 20180,
+        "displaySeason": "2017-2018"
+      },
+      {
+        "year": 20170,
+        "displaySeason": "2016-2017"
+      },
+      {
+        "year": 20160,
+        "displaySeason": "2015-2016"
+      },
+      {
+        "year": 20150,
+        "displaySeason": "2014-2015"
+      },
+      {
+        "year": 20140,
+        "displaySeason": "2013-2014"
+      },
+      {
+        "year": 20130,
+        "displaySeason": "2013"
+      },
+      {
+        "year": 20120,
+        "displaySeason": "2012"
+      },
+      {
+        "year": 20110,
+        "displaySeason": "2011"
+      },
+      {
+        "year": 20100,
+        "displaySeason": "2010"
+      },
+      {
+        "year": 20090,
+        "displaySeason": "2009"
+      },
+      {
+        "year": 20080,
+        "displaySeason": "2008"
+      },
+      {
+        "year": 20070,
+        "displaySeason": "2007"
+      },
+      {
+        "year": 20060,
+        "displaySeason": "2006"
+      },
+      {
+        "year": 20050,
+        "displaySeason": "2005"
+      },
+      {
+        "year": 20040,
+        "displaySeason": "2004"
+      },
+      {
+        "year": 20030,
+        "displaySeason": "2003"
+      },
+      {
+        "year": 20020,
+        "displaySeason": "2002"
+      },
+      {
+        "year": 20010,
+        "displaySeason": "2001"
+      },
+      {
+        "year": 20000,
+        "displaySeason": "2000"
+      },
+      {
+        "year": 19990,
+        "displaySeason": "1999"
+      },
+      {
+        "year": 19980,
+        "displaySeason": "1998"
+      },
+      {
+        "year": 19970,
+        "displaySeason": "1997"
+      },
+      {
+        "year": 19960,
+        "displaySeason": "1996"
+      },
+      {
+        "year": 19950,
+        "displaySeason": "1995"
+      },
+      {
+        "year": 19940,
+        "displaySeason": "1994"
+      },
+      {
+        "year": 19930,
+        "displaySeason": "1993"
+      },
+      {
+        "year": 19920,
+        "displaySeason": "1992"
+      },
+      {
+        "year": 19910,
+        "displaySeason": "1991"
+      },
+      {
+        "year": 19900,
+        "displaySeason": "1990"
+      },
+      {
+        "year": 19890,
+        "displaySeason": "1989"
+      },
+      {
+        "year": 19880,
+        "displaySeason": "1988"
+      },
+      {
+        "year": 19870,
+        "displaySeason": "1987"
+      },
+      {
+        "year": 19860,
+        "displaySeason": "1986"
+      },
+      {
+        "year": 19850,
+        "displaySeason": "1985"
+      },
+      {
+        "year": 19840,
+        "displaySeason": "1984"
+      },
+      {
+        "year": 19830,
+        "displaySeason": "1983"
+      },
+      {
+        "year": 19820,
+        "displaySeason": "1982"
+      },
+      {
+        "year": 19810,
+        "displaySeason": "1981"
+      },
+      {
+        "year": 19800,
+        "displaySeason": "1980"
+      },
+      {
+        "year": 19790,
+        "displaySeason": "1979"
+      },
+      {
+        "year": 19780,
+        "displaySeason": "1978"
+      },
+      {
+        "year": 19770,
+        "displaySeason": "1977"
+      },
+      {
+        "year": 19760,
+        "displaySeason": "1976"
+      },
+      {
+        "year": 19750,
+        "displaySeason": "1975"
+      },
+      {
+        "year": 19740,
+        "displaySeason": "1974"
+      },
+      {
+        "year": 19730,
+        "displaySeason": "1973"
+      },
+      {
+        "year": 19720,
+        "displaySeason": "1972"
+      },
+      {
+        "year": 19710,
+        "displaySeason": "1971"
+      },
+      {
+        "year": 19700,
+        "displaySeason": "1970"
+      },
+      {
+        "year": 19690,
+        "displaySeason": "1969"
+      },
+      {
+        "year": 19680,
+        "displaySeason": "1968"
+      },
+      {
+        "year": 19670,
+        "displaySeason": "1967"
+      },
+      {
+        "year": 19660,
+        "displaySeason": "1966"
+      },
+      {
+        "year": 19650,
+        "displaySeason": "1965"
+      },
+      {
+        "year": 19640,
+        "displaySeason": "1964"
+      },
+      {
+        "year": 19630,
+        "displaySeason": "1963"
+      },
+      {
+        "year": 19620,
+        "displaySeason": "1962"
+      },
+      {
+        "year": 19610,
+        "displaySeason": "1961"
+      },
+      {
+        "year": 19600,
+        "displaySeason": "1960"
+      },
+      {
+        "year": 19590,
+        "displaySeason": "1959"
+      },
+      {
+        "year": 19580,
+        "displaySeason": "1958"
+      },
+      {
+        "year": 19570,
+        "displaySeason": "1957"
+      },
+      {
+        "year": 19560,
+        "displaySeason": "1956"
+      },
+      {
+        "year": 19550,
+        "displaySeason": "1955"
+      },
+      {
+        "year": 19540,
+        "displaySeason": "1954"
+      },
+      {
+        "year": 19530,
+        "displaySeason": "1953"
+      }
+    ]
+  }
+}

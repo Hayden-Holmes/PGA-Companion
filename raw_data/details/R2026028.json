@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 20 - 23, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "St. Louis",
+        "city": "St. Louis",
+        "state": "Missouri",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "679",
+            "courseName": "Bellerive Country Club",
+            "courseCode": "BC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

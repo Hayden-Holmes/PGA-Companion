@@ -1,0 +1,41 @@
+query PlayerProfileCourseResults($playerId: String!, $tourCode: TourCode) {
+  playerProfileCourseResults(playerId: $playerId, tourCode: $tourCode) {
+    playerId
+    tourCode
+    coursePills {
+      courseId
+      courseName
+    }
+    courses {
+      courseId
+      courseName
+      courseCity
+      courseState
+      courseCountry
+      overviewInfo {
+        events
+        wins
+        cutsMade
+        cutsMissed
+        top10
+        top25
+        money
+      }
+      tournaments {
+        tournamentId
+        tournamentName
+        season
+        year
+        position
+        total
+        toPar
+        winnings
+        roundScores {
+          roundNum
+          roundDisplay
+          roundScore
+        }
+      }
+    }
+  }
+}

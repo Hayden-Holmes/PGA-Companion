@@ -1,0 +1,74 @@
+  {
+    "statLeaders": {
+      "tourCode": "R",
+      "year": 2026,
+      "statCategory": "STROKES_GAINED",
+      "subCategories": [
+        {
+          "subCategoryName": "Strokes Gained Leaders",
+          "stats": [
+            {
+              "statId": "02675",
+              "statTitle": "SG: Total",
+              "statValue": "1.933",
+              "playerId": "60004",
+              "playerName": "Jacob Bridgeman",
+              "rank": "1st",
+              "country": "United States",
+              "countryFlag": "USA"
+            },
+            {
+              "statId": "02674",
+              "statTitle": "SG: Tee-to-Green",
+              "statValue": "1.933",
+              "playerId": "28237",
+              "playerName": "Rory McIlroy",
+              "rank": "1st",
+              "country": "Northern Ireland",
+              "countryFlag": "NIR"
+            },
+            {
+              "statId": "02567",
+              "statTitle": "SG: Off-the-Tee",
+              "statValue": "0.861",
+              "playerId": "51003",
+              "playerName": "Marco Penge",
+              "rank": "1st",
+              "country": "England",
+              "countryFlag": "ENG"
+            },
+            {
+              "statId": "02568",
+              "statTitle": "SG: Approach the Green",
+              "statValue": "1.089",
+              "playerId": "36689",
+              "playerName": "Brooks Koepka",
+              "rank": "1st",
+              "country": "United States",
+              "countryFlag": "USA"
+            },
+            {
+              "statId": "02569",
+              "statTitle": "SG: Around-the-Green",
+              "statValue": "0.893",
+              "playerId": "30911",
+              "playerName": "Tommy Fleetwood",
+              "rank": "1st",
+              "country": "England",
+              "countryFlag": "ENG"
+            },
+            {
+              "statId": "02564",
+              "statTitle": "SG: Putting",
+              "statValue": "1.339",
+              "playerId": "60004",
+              "playerName": "Jacob Bridgeman",
+              "rank": "1st",
+              "country": "United States",
+              "countryFlag": "USA"
+            }
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025553",
+        "tournamentName": "ONEflight Myrtle Beach Classic",
+        "seasonYear": "2025",
+        "displayDate": "May 8 - 11, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Myrtle Beach",
+        "city": "Myrtle Beach",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "925",
+            "courseName": "Dunes Golf and Beach Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

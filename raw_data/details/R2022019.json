@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022019",
+        "tournamentName": "AT&T Byron Nelson",
+        "seasonYear": "2022",
+        "displayDate": "May 12 - 15, 2022",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "McKinney",
+        "city": "McKinney",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "894",
+            "courseName": "TPC Craig Ranch",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

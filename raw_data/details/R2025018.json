@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025018",
+        "tournamentName": "Zurich Classic of New Orleans",
+        "seasonYear": "2025",
+        "displayDate": "Apr 24 - 27, 2025",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Avondale",
+        "city": "Avondale",
+        "state": "Louisiana",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "714",
+            "courseName": "TPC Louisiana",
+            "courseCode": "LA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

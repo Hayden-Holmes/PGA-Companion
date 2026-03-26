@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026060",
+        "tournamentName": "TOUR Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 27 - 30, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Atlanta",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "688",
+            "courseName": "East Lake Golf Club",
+            "courseCode": "EL",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

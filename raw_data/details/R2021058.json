@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021058",
+        "tournamentName": "QBE Shootout",
+        "seasonYear": "2021",
+        "displayDate": "Dec 11 - 13, 2020",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Naples",
+        "city": "Naples",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "678",
+            "courseName": "Tibur\u00f3n Golf Course",
+            "courseCode": "TG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

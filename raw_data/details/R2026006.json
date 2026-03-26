@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026006",
+        "tournamentName": "Sony Open in Hawaii",
+        "seasonYear": "2026",
+        "displayDate": "Jan 15 - 18, 2026",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "006",
+            "courseName": "Waialae Country Club",
+            "courseCode": "WC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

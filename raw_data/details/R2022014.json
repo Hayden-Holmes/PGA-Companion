@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022014",
+        "tournamentName": "Masters Tournament",
+        "seasonYear": "2022",
+        "displayDate": "Apr 7 - 10, 2022",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Augusta",
+        "city": "Augusta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "014",
+            "courseName": "Augusta National Golf Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

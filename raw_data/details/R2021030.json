@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021030",
+        "tournamentName": "John Deere Classic",
+        "seasonYear": "2021",
+        "displayDate": "Jul 8 - 11, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Silvis",
+        "city": "Silvis",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "669",
+            "courseName": "TPC Deere Run",
+            "courseCode": "DR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

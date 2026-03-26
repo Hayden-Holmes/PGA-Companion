@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023527",
+        "tournamentName": "ZOZO CHAMPIONSHIP",
+        "seasonYear": "2023",
+        "displayDate": "Oct 13 - 16, 2022",
+        "timezone": "Asia/Tokyo",
+        "tournamentLocation": "Chiba",
+        "city": "Chiba",
+        "state": "",
+        "country": "JPN",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "875",
+            "courseName": "ACCORDIA GOLF Narashino Country Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

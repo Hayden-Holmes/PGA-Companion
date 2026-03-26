@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023524",
+        "tournamentName": "Rocket Mortgage Classic",
+        "seasonYear": "2023",
+        "displayDate": "Jun 29 - Jul 2, 2023",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "876",
+            "courseName": "Detroit Golf Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026023",
+        "tournamentName": "the Memorial Tournament presented by Workday",
+        "seasonYear": "2026",
+        "displayDate": "Jun 4 - 7, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Dublin",
+        "city": "Dublin",
+        "state": "Ohio",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "023",
+            "courseName": "Muirfield Village Golf Club",
+            "courseCode": "MV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

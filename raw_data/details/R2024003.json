@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024003",
+        "tournamentName": "WM Phoenix Open",
+        "seasonYear": "2024",
+        "displayDate": "Feb 8 - 11, 2024",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Scottsdale",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "510",
+            "courseName": "TPC Scottsdale (Stadium Course)",
+            "courseCode": "TS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021534",
+        "tournamentName": "Corales Puntacana Resort & Club Championship (2021)",
+        "seasonYear": "2021",
+        "displayDate": "Mar 25 - 28, 2021",
+        "timezone": "America/Dominica",
+        "tournamentLocation": "Punta Cana",
+        "city": "Punta Cana",
+        "state": "",
+        "country": "DOM",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "244",
+            "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

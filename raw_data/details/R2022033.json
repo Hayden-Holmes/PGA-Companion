@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2022",
+        "displayDate": "May 19 - 22, 2022",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Tulsa",
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "611",
+            "courseName": "Southern Hills CC",
+            "courseCode": "SH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

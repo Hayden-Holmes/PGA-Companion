@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026500",
+        "tournamentName": "Presidents Cup",
+        "seasonYear": "2026",
+        "displayDate": "Sep 24 - 27, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Chicago",
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "348",
+            "courseName": "Medinah CC (No. 3)",
+            "courseCode": "MC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

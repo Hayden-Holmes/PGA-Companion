@@ -1,0 +1,36 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021047",
+        "tournamentName": "Shriners Hospitals for Children Open",
+        "seasonYear": "2021",
+        "displayDate": "Oct 8 - 11, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "538",
+            "courseName": "TPC Summerlin",
+            "courseCode": "SM",
+            "hostCourse": true
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "1"
+          }
+        ]
+      }
+    ]
+  }
+}

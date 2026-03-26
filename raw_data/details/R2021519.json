@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021519",
+        "tournamentName": "Olympic Men's Golf Competition",
+        "seasonYear": "2021",
+        "displayDate": "Jul 29 - Aug 1, 2021",
+        "timezone": "Asia/Tokyo",
+        "tournamentLocation": "Saitama",
+        "city": "Saitama",
+        "state": "",
+        "country": "JPN",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "887",
+            "courseName": "Kasumigaseki Country Club",
+            "courseCode": "KC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

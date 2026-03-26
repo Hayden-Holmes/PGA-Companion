@@ -1,0 +1,34 @@
+query ScorecardStatsV3($id: ID!, $playerId: ID!) {
+  scorecardStatsV3(id: $id, playerId: $playerId) {
+    id
+    rounds {
+      round
+      displayName
+      roundStatus
+      strokesGained {
+        statId
+        label
+        shortLabel
+        total
+        totalNum
+        rank
+        yearToDate
+        yearToDateNum
+      }
+      performance {
+        statId
+        label
+        total
+        rank
+        yearToDate
+      }
+      scoring {
+        statId
+        label
+        total
+        rank
+        yearToDate
+      }
+    }
+  }
+}

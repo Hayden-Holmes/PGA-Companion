@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023054",
+        "tournamentName": "Sanderson Farms Championship",
+        "seasonYear": "2023",
+        "displayDate": "Sep 29 - Oct 2, 2022",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Jackson",
+        "city": "Jackson",
+        "state": "Mississippi",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "746",
+            "courseName": "The Country Club of Jackson",
+            "courseCode": "CJ",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

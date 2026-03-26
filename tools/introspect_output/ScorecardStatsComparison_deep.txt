@@ -1,0 +1,53 @@
+
+============================================================
+Type: ScorecardStatsComparison  (OBJECT)
+============================================================
+  tournamentId                                  ID!
+  category                                      PlayerComparisonCategory!
+  disabled                                      Boolean
+  categoryPills                                 [PlayerComparisonCategoryPill!]!
+  roundNum                                      Int
+  roundDisplay                                  String
+  table                                         PlayerComparisonTable!
+  noDataMessage                                 String!
+
+  ==========================================================
+  Type: PlayerComparisonCategory  (ENUM)
+  ==========================================================
+    Values: ['STROKES_GAINED', 'OFF_TEE', 'APPROACH_GREEN', 'AROUND_GREEN', 'PUTTING', 'SCORING']
+
+  ==========================================================
+  Type: PlayerComparisonCategoryPill  (OBJECT)
+  ==========================================================
+    displayText                                   String!
+    category                                      PlayerComparisonCategory!
+
+  ==========================================================
+  Type: PlayerComparisonTable  (OBJECT)
+  ==========================================================
+    header                                        String!
+    headerRow                                     [PlayerComparisonHeader!]!
+    rows                                          [PlayerComparisonRow!]!
+
+    ========================================================
+    Type: PlayerComparisonHeader  (OBJECT)
+    ========================================================
+      playerId                                      ID!
+      displayText                                   String!
+      country                                       String
+      yearData                                      Boolean!
+
+    ========================================================
+    Type: PlayerComparisonRow  (OBJECT)
+    ========================================================
+      statName                                      String!
+      statId                                        String!
+      values                                        [PlayerComparisonValue!]!
+
+      ======================================================
+      Type: PlayerComparisonValue  (OBJECT)
+      ======================================================
+        displayValue                                  String!
+        bold                                          Boolean!
+        rank                                          String!
+        rankDeviation                                 Float

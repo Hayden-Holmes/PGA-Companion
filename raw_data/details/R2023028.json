@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2023",
+        "displayDate": "Aug 17 - 20, 2023",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Olympia Fields",
+        "city": "Olympia Fields",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "896",
+            "courseName": "Olympia Fields Country Club (North Course)",
+            "courseCode": "OF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021527",
+        "tournamentName": "ZOZO CHAMPIONSHIP @ SHERWOOD",
+        "seasonYear": "2021",
+        "displayDate": "Oct 22 - 25, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Thousand Oaks",
+        "city": "Thousand Oaks",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "881",
+            "courseName": "Sherwood Country Club",
+            "courseCode": "SH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023026",
+        "tournamentName": "U.S. Open",
+        "seasonYear": "2023",
+        "displayDate": "Jun 15 - 18, 2023",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Los Angeles",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "043",
+            "courseName": "The Los Angeles Country Club (North Course)",
+            "courseCode": "LN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

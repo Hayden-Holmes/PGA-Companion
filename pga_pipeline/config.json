@@ -1,0 +1,4 @@
+{
+  "db_dsn": "postgresql://postgres:H6OjSywPxvSg6qeA@db.wqsyfsdpgdlpbhkmcmrm.supabase.co:5432/postgres",
+  "raw_data_dir": "./raw_data"
+}

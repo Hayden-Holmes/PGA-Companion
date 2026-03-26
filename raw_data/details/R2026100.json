@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2026",
+        "displayDate": "Jul 16 - 19, 2026",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Southport",
+        "city": "Southport",
+        "state": "",
+        "country": "ENG",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "541",
+            "courseName": "Royal Birkdale Golf Club",
+            "courseCode": "RB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

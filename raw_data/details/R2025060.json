@@ -1,0 +1,36 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025060",
+        "tournamentName": "TOUR Championship",
+        "seasonYear": "2025",
+        "displayDate": "Aug 21 - 24, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Atlanta",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "688",
+            "courseName": "East Lake Golf Club",
+            "courseCode": "EL",
+            "hostCourse": true
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

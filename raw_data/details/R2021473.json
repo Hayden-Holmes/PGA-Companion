@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021473",
+        "tournamentName": "World Golf Championships-Workday Championship at The Concession",
+        "seasonYear": "2021",
+        "displayDate": "Feb 25 - 28, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Bradenton",
+        "city": "Bradenton",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "898",
+            "courseName": "The Concession Golf Club",
+            "courseCode": "CG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

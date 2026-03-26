@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026553",
+        "tournamentName": "ONEflight Myrtle Beach Classic",
+        "seasonYear": "2026",
+        "displayDate": "May 7 - 10, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Myrtle Beach",
+        "city": "Myrtle Beach",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "925",
+            "courseName": "Dunes Golf and Beach Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

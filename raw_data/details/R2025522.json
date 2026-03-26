@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025522",
+        "tournamentName": "Corales Puntacana Championship",
+        "seasonYear": "2025",
+        "displayDate": "Apr 17 - 20, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Punta Cana",
+        "city": "Punta Cana",
+        "state": "",
+        "country": "DOM",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "244",
+            "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

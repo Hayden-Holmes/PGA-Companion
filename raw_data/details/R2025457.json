@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025457",
+        "tournamentName": "World Wide Technology Championship",
+        "seasonYear": "2025",
+        "displayDate": "Nov 6 - 9, 2025",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Los Cabos",
+        "city": "Los Cabos",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "919",
+            "courseName": "El Cardonal at Diamante",
+            "courseCode": "CD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

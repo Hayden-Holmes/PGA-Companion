@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025014",
+        "tournamentName": "Masters Tournament",
+        "seasonYear": "2025",
+        "displayDate": "Apr 10 - 13, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Augusta",
+        "city": "Augusta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "014",
+            "courseName": "Augusta National Golf Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

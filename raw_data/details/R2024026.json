@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024026",
+        "tournamentName": "U.S. Open",
+        "seasonYear": "2024",
+        "displayDate": "Jun 13 - 16, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Village of Pinehurst",
+        "city": "Village of Pinehurst",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "528",
+            "courseName": "Pinehurst Resort & Country Club (Course No. 2)",
+            "courseCode": "PH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

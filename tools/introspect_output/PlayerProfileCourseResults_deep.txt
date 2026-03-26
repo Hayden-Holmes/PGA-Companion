@@ -1,0 +1,79 @@
+
+============================================================
+Type: PlayerProfileCourseResults  (OBJECT)
+============================================================
+  playerId                                      String!
+  tourPills                                     [TourCode!]!
+  coursePills                                   [CoursePills!]!
+  tourCode                                      TourCode!
+  courses                                       [PlayerCourse!]!
+
+  ==========================================================
+  Type: TourCode  (ENUM)
+  ==========================================================
+    Values: ['R', 'H', 'M', 'S', 'C', 'I', 'Y', 'U', 'E']
+
+  ==========================================================
+  Type: CoursePills  (OBJECT)
+  ==========================================================
+    courseId                                      String!
+    courseName                                    String!
+
+  ==========================================================
+  Type: PlayerCourse  (OBJECT)
+  ==========================================================
+    courseId                                      String!
+    courseName                                    String!
+    courseImage                                   String!
+    courseCity                                    String!
+    courseState                                   String
+    courseCountryCode                             String!
+    courseCountry                                 String!
+    cupEyebrowText                                String!
+    overview                                      [PlayerProfileOverviewItem!]!
+    overviewInfo                                  CourseOverviewInfo
+    tournaments                                   [CourseResultsTournament!]!
+
+    ========================================================
+    Type: PlayerProfileOverviewItem  (OBJECT)
+    ========================================================
+      title                                         String!
+      value                                         String!
+
+    ========================================================
+    Type: CourseOverviewInfo  (OBJECT)
+    ========================================================
+      events                                        String!
+      wins                                          String!
+      cutsMade                                      String!
+      cutsMissed                                    String!
+      runnerUp                                      String!
+      second                                        String!
+      third                                         String!
+      top10                                         String!
+      top25                                         String!
+      money                                         String!
+      withdrew                                      String!
+      disqualified                                  String!
+
+    ========================================================
+    Type: CourseResultsTournament  (OBJECT)
+    ========================================================
+      tournamentId                                  String!
+      tournamentName                                String!
+      season                                        String!
+      year                                          Int!
+      position                                      String!
+      roundScores                                   [RoundScoreItem!]!
+      total                                         String!
+      toPar                                         String!
+      points                                        String!
+      winnings                                      String!
+      tourcastURI                                   String
+
+      ======================================================
+      Type: RoundScoreItem  (OBJECT)
+      ======================================================
+        roundNum                                      Int!
+        roundDisplay                                  String!
+        roundScore                                    String!

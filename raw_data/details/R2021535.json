@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021535",
+        "tournamentName": "U.S. Open (2021)",
+        "seasonYear": "2021",
+        "displayDate": "Jun 17 - 20, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "744",
+            "courseName": "Torrey Pines (South)",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

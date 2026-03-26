@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021023",
+        "tournamentName": "the Memorial Tournament presented by Nationwide",
+        "seasonYear": "2021",
+        "displayDate": "Jun 3 - 6, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Dublin",
+        "city": "Dublin",
+        "state": "Ohio",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "023",
+            "courseName": "Muirfield Village Golf Club",
+            "courseCode": "MV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

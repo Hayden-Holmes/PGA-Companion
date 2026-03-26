@@ -1,0 +1,4 @@
+{
+  "db_dsn": "host=localhost dbname=golf user=golfuser password=golf2026",
+  "raw_data_dir": "./raw_data"
+}

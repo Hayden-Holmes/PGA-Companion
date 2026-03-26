@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026026",
+        "tournamentName": "U.S. Open",
+        "seasonYear": "2026",
+        "displayDate": "Jun 18 - 21, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Southampton",
+        "city": "Southampton",
+        "state": "New York",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "618",
+            "courseName": "Shinnecock Hills Golf Club",
+            "courseCode": "SH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024518",
+        "tournamentName": "ISCO Championship",
+        "seasonYear": "2024",
+        "displayDate": "Jul 11 - 14, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Nicholasville",
+        "city": "Nicholasville",
+        "state": "Kentucky",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "884",
+            "courseName": "Keene Trace Golf Club (Champion Trace)",
+            "courseCode": "KT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

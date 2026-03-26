@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023464",
+        "tournamentName": "Fortinet Championship",
+        "seasonYear": "2023",
+        "displayDate": "Sep 15 - 18, 2022",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Napa",
+        "city": "Napa",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "552",
+            "courseName": "Silverado Resort (North Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026558",
+        "tournamentName": "Good Good Championship",
+        "seasonYear": "2026",
+        "displayDate": "Nov 12 - 15, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Austin",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "943",
+            "courseName": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

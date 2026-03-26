@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024554",
+        "tournamentName": "Black Desert Championship",
+        "seasonYear": "2024",
+        "displayDate": "Oct 10 - 13, 2024",
+        "timezone": "America/Denver",
+        "tournamentLocation": "Ivins",
+        "city": "Ivins",
+        "state": "Utah",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "930",
+            "courseName": "Black Desert Resort",
+            "courseCode": "BD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

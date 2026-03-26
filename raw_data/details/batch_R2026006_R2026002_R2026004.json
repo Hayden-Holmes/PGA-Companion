@@ -1,0 +1,1154 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026006",
+        "tournamentName": "Sony Open in Hawaii",
+        "seasonYear": "2026",
+        "displayDate": "Jan 15 - 18, 2026",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "006",
+            "courseName": "Waialae Country Club",
+            "courseCode": "WC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026002",
+        "tournamentName": "The American Express",
+        "seasonYear": "2026",
+        "displayDate": "Jan 22 - 25, 2026",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "La Quinta",
+        "city": "La Quinta",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "704",
+            "courseName": "Pete Dye Stadium Course",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "233",
+            "courseName": "Nicklaus Tournament Course",
+            "courseCode": "NT",
+            "hostCourse": false
+          },
+          {
+            "id": "202",
+            "courseName": "La Quinta Country Club",
+            "courseCode": "LQ",
+            "hostCourse": false
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "2"
+          }
+        ]
+      },
+      {
+        "id": "R2026004",
+        "tournamentName": "Farmers Insurance Open",
+        "seasonYear": "2026",
+        "displayDate": "Jan 29 - Feb 1, 2026",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "004",
+            "courseName": "Torrey Pines Golf Course (South Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "104",
+            "courseName": "Torrey Pines Golf Course (North Course)",
+            "courseCode": "NC",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026003",
+        "tournamentName": "WM Phoenix Open",
+        "seasonYear": "2026",
+        "displayDate": "Feb 5 - 8, 2026",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Scottsdale",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "510",
+            "courseName": "TPC Scottsdale (Stadium Course)",
+            "courseCode": "TS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026005",
+        "tournamentName": "AT&T Pebble Beach Pro-Am",
+        "seasonYear": "2026",
+        "displayDate": "Feb 12 - 15, 2026",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Pebble Beach",
+        "city": "Pebble Beach",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "005",
+            "courseName": "Pebble Beach Golf Links",
+            "courseCode": "PB",
+            "hostCourse": true
+          },
+          {
+            "id": "205",
+            "courseName": "Spyglass Hill Golf Course",
+            "courseCode": "SH",
+            "hostCourse": false
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "2"
+          }
+        ]
+      },
+      {
+        "id": "R2026007",
+        "tournamentName": "The Genesis Invitational",
+        "seasonYear": "2026",
+        "displayDate": "Feb 19 - 22, 2026",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Pacific Palisades",
+        "city": "Pacific Palisades",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "500",
+            "courseName": "The Riviera Country Club",
+            "courseCode": "RC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026010",
+        "tournamentName": "Cognizant Classic in The Palm Beaches",
+        "seasonYear": "2026",
+        "displayDate": "Feb 26 - Mar 1, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Beach Gardens",
+        "city": "Palm Beach Gardens",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "928",
+            "courseName": "PGA National - Champion Course",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026009",
+        "tournamentName": "Arnold Palmer Invitational presented by Mastercard",
+        "seasonYear": "2026",
+        "displayDate": "Mar 5 - 8, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Orlando",
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "009",
+            "courseName": "Arnold Palmer's Bay Hill Club & Lodge",
+            "courseCode": "BH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026483",
+        "tournamentName": "Puerto Rico Open",
+        "seasonYear": "2026",
+        "displayDate": "Mar 5 - 8, 2026",
+        "timezone": "America/Puerto_Rico",
+        "tournamentLocation": "Rio Grande",
+        "city": "Rio Grande",
+        "state": "",
+        "country": "PUR",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "940",
+            "courseName": "Grand Reserve Golf Club",
+            "courseCode": "GR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026011",
+        "tournamentName": "THE PLAYERS Championship",
+        "seasonYear": "2026",
+        "displayDate": "Mar 12 - 15, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ponte Vedra Beach",
+        "city": "Ponte Vedra Beach",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "011",
+            "courseName": "TPC Sawgrass - THE PLAYERS Stadium Course",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026475",
+        "tournamentName": "Valspar Championship",
+        "seasonYear": "2026",
+        "displayDate": "Mar 19 - 22, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Harbor",
+        "city": "Palm Harbor",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "665",
+            "courseName": "Innisbrook Resort and Golf Club - Copperhead Course",
+            "courseCode": "WI",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026020",
+        "tournamentName": "Texas Children's Houston Open",
+        "seasonYear": "2026",
+        "displayDate": "Mar 26 - 29, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "GROUPINGS_OFFICIAL",
+        "courses": [
+          {
+            "id": "897",
+            "courseName": "Memorial Park Golf Course",
+            "courseCode": "MP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026041",
+        "tournamentName": "Valero Texas Open",
+        "seasonYear": "2026",
+        "displayDate": "Apr 2 - 5, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "San Antonio",
+        "city": "San Antonio",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "770",
+            "courseName": "TPC San Antonio - The Oaks Course",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026014",
+        "tournamentName": "Masters Tournament",
+        "seasonYear": "2026",
+        "displayDate": "Apr 9 - 12, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Augusta",
+        "city": "Augusta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "014",
+            "courseName": "Augusta National Golf Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026012",
+        "tournamentName": "RBC Heritage",
+        "seasonYear": "2026",
+        "displayDate": "Apr 16 - 19, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Hilton Head Island",
+        "city": "Hilton Head Island",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "012",
+            "courseName": "Harbour Town Golf Links",
+            "courseCode": "HT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026018",
+        "tournamentName": "Zurich Classic of New Orleans",
+        "seasonYear": "2026",
+        "displayDate": "Apr 23 - 26, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Avondale",
+        "city": "Avondale",
+        "state": "Louisiana",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "714",
+            "courseName": "TPC Louisiana",
+            "courseCode": "LA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026556",
+        "tournamentName": "Cadillac Championship",
+        "seasonYear": "2026",
+        "displayDate": "Apr 30 - May 3, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Miami",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "008",
+            "courseName": "Trump National Doral (Blue Monster)",
+            "courseCode": "DO",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026480",
+        "tournamentName": "Truist Championship",
+        "seasonYear": "2026",
+        "displayDate": "May 7 - 10, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "872",
+            "courseName": "Quail Hollow Club",
+            "courseCode": "QH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026553",
+        "tournamentName": "ONEflight Myrtle Beach Classic",
+        "seasonYear": "2026",
+        "displayDate": "May 7 - 10, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Myrtle Beach",
+        "city": "Myrtle Beach",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "925",
+            "courseName": "Dunes Golf and Beach Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2026",
+        "displayDate": "May 14 - 17, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Newtown Square",
+        "city": "Newtown Square",
+        "state": "Pennsylvania",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "773",
+            "courseName": "Aronimink Golf Club",
+            "courseCode": "AR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026019",
+        "tournamentName": "THE CJ CUP Byron Nelson",
+        "seasonYear": "2026",
+        "displayDate": "May 21 - 24, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "McKinney",
+        "city": "McKinney",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "921",
+            "courseName": "TPC Craig Ranch",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026021",
+        "tournamentName": "Charles Schwab Challenge",
+        "seasonYear": "2026",
+        "displayDate": "May 28 - 31, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Fort Worth",
+        "city": "Fort Worth",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "021",
+            "courseName": "Colonial Country Club",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026023",
+        "tournamentName": "the Memorial Tournament presented by Workday",
+        "seasonYear": "2026",
+        "displayDate": "Jun 4 - 7, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Dublin",
+        "city": "Dublin",
+        "state": "Ohio",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "023",
+            "courseName": "Muirfield Village Golf Club",
+            "courseCode": "MV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026032",
+        "tournamentName": "RBC Canadian Open",
+        "seasonYear": "2026",
+        "displayDate": "Jun 11 - 14, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Caledon, Ontario",
+        "city": "Caledon, Ontario",
+        "state": "",
+        "country": "CAN",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "935",
+            "courseName": "TPC Toronto at Osprey Valley (North Course)",
+            "courseCode": "OV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026026",
+        "tournamentName": "U.S. Open",
+        "seasonYear": "2026",
+        "displayDate": "Jun 18 - 21, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Southampton",
+        "city": "Southampton",
+        "state": "New York",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "618",
+            "courseName": "Shinnecock Hills Golf Club",
+            "courseCode": "SH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026034",
+        "tournamentName": "Travelers Championship",
+        "seasonYear": "2026",
+        "displayDate": "Jun 25 - 28, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Cromwell",
+        "city": "Cromwell",
+        "state": "Connecticut",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "503",
+            "courseName": "TPC River Highlands",
+            "courseCode": "TR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026030",
+        "tournamentName": "John Deere Classic",
+        "seasonYear": "2026",
+        "displayDate": "Jul 2 - 5, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Silvis",
+        "city": "Silvis",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "669",
+            "courseName": "TPC Deere Run",
+            "courseCode": "DR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026541",
+        "tournamentName": "Genesis Scottish Open",
+        "seasonYear": "2026",
+        "displayDate": "Jul 9 - 12, 2026",
+        "timezone": "Europe/London",
+        "tournamentLocation": "North Berwick",
+        "city": "North Berwick",
+        "state": "",
+        "country": "SCO",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "977",
+            "courseName": "The Renaissance Club",
+            "courseCode": "RC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026518",
+        "tournamentName": "ISCO Championship",
+        "seasonYear": "2026",
+        "displayDate": "Jul 9 - 12, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Louisville",
+        "city": "Louisville",
+        "state": "Kentucky",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "934",
+            "courseName": "Hurstbourne Country Club",
+            "courseCode": "HB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2026",
+        "displayDate": "Jul 16 - 19, 2026",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Southport",
+        "city": "Southport",
+        "state": "",
+        "country": "ENG",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "541",
+            "courseName": "Royal Birkdale Golf Club",
+            "courseCode": "RB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026522",
+        "tournamentName": "Corales Puntacana Championship",
+        "seasonYear": "2026",
+        "displayDate": "Jul 16 - 19, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Punta Cana",
+        "city": "Punta Cana",
+        "state": "",
+        "country": "DOM",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "244",
+            "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026525",
+        "tournamentName": "3M Open",
+        "seasonYear": "2026",
+        "displayDate": "Jul 23 - 26, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Blaine",
+        "city": "Blaine",
+        "state": "Minnesota",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "883",
+            "courseName": "TPC Twin Cities",
+            "courseCode": "TC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026524",
+        "tournamentName": "Rocket Classic",
+        "seasonYear": "2026",
+        "displayDate": "Jul 30 - Aug 2, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "876",
+            "courseName": "Detroit Golf Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026013",
+        "tournamentName": "Wyndham Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 6 - 9, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Greensboro",
+        "city": "Greensboro",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "752",
+            "courseName": "Sedgefield Country Club",
+            "courseCode": "SF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026027",
+        "tournamentName": "FedEx St. Jude Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 13 - 16, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Memphis",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "513",
+            "courseName": "TPC Southwind",
+            "courseCode": "SW",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 20 - 23, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "St. Louis",
+        "city": "St. Louis",
+        "state": "Missouri",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "679",
+            "courseName": "Bellerive Country Club",
+            "courseCode": "BC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026060",
+        "tournamentName": "TOUR Championship",
+        "seasonYear": "2026",
+        "displayDate": "Aug 27 - 30, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Atlanta",
+        "city": "Atlanta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "688",
+            "courseName": "East Lake Golf Club",
+            "courseCode": "EL",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026557",
+        "tournamentName": "Biltmore Championship Asheville",
+        "seasonYear": "2026",
+        "displayDate": "Sep 17 - 20, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Asheville",
+        "city": "Asheville",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "942",
+            "courseName": "The Cliffs at Walnut Cove",
+            "courseCode": "TC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026500",
+        "tournamentName": "Presidents Cup",
+        "seasonYear": "2026",
+        "displayDate": "Sep 24 - 27, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Chicago",
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "348",
+            "courseName": "Medinah CC (No. 3)",
+            "courseCode": "MC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026554",
+        "tournamentName": "Bank of Utah Championship",
+        "seasonYear": "2026",
+        "displayDate": "Oct 1 - 4, 2026",
+        "timezone": "America/Denver",
+        "tournamentLocation": "Ivins",
+        "city": "Ivins",
+        "state": "Utah",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "930",
+            "courseName": "Black Desert Resort",
+            "courseCode": "BD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026527",
+        "tournamentName": "Baycurrent Classic",
+        "seasonYear": "2026",
+        "displayDate": "Oct 8 - 11, 2026",
+        "timezone": "Asia/Tokyo",
+        "tournamentLocation": "Yokohama",
+        "city": "Yokohama",
+        "state": "",
+        "country": "JPN",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "936",
+            "courseName": "Yokohama Country Club (West Course)",
+            "courseCode": "YH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026528",
+        "tournamentName": "Butterfield Bermuda Championship",
+        "seasonYear": "2026",
+        "displayDate": "Oct 22 - 25, 2026",
+        "timezone": "Atlantic/Bermuda",
+        "tournamentLocation": "Southampton",
+        "city": "Southampton",
+        "state": "",
+        "country": "BER",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "765",
+            "courseName": "Port Royal Golf Course",
+            "courseCode": "PR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026540",
+        "tournamentName": "VidantaWorld Mexico Open",
+        "seasonYear": "2026",
+        "displayDate": "Oct 29 - Nov 1, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Vallarta",
+        "city": "Vallarta",
+        "state": "",
+        "country": "MEX",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "978",
+            "courseName": "Vidanta Vallarta",
+            "courseCode": "VV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026457",
+        "tournamentName": "World Wide Technology Championship",
+        "seasonYear": "2026",
+        "displayDate": "Nov 5 - 8, 2026",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Los Cabos",
+        "city": "Los Cabos",
+        "state": "",
+        "country": "MEX",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "919",
+            "courseName": "El Cardonal at Diamante",
+            "courseCode": "CD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026558",
+        "tournamentName": "Good Good Championship",
+        "seasonYear": "2026",
+        "displayDate": "Nov 12 - 15, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Austin",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "943",
+            "courseName": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026493",
+        "tournamentName": "The RSM Classic",
+        "seasonYear": "2026",
+        "displayDate": "Nov 19 - 22, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "St. Simons Island",
+        "city": "St. Simons Island",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "776",
+            "courseName": "Sea Island Golf Club (Seaside Course)",
+            "courseCode": "SS",
+            "hostCourse": true
+          },
+          {
+            "id": "889",
+            "courseName": "Sea Island Golf Club (Plantation Course)",
+            "courseCode": "PL",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026478",
+        "tournamentName": "Hero World Challenge",
+        "seasonYear": "2026",
+        "displayDate": "Dec 3 - 6, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Albany",
+        "city": "Albany",
+        "state": "",
+        "country": "BAH",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "232",
+            "courseName": "Albany GC",
+            "courseCode": "AB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2026551",
+        "tournamentName": "Grant Thornton Invitational",
+        "seasonYear": "2026",
+        "displayDate": "Dec 11 - 13, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Naples",
+        "city": "Naples",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "920",
+            "courseName": "Tibur\u00f3n Golf Club",
+            "courseCode": "TG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023522",
+        "tournamentName": "Corales Puntacana Championship",
+        "seasonYear": "2023",
+        "displayDate": "Mar 23 - 26, 2023",
+        "timezone": "America/Dominica",
+        "tournamentLocation": "Punta Cana",
+        "city": "Punta Cana",
+        "state": "",
+        "country": "DOM",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "244",
+            "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

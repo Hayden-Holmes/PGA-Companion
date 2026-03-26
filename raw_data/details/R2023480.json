@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023480",
+        "tournamentName": "Wells Fargo Championship",
+        "seasonYear": "2023",
+        "displayDate": "May 4 - 7, 2023",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "872",
+            "courseName": "Quail Hollow Club",
+            "courseCode": "QH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023014",
+        "tournamentName": "Masters Tournament",
+        "seasonYear": "2023",
+        "displayDate": "Apr 6 - 9, 2023",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Augusta",
+        "city": "Augusta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "014",
+            "courseName": "Augusta National Golf Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

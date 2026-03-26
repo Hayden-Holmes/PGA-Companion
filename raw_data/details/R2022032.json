@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022032",
+        "tournamentName": "RBC Canadian Open",
+        "seasonYear": "2022",
+        "displayDate": "Jun 9 - 12, 2022",
+        "timezone": "America/Toronto",
+        "tournamentLocation": "Toronto, ON",
+        "city": "Toronto, ON",
+        "state": "",
+        "country": "CAN",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "772",
+            "courseName": "St. George's G&CC",
+            "courseCode": "SG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

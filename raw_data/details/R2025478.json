@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025478",
+        "tournamentName": "Hero World Challenge",
+        "seasonYear": "2025",
+        "displayDate": "Dec 4 - 7, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Albany",
+        "city": "Albany",
+        "state": "",
+        "country": "BAH",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "232",
+            "courseName": "Albany GC",
+            "courseCode": "AB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

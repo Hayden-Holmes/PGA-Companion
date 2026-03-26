@@ -1,0 +1,12 @@
+query TournamentOddsToWin($tournamentId: ID!) {
+  tournamentOddsToWin(tournamentId: $tournamentId) {
+    tournamentId
+    tournamentName
+    players {
+      playerId
+      oddsToWin
+      oddsSwing
+      oddsSort
+    }
+  }
+}

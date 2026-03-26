@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026554",
+        "tournamentName": "Bank of Utah Championship",
+        "seasonYear": "2026",
+        "displayDate": "Oct 1 - 4, 2026",
+        "timezone": "America/Denver",
+        "tournamentLocation": "Ivins",
+        "city": "Ivins",
+        "state": "Utah",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "930",
+            "courseName": "Black Desert Resort",
+            "courseCode": "BD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

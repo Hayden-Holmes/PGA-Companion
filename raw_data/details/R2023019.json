@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023019",
+        "tournamentName": "AT&T Byron Nelson",
+        "seasonYear": "2023",
+        "displayDate": "May 11 - 14, 2023",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "McKinney",
+        "city": "McKinney",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "921",
+            "courseName": "TPC Craig Ranch",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

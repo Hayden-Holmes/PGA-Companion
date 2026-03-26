@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025007",
+        "tournamentName": "The Genesis Invitational",
+        "seasonYear": "2025",
+        "displayDate": "Feb 13 - 16, 2025",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "939",
+            "courseName": "Torrey Pines Golf Course (South Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

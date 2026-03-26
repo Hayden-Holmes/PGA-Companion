@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026518",
+        "tournamentName": "ISCO Championship",
+        "seasonYear": "2026",
+        "displayDate": "Jul 9 - 12, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Louisville",
+        "city": "Louisville",
+        "state": "Kentucky",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "934",
+            "courseName": "Hurstbourne Country Club",
+            "courseCode": "HB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

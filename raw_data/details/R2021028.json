@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2021",
+        "displayDate": "Aug 26 - 29, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Owings Mills",
+        "city": "Owings Mills",
+        "state": "Maryland",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "882",
+            "courseName": "Caves Valley Golf Club",
+            "courseCode": "CV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

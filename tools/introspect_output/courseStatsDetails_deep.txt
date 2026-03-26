@@ -1,0 +1,57 @@
+
+============================================================
+Type: CourseStatsDetails  (OBJECT)
+============================================================
+  tourCode                                      TourCode!
+  year                                          Int!
+  round                                         ToughestRound!
+  roundPills                                    [ToughestCourseRoundPills!]!
+  displayYear                                   String!
+  seasons                                       [StatYearPills!]!
+  headers                                       [String!]!
+  displayName                                   String!
+  tableName                                     String!
+  shareURL                                      String
+  rows                                          [CourseStatsDetailsRow!]!
+
+  ==========================================================
+  Type: TourCode  (ENUM)
+  ==========================================================
+    Values: ['R', 'H', 'M', 'S', 'C', 'I', 'Y', 'U', 'E']
+
+  ==========================================================
+  Type: ToughestRound  (ENUM)
+  ==========================================================
+    Values: ['ALL', 'ONE', 'TWO', 'THREE', 'FOUR']
+
+  ==========================================================
+  Type: ToughestCourseRoundPills  (OBJECT)
+  ==========================================================
+    display                                       String!
+    queryVal                                      ToughestRound!
+
+  ==========================================================
+  Type: StatYearPills  (OBJECT)
+  ==========================================================
+    year                                          Int!
+    displaySeason                                 String!
+
+  ==========================================================
+  Type: CourseStatsDetailsRow  (OBJECT)
+  ==========================================================
+    rank                                          Int!
+    displayName                                   String!
+    tournamentId                                  String!
+    tournamentName                                String!
+    values                                        [CourseDetailRowValue!]!
+
+    ========================================================
+    Type: CourseDetailRowValue  (OBJECT)
+    ========================================================
+      value                                         String!
+      tendency                                      ScoringTendency
+
+      ======================================================
+      Type: ScoringTendency  (ENUM)
+      ======================================================
+        Values: ['ABOVE', 'BELOW', 'EVEN']

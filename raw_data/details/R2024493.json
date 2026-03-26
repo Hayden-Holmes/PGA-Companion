@@ -1,0 +1,35 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024493",
+        "tournamentName": "The RSM Classic",
+        "seasonYear": "2024",
+        "displayDate": "Nov 21 - 24, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "St. Simons Island",
+        "city": "St. Simons Island",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "776",
+            "courseName": "Sea Island Golf Club (Seaside Course)",
+            "courseCode": "SS",
+            "hostCourse": true
+          },
+          {
+            "id": "889",
+            "courseName": "Sea Island Golf Club (Plantation Course)",
+            "courseCode": "PL",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,1187 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021464",
+        "tournamentName": "Safeway Open",
+        "seasonYear": "2021",
+        "displayDate": "Sep 10 - 13, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Napa",
+        "city": "Napa",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "552",
+            "courseName": "Silverado Resort (North Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021026",
+        "tournamentName": "U.S. Open (2020)",
+        "seasonYear": "2021",
+        "displayDate": "Sep 17 - 20, 2020",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Mamaroneck",
+        "city": "Mamaroneck",
+        "state": "New York",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "891",
+            "courseName": "Winged Foot Golf Club",
+            "courseCode": "WF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021522",
+        "tournamentName": "Corales Puntacana Resort & Club Championship (2020)",
+        "seasonYear": "2021",
+        "displayDate": "Sep 24 - 27, 2020",
+        "timezone": "America/Dominica",
+        "tournamentLocation": "Punta Cana",
+        "city": "Punta Cana",
+        "state": "",
+        "country": "DOM",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "244",
+            "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021054",
+        "tournamentName": "Sanderson Farms Championship",
+        "seasonYear": "2021",
+        "displayDate": "Oct 1 - 4, 2020",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Jackson",
+        "city": "Jackson",
+        "state": "Mississippi",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "746",
+            "courseName": "The Country Club of Jackson",
+            "courseCode": "CJ",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021047",
+        "tournamentName": "Shriners Hospitals for Children Open",
+        "seasonYear": "2021",
+        "displayDate": "Oct 8 - 11, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "538",
+            "courseName": "TPC Summerlin",
+            "courseCode": "SM",
+            "hostCourse": true
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "1"
+          }
+        ]
+      },
+      {
+        "id": "R2021521",
+        "tournamentName": "THE CJ CUP @ SHADOW CREEK",
+        "seasonYear": "2021",
+        "displayDate": "Oct 15 - 18, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "878",
+            "courseName": "Shadow Creek Golf Course",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021527",
+        "tournamentName": "ZOZO CHAMPIONSHIP @ SHERWOOD",
+        "seasonYear": "2021",
+        "displayDate": "Oct 22 - 25, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Thousand Oaks",
+        "city": "Thousand Oaks",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "881",
+            "courseName": "Sherwood Country Club",
+            "courseCode": "SH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021528",
+        "tournamentName": "Bermuda Championship",
+        "seasonYear": "2021",
+        "displayDate": "Oct 29 - Nov 1, 2020",
+        "timezone": "Atlantic/Bermuda",
+        "tournamentLocation": "Southampton",
+        "city": "Southampton",
+        "state": "",
+        "country": "BER",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "765",
+            "courseName": "Port Royal Golf Course",
+            "courseCode": "PR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021020",
+        "tournamentName": "Vivint Houston Open",
+        "seasonYear": "2021",
+        "displayDate": "Nov 5 - 8, 2020",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "897",
+            "courseName": "Memorial Park Golf Course",
+            "courseCode": "MP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021014",
+        "tournamentName": "Masters Tournament (2020)",
+        "seasonYear": "2021",
+        "displayDate": "Nov 12 - 15, 2020",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Augusta",
+        "city": "Augusta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "014",
+            "courseName": "Augusta National Golf Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021493",
+        "tournamentName": "The RSM Classic",
+        "seasonYear": "2021",
+        "displayDate": "Nov 19 - 22, 2020",
+        "timezone": "America/New_York",
+        "tournamentLocation": "St. Simons Island",
+        "city": "St. Simons Island",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "776",
+            "courseName": "Sea Island Golf Club (Seaside Course)",
+            "courseCode": "SS",
+            "hostCourse": true
+          },
+          {
+            "id": "889",
+            "courseName": "Sea Island Golf Club (Plantation Course)",
+            "courseCode": "PL",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021457",
+        "tournamentName": "Mayakoba Golf Classic presented by UNIFIN",
+        "seasonYear": "2021",
+        "displayDate": "Dec 3 - 6, 2020",
+        "timezone": "America/Cancun",
+        "tournamentLocation": "Riviera Maya",
+        "city": "Riviera Maya",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "733",
+            "courseName": "El Camale\u00f3n Golf Course at Mayakoba",
+            "courseCode": "EC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021058",
+        "tournamentName": "QBE Shootout",
+        "seasonYear": "2021",
+        "displayDate": "Dec 11 - 13, 2020",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Naples",
+        "city": "Naples",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "678",
+            "courseName": "Tibur\u00f3n Golf Course",
+            "courseCode": "TG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021016",
+        "tournamentName": "Sentry Tournament of Champions",
+        "seasonYear": "2021",
+        "displayDate": "Jan 7 - 10, 2021",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Kapalua, Maui",
+        "city": "Kapalua, Maui",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "656",
+            "courseName": "Plantation Course at Kapalua",
+            "courseCode": "PC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021006",
+        "tournamentName": "Sony Open in Hawaii",
+        "seasonYear": "2021",
+        "displayDate": "Jan 14 - 17, 2021",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "006",
+            "courseName": "Waialae Country Club",
+            "courseCode": "WC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021002",
+        "tournamentName": "The American Express",
+        "seasonYear": "2021",
+        "displayDate": "Jan 21 - 24, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "La Quinta",
+        "city": "La Quinta",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "704",
+            "courseName": "Pete Dye Stadium Course",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "233",
+            "courseName": "Nicklaus Tournament Course",
+            "courseCode": "NT",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021004",
+        "tournamentName": "Farmers Insurance Open",
+        "seasonYear": "2021",
+        "displayDate": "Jan 28 - 31, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "004",
+            "courseName": "Torrey Pines Golf Course (South Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "104",
+            "courseName": "Torrey Pines Golf Course (North Course)",
+            "courseCode": "NC",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021003",
+        "tournamentName": "Waste Management Phoenix Open",
+        "seasonYear": "2021",
+        "displayDate": "Feb 4 - 7, 2021",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Scottsdale",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "510",
+            "courseName": "TPC Scottsdale (Stadium Course)",
+            "courseCode": "TS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021005",
+        "tournamentName": "AT&T Pebble Beach Pro-Am",
+        "seasonYear": "2021",
+        "displayDate": "Feb 11 - 14, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Pebble Beach",
+        "city": "Pebble Beach",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "005",
+            "courseName": "Pebble Beach Golf Links",
+            "courseCode": "PB",
+            "hostCourse": true
+          },
+          {
+            "id": "205",
+            "courseName": "Spyglass Hill Golf Course",
+            "courseCode": "SH",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021007",
+        "tournamentName": "The Genesis Invitational",
+        "seasonYear": "2021",
+        "displayDate": "Feb 18 - 21, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Pacific Palisades",
+        "city": "Pacific Palisades",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "500",
+            "courseName": "The Riviera Country Club",
+            "courseCode": "RC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021473",
+        "tournamentName": "World Golf Championships-Workday Championship at The Concession",
+        "seasonYear": "2021",
+        "displayDate": "Feb 25 - 28, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Bradenton",
+        "city": "Bradenton",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "898",
+            "courseName": "The Concession Golf Club",
+            "courseCode": "CG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021483",
+        "tournamentName": "Puerto Rico Open",
+        "seasonYear": "2021",
+        "displayDate": "Feb 25 - 28, 2021",
+        "timezone": "America/Puerto_Rico",
+        "tournamentLocation": "Rio Grande",
+        "city": "Rio Grande",
+        "state": "",
+        "country": "PUR",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "742",
+            "courseName": "Grand Reserve Golf Club",
+            "courseCode": "GR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021009",
+        "tournamentName": "Arnold Palmer Invitational presented by Mastercard",
+        "seasonYear": "2021",
+        "displayDate": "Mar 4 - 7, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Orlando",
+        "city": "Orlando",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "009",
+            "courseName": "Arnold Palmer's Bay Hill Club & Lodge",
+            "courseCode": "BH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021011",
+        "tournamentName": "THE PLAYERS Championship",
+        "seasonYear": "2021",
+        "displayDate": "Mar 11 - 14, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ponte Vedra Beach",
+        "city": "Ponte Vedra Beach",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "011",
+            "courseName": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021010",
+        "tournamentName": "The Honda Classic",
+        "seasonYear": "2021",
+        "displayDate": "Mar 18 - 21, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Beach Gardens",
+        "city": "Palm Beach Gardens",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "734",
+            "courseName": "PGA National Resort (The Champion)",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021470",
+        "tournamentName": "World Golf Championships-Dell Technologies Match Play",
+        "seasonYear": "2021",
+        "displayDate": "Mar 24 - 28, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Austin",
+        "city": "Austin",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "185",
+            "courseName": "Austin Country Club",
+            "courseCode": "AC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021534",
+        "tournamentName": "Corales Puntacana Resort & Club Championship (2021)",
+        "seasonYear": "2021",
+        "displayDate": "Mar 25 - 28, 2021",
+        "timezone": "America/Dominica",
+        "tournamentLocation": "Punta Cana",
+        "city": "Punta Cana",
+        "state": "",
+        "country": "DOM",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "244",
+            "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021041",
+        "tournamentName": "Valero Texas Open",
+        "seasonYear": "2021",
+        "displayDate": "Apr 1 - 4, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "San Antonio",
+        "city": "San Antonio",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "770",
+            "courseName": "TPC San Antonio (Oaks Course)",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021536",
+        "tournamentName": "Masters Tournament (2021)",
+        "seasonYear": "2021",
+        "displayDate": "Apr 8 - 11, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Augusta",
+        "city": "Augusta",
+        "state": "Georgia",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "014",
+            "courseName": "Augusta National Golf Club",
+            "courseCode": "AN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021012",
+        "tournamentName": "RBC Heritage",
+        "seasonYear": "2021",
+        "displayDate": "Apr 15 - 18, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Hilton Head Island",
+        "city": "Hilton Head Island",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "012",
+            "courseName": "Harbour Town Golf Links",
+            "courseCode": "HT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021018",
+        "tournamentName": "Zurich Classic of New Orleans",
+        "seasonYear": "2021",
+        "displayDate": "Apr 22 - 25, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Avondale",
+        "city": "Avondale",
+        "state": "Louisiana",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "714",
+            "courseName": "TPC Louisiana",
+            "courseCode": "LA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021475",
+        "tournamentName": "Valspar Championship",
+        "seasonYear": "2021",
+        "displayDate": "Apr 29 - May 2, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Harbor",
+        "city": "Palm Harbor",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "665",
+            "courseName": "Innisbrook Resort (Copperhead Course)",
+            "courseCode": "WI",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021480",
+        "tournamentName": "Wells Fargo Championship",
+        "seasonYear": "2021",
+        "displayDate": "May 6 - 9, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "872",
+            "courseName": "Quail Hollow Club",
+            "courseCode": "QH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021019",
+        "tournamentName": "AT&T Byron Nelson",
+        "seasonYear": "2021",
+        "displayDate": "May 13 - 16, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "McKinney",
+        "city": "McKinney",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "894",
+            "courseName": "TPC Craig Ranch",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2021",
+        "displayDate": "May 20 - 23, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Kiawah Island",
+        "city": "Kiawah Island",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "697",
+            "courseName": "Ocean Course at Kiawah Island",
+            "courseCode": "KI",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021021",
+        "tournamentName": "Charles Schwab Challenge",
+        "seasonYear": "2021",
+        "displayDate": "May 27 - 30, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Fort Worth",
+        "city": "Fort Worth",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "021",
+            "courseName": "Colonial Country Club",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021023",
+        "tournamentName": "the Memorial Tournament presented by Nationwide",
+        "seasonYear": "2021",
+        "displayDate": "Jun 3 - 6, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Dublin",
+        "city": "Dublin",
+        "state": "Ohio",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "023",
+            "courseName": "Muirfield Village Golf Club",
+            "courseCode": "MV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021538",
+        "tournamentName": "Palmetto Championship at Congaree",
+        "seasonYear": "2021",
+        "displayDate": "Jun 10 - 13, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ridgeland",
+        "city": "Ridgeland",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "902",
+            "courseName": "Congaree Golf Club",
+            "courseCode": "CG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021535",
+        "tournamentName": "U.S. Open (2021)",
+        "seasonYear": "2021",
+        "displayDate": "Jun 17 - 20, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "744",
+            "courseName": "Torrey Pines (South)",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021034",
+        "tournamentName": "Travelers Championship",
+        "seasonYear": "2021",
+        "displayDate": "Jun 24 - 27, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Cromwell",
+        "city": "Cromwell",
+        "state": "Connecticut",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "503",
+            "courseName": "TPC River Highlands",
+            "courseCode": "TR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021524",
+        "tournamentName": "Rocket Mortgage Classic",
+        "seasonYear": "2021",
+        "displayDate": "Jul 1 - 4, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Detroit",
+        "city": "Detroit",
+        "state": "Michigan",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "876",
+            "courseName": "Detroit Golf Club",
+            "courseCode": "DG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021030",
+        "tournamentName": "John Deere Classic",
+        "seasonYear": "2021",
+        "displayDate": "Jul 8 - 11, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Silvis",
+        "city": "Silvis",
+        "state": "Illinois",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "669",
+            "courseName": "TPC Deere Run",
+            "courseCode": "DR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2021",
+        "displayDate": "Jul 15 - 18, 2021",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Sandwich, Kent",
+        "city": "Sandwich, Kent",
+        "state": "",
+        "country": "ENG",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "778",
+            "courseName": "Royal St. George's GC",
+            "courseCode": "RG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021518",
+        "tournamentName": "Barbasol Championship",
+        "seasonYear": "2021",
+        "displayDate": "Jul 15 - 18, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Nicholasville",
+        "city": "Nicholasville",
+        "state": "Kentucky",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "884",
+            "courseName": "Keene Trace Golf Club (Champion Trace)",
+            "courseCode": "KT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021525",
+        "tournamentName": "3M Open",
+        "seasonYear": "2021",
+        "displayDate": "Jul 22 - 25, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Blaine",
+        "city": "Blaine",
+        "state": "Minnesota",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "883",
+            "courseName": "TPC Twin Cities",
+            "courseCode": "TC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021519",
+        "tournamentName": "Olympic Men's Golf Competition",
+        "seasonYear": "2021",
+        "displayDate": "Jul 29 - Aug 1, 2021",
+        "timezone": "Asia/Tokyo",
+        "tournamentLocation": "Saitama",
+        "city": "Saitama",
+        "state": "",
+        "country": "JPN",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "887",
+            "courseName": "Kasumigaseki Country Club",
+            "courseCode": "KC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021476",
+        "tournamentName": "World Golf Championships-FedEx St. Jude Invitational",
+        "seasonYear": "2021",
+        "displayDate": "Aug 5 - 8, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Memphis",
+        "city": "Memphis",
+        "state": "Tennessee",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "513",
+            "courseName": "TPC Southwind",
+            "courseCode": "SW",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021472",
+        "tournamentName": "Barracuda Championship",
+        "seasonYear": "2021",
+        "displayDate": "Aug 5 - 8, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Truckee",
+        "city": "Truckee",
+        "state": "California",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "890",
+            "courseName": "Tahoe Mountain Club (Old Greenwood)",
+            "courseCode": "MT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021013",
+        "tournamentName": "Wyndham Championship",
+        "seasonYear": "2021",
+        "displayDate": "Aug 12 - 15, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Greensboro",
+        "city": "Greensboro",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "752",
+            "courseName": "Sedgefield Country Club",
+            "courseCode": "SF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2021027",
+        "tournamentName": "THE NORTHERN TRUST",
+        "seasonYear": "2021",
+        "displayDate": "Aug 19 - 22, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Jersey City",
+        "city": "Jersey City",
+        "state": "New Jersey",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "886",
+            "courseName": "Liberty National Golf Club",
+            "courseCode": "LN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

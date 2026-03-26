@@ -1,0 +1,135 @@
+
+============================================================
+Type: HistoricalLeaderboard  (OBJECT)
+============================================================
+  id                                            ID!
+  players                                       [HistoricalLeaderboardRow!]!
+  teams                                         [HistoricalLeaderboardTeamRow]
+  rounds                                        [String!]!
+  additionalDataHeaders                         [String!]!
+  availableSeasons                              [StatYearPills!]!
+  winner                                        Winner
+  winningTeam                                   [Winner]
+  recap                                         WeatherNotes
+  tournamentResultsMessage                      TournamentResultsMessage
+
+  ==========================================================
+  Type: HistoricalLeaderboardRow  (OBJECT)
+  ==========================================================
+    id                                            ID!
+    position                                      String!
+    player                                        Player!
+    rounds                                        [HistoricalRoundScore!]!
+    additionalData                                [String!]!
+    total                                         String!
+    parRelativeScore                              String!
+
+    ========================================================
+    Type: Player  (OBJECT)
+    ========================================================
+      id                                            ID!
+      firstName                                     String!
+      lastName                                      String!
+      shortName                                     String!
+      displayName                                   String!
+      abbreviations                                 String!
+      abbreviationsAccessibilityText                String!
+      amateur                                       Boolean!
+      country                                       String!
+      countryFlag                                   String!
+      lineColor                                     String!
+      seed                                          String
+      status                                        String
+      tourBound                                     Boolean
+      assets                                        [PlayerAsset!]
+      bettingProfile                                String
+      playerBioOverrideLink                         String
+
+      ======================================================
+      Type: PlayerAsset  (UNION)
+      ======================================================
+        Union of: ['TourBoundAsset']
+
+        ====================================================
+        Type: TourBoundAsset  (OBJECT)
+        ====================================================
+          tourBoundLogo                                 String
+          tourBoundLogoDark                             String
+
+    ========================================================
+    Type: HistoricalRoundScore  (OBJECT)
+    ========================================================
+      score                                         String!
+      parRelativeScore                              String!
+
+  ==========================================================
+  Type: HistoricalLeaderboardTeamRow  (OBJECT)
+  ==========================================================
+    teamId                                        String!
+    position                                      String!
+    players                                       [Player!]!
+    rounds                                        [HistoricalRoundScore!]
+    additionalData                                [String!]!
+    total                                         String!
+    parRelativeScore                              String!
+
+  ==========================================================
+  Type: StatYearPills  (OBJECT)
+  ==========================================================
+    year                                          Int!
+    displaySeason                                 String!
+
+  ==========================================================
+  Type: Winner  (OBJECT)
+  ==========================================================
+    id                                            ID!
+    firstName                                     String!
+    lastName                                      String!
+    totalStrokes                                  Int!
+    totalScore                                    String!
+    countryFlag                                   String!
+    countryName                                   String!
+    purse                                         String
+    displayPoints                                 Boolean!
+    displayPurse                                  Boolean!
+    points                                        String
+    seed                                          String
+    pointsLabel                                   String
+    winnerIcon                                    WinnerIcon
+    roundScores                                   [WinnerRoundScore!]
+
+    ========================================================
+    Type: WinnerIcon  (OBJECT)
+    ========================================================
+      type                                          WinnerIconType!
+      title                                         String!
+      label                                         String!
+      color                                         String!
+
+      ======================================================
+      Type: WinnerIconType  (ENUM)
+      ======================================================
+        Values: ['GOLD', 'SILVER', 'BRONZE']
+
+    ========================================================
+    Type: WinnerRoundScore  (OBJECT)
+    ========================================================
+      label                                         String!
+      total                                         String!
+
+  ==========================================================
+  Type: WeatherNotes  (OBJECT)
+  ==========================================================
+    weather                                       [DayWeather!]!
+    notes                                         [String!]!
+
+    ========================================================
+    Type: DayWeather  (OBJECT)
+    ========================================================
+      day                                           String!
+      text                                          String!
+
+  ==========================================================
+  Type: TournamentResultsMessage  (OBJECT)
+  ==========================================================
+    message                                       String

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024472",
+        "tournamentName": "Barracuda Championship",
+        "seasonYear": "2024",
+        "displayDate": "Jul 18 - 21, 2024",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Truckee",
+        "city": "Truckee",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "931",
+            "courseName": "Tahoe Mountain Club (Old Greenwood)",
+            "courseCode": "MT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

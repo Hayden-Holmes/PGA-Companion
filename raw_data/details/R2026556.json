@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026556",
+        "tournamentName": "Cadillac Championship",
+        "seasonYear": "2026",
+        "displayDate": "Apr 30 - May 3, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Miami",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "008",
+            "courseName": "Trump National Doral (Blue Monster)",
+            "courseCode": "DO",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

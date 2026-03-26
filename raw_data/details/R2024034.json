@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024034",
+        "tournamentName": "Travelers Championship",
+        "seasonYear": "2024",
+        "displayDate": "Jun 20 - 23, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Cromwell",
+        "city": "Cromwell",
+        "state": "Connecticut",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "503",
+            "courseName": "TPC River Highlands",
+            "courseCode": "TR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

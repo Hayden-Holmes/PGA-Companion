@@ -1,0 +1,757 @@
+{
+  "data": {
+    "schedule": {
+      "completed": [
+        {
+          "tournaments": [
+            {
+              "id": "R2022464",
+              "tournamentName": "Fortinet Championship",
+              "startDate": 1631750400000,
+              "date": "Sep 16 - 19",
+              "city": "Napa",
+              "state": "California",
+              "country": "United States of America",
+              "courseName": "Silverado Resort (North Course)",
+              "champion": "Max Homa",
+              "championId": "39977",
+              "purse": "$7,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022468",
+              "tournamentName": "Ryder Cup",
+              "startDate": 1632441600000,
+              "date": "Sep 24 - 26",
+              "city": "Sheboygan",
+              "state": "Wisconsin",
+              "country": "United States of America",
+              "courseName": "Whistling Straits",
+              "champion": "United States",
+              "championId": "40026",
+              "purse": "$0",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022054",
+              "tournamentName": "Sanderson Farms Championship",
+              "startDate": 1632960000000,
+              "date": "Sep 30 - Oct 3",
+              "city": "Jackson",
+              "state": "Mississippi",
+              "country": "United States of America",
+              "courseName": "The Country Club of Jackson",
+              "champion": "Sam Burns",
+              "championId": "47504",
+              "purse": "$7,000,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022047",
+              "tournamentName": "Shriners Children's Open",
+              "startDate": 1633564800000,
+              "date": "Oct 7 - 10",
+              "city": "Las Vegas",
+              "state": "Nevada",
+              "country": "United States of America",
+              "courseName": "TPC Summerlin",
+              "champion": "Sungjae Im",
+              "championId": "39971",
+              "purse": "$7,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022521",
+              "tournamentName": "THE CJ CUP @ SUMMIT",
+              "startDate": 1634169600000,
+              "date": "Oct 14 - 17",
+              "city": "Las Vegas",
+              "state": "Nevada",
+              "country": "United States of America",
+              "courseName": "The Summit Club",
+              "champion": "Rory McIlroy",
+              "championId": "28237",
+              "purse": "$9,750,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022527",
+              "tournamentName": "ZOZO CHAMPIONSHIP",
+              "startDate": 1634774400000,
+              "date": "Oct 21 - 24",
+              "city": "Chiba",
+              "state": "",
+              "country": "Japan",
+              "courseName": "ACCORDIA GOLF Narashino Country Club",
+              "champion": "Hideki Matsuyama",
+              "championId": "32839",
+              "purse": "$9,950,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022528",
+              "tournamentName": "Butterfield Bermuda Championship",
+              "startDate": 1635379200000,
+              "date": "Oct 28 - 31",
+              "city": "Southampton",
+              "state": "",
+              "country": "Bermuda",
+              "courseName": "Port Royal Golf Course",
+              "champion": "Lucas Herbert",
+              "championId": "39058",
+              "purse": "$6,500,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022457",
+              "tournamentName": "World Wide Technology Championship at Mayakoba",
+              "startDate": 1635984000000,
+              "date": "Nov 4 - 7",
+              "city": "Riviera Maya",
+              "state": "",
+              "country": "Mexico",
+              "courseName": "El Camale\u00f3n Golf Course at Mayakoba",
+              "champion": "Viktor Hovland",
+              "championId": "46717",
+              "purse": "$7,200,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022020",
+              "tournamentName": "Hewlett Packard Enterprise Houston Open",
+              "startDate": 1636588800000,
+              "date": "Nov 11 - 14",
+              "city": "Houston",
+              "state": "Texas",
+              "country": "United States of America",
+              "courseName": "Memorial Park Golf Course",
+              "champion": "Jason Kokrak",
+              "championId": "30944",
+              "purse": "$7,500,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022493",
+              "tournamentName": "The RSM Classic",
+              "startDate": 1637193600000,
+              "date": "Nov 18 - 21",
+              "city": "St. Simons Island",
+              "state": "Georgia",
+              "country": "United States of America",
+              "courseName": "Sea Island Golf Club (Seaside Course)",
+              "champion": "Talor Gooch",
+              "championId": "46402",
+              "purse": "$7,200,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022478",
+              "tournamentName": "Hero World Challenge",
+              "startDate": 1638403200000,
+              "date": "Dec 2 - 5",
+              "city": "Albany",
+              "state": "",
+              "country": "",
+              "courseName": "Albany GC",
+              "champion": "Viktor Hovland",
+              "championId": "46717",
+              "purse": "$3,500,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022058",
+              "tournamentName": "QBE Shootout",
+              "startDate": 1639094400000,
+              "date": "Dec 10 - 12",
+              "city": "Naples",
+              "state": "Florida",
+              "country": "United States of America",
+              "courseName": "Tibur\u00f3n Golf Course",
+              "champion": "Jason Kokrak, Kevin Na",
+              "championId": "30944",
+              "purse": "$3,600,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022016",
+              "tournamentName": "Sentry Tournament of Champions",
+              "startDate": 1641427200000,
+              "date": "Jan 6 - 9",
+              "city": "Kapalua, Maui",
+              "state": "Hawaii",
+              "country": "United States of America",
+              "courseName": "Plantation Course at Kapalua",
+              "champion": "Cameron Smith",
+              "championId": "35891",
+              "purse": "$8,200,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022006",
+              "tournamentName": "Sony Open in Hawaii",
+              "startDate": 1642032000000,
+              "date": "Jan 13 - 16",
+              "city": "Honolulu",
+              "state": "Hawaii",
+              "country": "United States of America",
+              "courseName": "Waialae Country Club",
+              "champion": "Hideki Matsuyama",
+              "championId": "32839",
+              "purse": "$7,500,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022002",
+              "tournamentName": "The American Express",
+              "startDate": 1642636800000,
+              "date": "Jan 20 - 23",
+              "city": "La Quinta",
+              "state": "California",
+              "country": "United States of America",
+              "courseName": "Pete Dye Stadium Course",
+              "champion": "Hudson Swafford",
+              "championId": "34264",
+              "purse": "$7,600,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022004",
+              "tournamentName": "Farmers Insurance Open",
+              "startDate": 1643155200000,
+              "date": "Jan 26 - 29",
+              "city": "San Diego",
+              "state": "California",
+              "country": "United States of America",
+              "courseName": "Torrey Pines Golf Course (South Course)",
+              "champion": "Luke List",
+              "championId": "27129",
+              "purse": "$8,400,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022005",
+              "tournamentName": "AT&T Pebble Beach Pro-Am",
+              "startDate": 1643846400000,
+              "date": "Feb 3 - 6",
+              "city": "Pebble Beach",
+              "state": "California",
+              "country": "United States of America",
+              "courseName": "Pebble Beach Golf Links",
+              "champion": "Tom Hoge",
+              "championId": "35532",
+              "purse": "$8,700,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022003",
+              "tournamentName": "WM Phoenix Open",
+              "startDate": 1644451200000,
+              "date": "Feb 10 - 13",
+              "city": "Scottsdale",
+              "state": "Arizona",
+              "country": "United States of America",
+              "courseName": "TPC Scottsdale (Stadium Course)",
+              "champion": "Scottie Scheffler",
+              "championId": "46046",
+              "purse": "$8,200,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022007",
+              "tournamentName": "The Genesis Invitational",
+              "startDate": 1645056000000,
+              "date": "Feb 17 - 20",
+              "city": "Pacific Palisades",
+              "state": "California",
+              "country": "United States of America",
+              "courseName": "The Riviera Country Club",
+              "champion": "Joaquin Niemann",
+              "championId": "45486",
+              "purse": "$12,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022010",
+              "tournamentName": "The Honda Classic",
+              "startDate": 1645660800000,
+              "date": "Feb 24 - 27",
+              "city": "Palm Beach Gardens",
+              "state": "Florida",
+              "country": "United States of America",
+              "courseName": "PGA National Resort (The Champion)",
+              "champion": "Sepp Straka",
+              "championId": "49960",
+              "purse": "$8,000,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022009",
+              "tournamentName": "Arnold Palmer Invitational presented by Mastercard",
+              "startDate": 1646265600000,
+              "date": "Mar 3 - 6",
+              "city": "Orlando",
+              "state": "Florida",
+              "country": "United States of America",
+              "courseName": "Arnold Palmer's Bay Hill Club & Lodge",
+              "champion": "Scottie Scheffler",
+              "championId": "46046",
+              "purse": "$12,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022483",
+              "tournamentName": "Puerto Rico Open",
+              "startDate": 1646265600000,
+              "date": "Mar 3 - 6",
+              "city": "Rio Grande",
+              "state": "",
+              "country": "Puerto Rico",
+              "courseName": "Grand Reserve Golf Club",
+              "champion": "Ryan Brehm",
+              "championId": "28420",
+              "purse": "$3,700,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022011",
+              "tournamentName": "THE PLAYERS Championship",
+              "startDate": 1646870400000,
+              "date": "Mar 10 - 13",
+              "city": "Ponte Vedra Beach",
+              "state": "Florida",
+              "country": "United States of America",
+              "courseName": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+              "champion": "Cameron Smith",
+              "championId": "35891",
+              "purse": "$20,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022475",
+              "tournamentName": "Valspar Championship",
+              "startDate": 1647475200000,
+              "date": "Mar 17 - 20",
+              "city": "Palm Harbor",
+              "state": "Florida",
+              "country": "United States of America",
+              "courseName": "Innisbrook Resort (Copperhead Course)",
+              "champion": "Sam Burns",
+              "championId": "47504",
+              "purse": "$7,800,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022470",
+              "tournamentName": "World Golf Championships-Dell Technologies Match Play",
+              "startDate": 1647993600000,
+              "date": "Mar 23 - 27",
+              "city": "Austin",
+              "state": "Texas",
+              "country": "United States of America",
+              "courseName": "Austin Country Club",
+              "champion": "Scottie Scheffler",
+              "championId": "46046",
+              "purse": "$12,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022522",
+              "tournamentName": "Corales Puntacana Championship",
+              "startDate": 1648080000000,
+              "date": "Mar 24 - 27",
+              "city": "Punta Cana",
+              "state": "",
+              "country": "Dominican Republic",
+              "courseName": "Puntacana Resort & Club (Corales Golf Course)",
+              "champion": "Chad Ramey",
+              "championId": "47983",
+              "purse": "$3,700,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022041",
+              "tournamentName": "Valero Texas Open",
+              "startDate": 1648684800000,
+              "date": "Mar 31 - Apr 3",
+              "city": "San Antonio",
+              "state": "Texas",
+              "country": "United States of America",
+              "courseName": "TPC San Antonio (Oaks Course)",
+              "champion": "J.J. Spaun",
+              "championId": "39324",
+              "purse": "$8,600,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022014",
+              "tournamentName": "Masters Tournament",
+              "startDate": 1649289600000,
+              "date": "Apr 7 - 10",
+              "city": "Augusta",
+              "state": "Georgia",
+              "country": "United States of America",
+              "courseName": "Augusta National Golf Club",
+              "champion": "Scottie Scheffler",
+              "championId": "46046",
+              "purse": "$15,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022012",
+              "tournamentName": "RBC Heritage",
+              "startDate": 1649894400000,
+              "date": "Apr 14 - 17",
+              "city": "Hilton Head Island",
+              "state": "South Carolina",
+              "country": "United States of America",
+              "courseName": "Harbour Town Golf Links",
+              "champion": "Jordan Spieth",
+              "championId": "34046",
+              "purse": "$8,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022018",
+              "tournamentName": "Zurich Classic of New Orleans",
+              "startDate": 1650499200000,
+              "date": "Apr 21 - 24",
+              "city": "Avondale",
+              "state": "Louisiana",
+              "country": "United States of America",
+              "courseName": "TPC Louisiana",
+              "champion": "Xander Schauffele, Patrick Cantlay",
+              "championId": "48081",
+              "purse": "$8,300,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022540",
+              "tournamentName": "Mexico Open at Vidanta",
+              "startDate": 1651104000000,
+              "date": "Apr 28 - May 1",
+              "city": "Vallarta",
+              "state": "",
+              "country": "Mexico",
+              "courseName": "Vidanta Vallarta",
+              "champion": "Jon Rahm",
+              "championId": "46970",
+              "purse": "$7,300,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022480",
+              "tournamentName": "Wells Fargo Championship",
+              "startDate": 1651708800000,
+              "date": "May 5 - 8",
+              "city": "Potomac",
+              "state": "Maryland",
+              "country": "United States of America",
+              "courseName": "TPC Potomac at Avenel Farm",
+              "champion": "Max Homa",
+              "championId": "39977",
+              "purse": "$9,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022019",
+              "tournamentName": "AT&T Byron Nelson",
+              "startDate": 1652313600000,
+              "date": "May 12 - 15",
+              "city": "McKinney",
+              "state": "Texas",
+              "country": "United States of America",
+              "courseName": "TPC Craig Ranch",
+              "champion": "K.H. Lee",
+              "championId": "32791",
+              "purse": "$9,100,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022033",
+              "tournamentName": "PGA Championship",
+              "startDate": 1652918400000,
+              "date": "May 19 - 22",
+              "city": "Tulsa",
+              "state": "Oklahoma",
+              "country": "United States of America",
+              "courseName": "Southern Hills CC",
+              "champion": "Justin Thomas",
+              "championId": "33448",
+              "purse": "$15,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022021",
+              "tournamentName": "Charles Schwab Challenge",
+              "startDate": 1653523200000,
+              "date": "May 26 - 29",
+              "city": "Fort Worth",
+              "state": "Texas",
+              "country": "United States of America",
+              "courseName": "Colonial Country Club",
+              "champion": "Sam Burns",
+              "championId": "47504",
+              "purse": "$8,400,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022023",
+              "tournamentName": "the Memorial Tournament presented by Workday",
+              "startDate": 1654128000000,
+              "date": "Jun 2 - 5",
+              "city": "Dublin",
+              "state": "Ohio",
+              "country": "United States of America",
+              "courseName": "Muirfield Village Golf Club",
+              "champion": "Billy Horschel",
+              "championId": "29420",
+              "purse": "$12,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022032",
+              "tournamentName": "RBC Canadian Open",
+              "startDate": 1654732800000,
+              "date": "Jun 9 - 12",
+              "city": "Toronto, ON",
+              "state": "",
+              "country": "Canada",
+              "courseName": "St. George's G&CC",
+              "champion": "Rory McIlroy",
+              "championId": "28237",
+              "purse": "$8,700,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022026",
+              "tournamentName": "U.S. Open",
+              "startDate": 1655337600000,
+              "date": "Jun 16 - 19",
+              "city": "Brookline",
+              "state": "Massachusetts",
+              "country": "United States of America",
+              "courseName": "The Country Club",
+              "champion": "Matt Fitzpatrick",
+              "championId": "40098",
+              "purse": "$17,500,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022034",
+              "tournamentName": "Travelers Championship",
+              "startDate": 1655942400000,
+              "date": "Jun 23 - 26",
+              "city": "Cromwell",
+              "state": "Connecticut",
+              "country": "United States of America",
+              "courseName": "TPC River Highlands",
+              "champion": "Xander Schauffele",
+              "championId": "48081",
+              "purse": "$8,300,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022030",
+              "tournamentName": "John Deere Classic",
+              "startDate": 1656547200000,
+              "date": "Jun 30 - Jul 3",
+              "city": "Silvis",
+              "state": "Illinois",
+              "country": "United States of America",
+              "courseName": "TPC Deere Run",
+              "champion": "J.T. Poston",
+              "championId": "49771",
+              "purse": "$7,100,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022541",
+              "tournamentName": "Genesis Scottish Open",
+              "startDate": 1657152000000,
+              "date": "Jul 7 - 10",
+              "city": "North Berwick",
+              "state": "",
+              "country": "Scotland",
+              "courseName": "The Renaissance Club",
+              "champion": "Xander Schauffele",
+              "championId": "48081",
+              "purse": "$8,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022518",
+              "tournamentName": "Barbasol Championship",
+              "startDate": 1657152000000,
+              "date": "Jul 7 - 10",
+              "city": "Nicholasville",
+              "state": "Kentucky",
+              "country": "United States of America",
+              "courseName": "Keene Trace Golf Club (Champion Trace)",
+              "champion": "Trey Mullinax",
+              "championId": "46601",
+              "purse": "$3,700,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022100",
+              "tournamentName": "The Open Championship",
+              "startDate": 1657756800000,
+              "date": "Jul 14 - 17",
+              "city": "Fife",
+              "state": "",
+              "country": "Scotland",
+              "courseName": "St. Andrews GC (Old Course)",
+              "champion": "Cameron Smith",
+              "championId": "35891",
+              "purse": "$0",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022472",
+              "tournamentName": "Barracuda Championship",
+              "startDate": 1657756800000,
+              "date": "Jul 14 - 17",
+              "city": "Truckee",
+              "state": "California",
+              "country": "United States of America",
+              "courseName": "Tahoe Mountain Club (Old Greenwood)",
+              "champion": "Chez Reavie",
+              "championId": "26476",
+              "purse": "$3,700,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022525",
+              "tournamentName": "3M Open",
+              "startDate": 1658361600000,
+              "date": "Jul 21 - 24",
+              "city": "Blaine",
+              "state": "Minnesota",
+              "country": "United States of America",
+              "courseName": "TPC Twin Cities",
+              "champion": "Tony Finau",
+              "championId": "29725",
+              "purse": "$7,500,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022524",
+              "tournamentName": "Rocket Mortgage Classic",
+              "startDate": 1658966400000,
+              "date": "Jul 28 - 31",
+              "city": "Detroit",
+              "state": "Michigan",
+              "country": "United States of America",
+              "courseName": "Detroit Golf Club",
+              "champion": "Tony Finau",
+              "championId": "29725",
+              "purse": "$8,400,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        },
+        {
+          "tournaments": [
+            {
+              "id": "R2022013",
+              "tournamentName": "Wyndham Championship",
+              "startDate": 1659571200000,
+              "date": "Aug 4 - 7",
+              "city": "Greensboro",
+              "state": "North Carolina",
+              "country": "United States of America",
+              "courseName": "Sedgefield Country Club",
+              "champion": "Tom Kim",
+              "championId": "55182",
+              "purse": "$7,300,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022027",
+              "tournamentName": "FedEx St. Jude Championship",
+              "startDate": 1660176000000,
+              "date": "Aug 11 - 14",
+              "city": "Memphis",
+              "state": "Tennessee",
+              "country": "United States of America",
+              "courseName": "TPC Southwind",
+              "champion": "Will Zalatoris",
+              "championId": "47483",
+              "purse": "$15,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022028",
+              "tournamentName": "BMW Championship",
+              "startDate": 1660780800000,
+              "date": "Aug 18 - 21",
+              "city": "Wilmington",
+              "state": "Delaware",
+              "country": "United States of America",
+              "courseName": "Wilmington Country Club",
+              "champion": "Patrick Cantlay",
+              "championId": "35450",
+              "purse": "$15,000,000",
+              "tournamentStatus": "COMPLETED"
+            },
+            {
+              "id": "R2022060",
+              "tournamentName": "TOUR Championship",
+              "startDate": 1661385600000,
+              "date": "Aug 25 - 28",
+              "city": "Atlanta",
+              "state": "Georgia",
+              "country": "United States of America",
+              "courseName": "East Lake Golf Club",
+              "champion": "Rory McIlroy",
+              "championId": "28237",
+              "purse": "$0",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        }
+      ],
+      "upcoming": []
+    }
+  }
+}

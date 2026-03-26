@@ -1,0 +1,58 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024088",
+        "tournamentName": "PGA TOUR Q-School presented by Korn Ferry",
+        "seasonYear": "2024",
+        "displayDate": "Dec 12 - 15, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ponte Vedra Beach",
+        "city": "Ponte Vedra Beach",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "922",
+            "courseName": "Dye's Valley Course",
+            "courseCode": "DV",
+            "hostCourse": true
+          },
+          {
+            "id": "927",
+            "courseName": "Sawgrass Country Club",
+            "courseCode": "CC",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "R2024551",
+        "tournamentName": "Grant Thornton Invitational",
+        "seasonYear": "2024",
+        "displayDate": "Dec 13 - 15, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Naples",
+        "city": "Naples",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 3,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "920",
+            "courseName": "Tibur\u00f3n Golf Club",
+            "courseCode": "TG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

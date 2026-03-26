@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022483",
+        "tournamentName": "Puerto Rico Open",
+        "seasonYear": "2022",
+        "displayDate": "Mar 3 - 6, 2022",
+        "timezone": "America/Puerto_Rico",
+        "tournamentLocation": "Rio Grande",
+        "city": "Rio Grande",
+        "state": "",
+        "country": "PUR",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "742",
+            "courseName": "Grand Reserve Golf Club",
+            "courseCode": "GR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

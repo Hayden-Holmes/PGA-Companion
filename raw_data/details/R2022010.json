@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022010",
+        "tournamentName": "The Honda Classic",
+        "seasonYear": "2022",
+        "displayDate": "Feb 24 - 27, 2022",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Beach Gardens",
+        "city": "Palm Beach Gardens",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "734",
+            "courseName": "PGA National Resort (The Champion)",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

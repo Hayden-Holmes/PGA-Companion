@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2025",
+        "displayDate": "Aug 14 - 17, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Owings Mills",
+        "city": "Owings Mills",
+        "state": "Maryland",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "882",
+            "courseName": "Caves Valley Golf Club",
+            "courseCode": "CV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

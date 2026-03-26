@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022541",
+        "tournamentName": "Genesis Scottish Open",
+        "seasonYear": "2022",
+        "displayDate": "Jul 7 - 10, 2022",
+        "timezone": "Europe/London",
+        "tournamentLocation": "North Berwick",
+        "city": "North Berwick",
+        "state": "",
+        "country": "SCO",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "977",
+            "courseName": "The Renaissance Club",
+            "courseCode": "RC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

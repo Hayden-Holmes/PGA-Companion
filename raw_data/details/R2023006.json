@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023006",
+        "tournamentName": "Sony Open in Hawaii",
+        "seasonYear": "2023",
+        "displayDate": "Jan 12 - 15, 2023",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "006",
+            "courseName": "Waialae Country Club",
+            "courseCode": "WC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

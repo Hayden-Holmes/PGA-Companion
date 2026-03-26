@@ -1,0 +1,180 @@
+
+============================================================
+Root Query fields (174 total)
+============================================================
+  FIELD                                         RETURN TYPE                    ARGS
+  -------------------------------------------- ----------------------------- ------------------------------
+  allTimeRecordCategories                       AllTimeRecordCategories!       tourCode: TourCode!
+  allTimeRecordStat                             AllTimeRecordStat!             tourCode: TourCode!, recordId: String!
+  alltoursponsors                               [?]!                           tourCode: TourCode!
+  aon                                           Aon!                           year: Int
+  articleDetailsCompressed                      NewsArticleDetailsCompressed!  path: String!
+  broadcastTimes                                BroadcastCoverage!             tournamentId: ID!, pastResults: Boolean
+  bubble                                        BubbleWatch                    tourCode: TourCode!, tournamentId: ID!
+  completeSchedule                              [?]!                           tourCode: TourCode!, filter: TournamentCategory
+  contentFragmentTabs                           ContentFragmentTabs!           path: String!
+  contentFragmentType                           ContentFragmentType            path: String!
+  contentFragmentsCompressed                    ContentFragmentsCompressed!    tourCode: TourCode!, path: String, limit: Int, offset: Int
+  courseHolesStats                              [?]!                           tournamentId: ID!, courseId: ID!
+  courseStats                                   TournamentHoleStats!           tournamentId: ID!
+  courseStatsDetails                            CourseStatsDetails!            tourCode: TourCode!, round: ToughestRound, queryType: CourseStatsId!, year: Int
+  courseStatsOverview                           CourseStatsOverview!           tourCode: TourCode!, year: Int
+  coverage                                      BroadcastCoverage!             tournamentId: ID!, pastResults: Boolean
+  cupPastResults                                CupPastResults!                tournamentId: ID!
+  cupPlayOverviewLeaderboard                    CupTournamentStatus!           id: ID!
+  cupRoundLeaderboard                           CupTournamentLeaderboard!      tournamentId: String!, round: Int
+  cupRoundLeaderboardCompressed                 CupTournamentLeaderboardCompressed! tournamentId: String!, round: Int
+  cupScorecard                                  CupScorecard!                  tournamentId: ID!, round: Int!, matchId: Int!
+  cupTeamRoster                                 CupTeamRosters!                tournamentId: ID!
+  cupTeeTimes                                   CupTeeTimes!                   tournamentId: ID!
+  currentLeadersCompressed                      CurrentLeadersCompressed       tournamentId: ID, tourCode: TourCode
+  defaultTourCup                                TourCupRankingEvent!           tour: TourCode!, year: Int
+  eaglesForImpact                               EaglesForImpact!               tournamentId: ID!
+  eventGuideConfig                              EventGuideConfig!              tournamentId: String!
+  field                                         Field!                         id: ID!, includeWithdrawn: Boolean, changesOnly: Boolean
+  fieldStats                                    FieldStats!                    tournamentId: ID!, fieldStatType: FieldStatType
+  franchises                                    [?]!                           tourCode: String
+  genericContent                                GenericContent!                path: String!
+  genericContentCompressed                      GenericContentCompressed!      path: String!
+  getExpertPicksTable                           ExpertPicks!                   path: String!, year: Int
+  getPowerRankingsTable                         PowerRankings!                 path: String!
+  getRCPhotoGallery                             RCPhotoGallery!                path: String!
+  getRelatedFact                                RelatedFact!                   path: String!
+  getShotCommentary                             ShotCommentary!                tournamentId: String!, playerId: String!, round: Int!
+  groupLocations                                GroupLocation!                 tournamentId: ID!, round: Int!
+  groupStageRankings                            GroupStageRankings!            tournamentId: ID!
+  groupedField                                  GroupedField!                  id: ID!, includeWithdrawn: Boolean, changesOnly: Boolean
+  historicalOdds                                HistoricalPlayerOdds           playerId: String!, tournamentId: String!, marketId: HistoricalOddsId!, timeStamp: AWSDateTime
+  historicalScorecardStats                      HistoricalPlayerScorecards!    playerId: ID!
+  historicalTournamentsOdds                     HistoricalTournamentOdds       tournamentId: String!, marketId: OddsMarketType!, timeStamp: AWSDateTime
+  holeDetails                                   HoleDetail!                    tournamentId: ID!, courseId: ID!, hole: Int!
+  leaderboardCompressedV2                       LeaderboardCompressedV2!       id: ID!
+  leaderboardCompressedV3                       LeaderboardCompressedV3!       id: ID!
+  leaderboardHoleByHole                         LeaderboardHoleByHole!         tournamentId: ID!, round: Int
+  leaderboardLegend                             LeaderboardInfo!               tournamentId: ID!, odds: Boolean!
+  leaderboardStats                              LeaderboardStats!              id: ID!, statsType: LeaderboardStatsType
+  leaderboardStrokes                            LeaderboardStrokes!            id: ID!
+  leaderboardStrokesCompressed                  LeaderboardStrokesCompressed!  id: ID!
+  leaderboardV2                                 LeaderboardV2!                 id: ID!
+  leaderboardV3                                 LeaderboardV3!                 id: ID!
+  legalDocsCompressed                           GenericContentCompressed!      path: String!
+  liveAudioStream                               AudioStream!                   id: ID!
+  liveVideoOverride                             LiveVideoOverride!             tourCode: TourCode!, tournamentId: String!
+  matchOutcomeIq                                RyderCupMatchOutcomeIQ!        tournamentId: String!, matchId: Int!, roundNumber: Int
+  matchPlayLeaderboard                          MPLeaderboard!                 id: ID!
+  matchPlayLeaderboardCompressed                LeaderboardCompressed!         id: ID!
+  matchPlayPlayoffScorecard                     MPPlayoffScorecard!            tournamentId: ID!, roundNum: Int!, matchId: ID!
+  matchPlayScorecard                            MPScorecard!                   tournamentId: ID!, roundNum: Int!, matchId: ID!
+  matchPlayScorecardResults                     MPScorecardResults!            tournamentId: ID!, roundNum: Int!, matchId: ID!
+  matchPlayTeeTimes                             MPTeeTimes!                    tournamentId: ID!
+  matchPlayTeeTimesCompressed                   TeeTimesCompressed!            tournamentId: ID!
+  networks                                      BroadcastNetworks!             tournamentId: ID!
+  newletterSubscriptions                        [?]!                           includeTournaments: Boolean
+  newsArticles                                  NewsArticles!                  tour: TourCode, franchise: String, franchises: [?!], playerId: ID, playerIds: [?!], limit: Int, offset: Int, tags: [?!], tournamentNum: String, targetYear: String, sectionName: String
+  newsFranchises                                [?]!                           tourCode: String, allFranchises: Boolean
+  oddsGraph                                     OddsTimeline!                  tournamentId: String!, playerIds: [?]!, oddsTimeType: OddsTimeType, marketId: HistoricalOddsId, round: Int
+  oddsTable                                     OddsTable!                     tournamentId: String!, tournamentName: String!, markets: [?!], players: [?!], timeStamp: String
+  oddsToWin                                     OddsToWinMarket!               oddsToWinId: ID!
+  oddsToWinCompressed                           OddsToWinMarketCompressed!     oddsToWinId: ID!
+  player                                        PlayerBioWrapper!              id: ID!
+  playerComparison                              PlayerComparison!              tourCode: TourCode!, playerIds: [?]!, category: PlayerComparisonCategory, year: Int, tournamentId: String
+  playerDirectory                               PlayerDirectory!               tourCode: TourCode!, active: Boolean
+  playerFinishStats                             PlayerFinishStats              playerId: ID!, statId: String!, tourCode: TourCode!
+  playerHub                                     PlayerHubPlayerCompressed      playerId: ID!
+  playerProfileCourseResults                    PlayerProfileCourseResults     playerId: String!, tourCode: TourCode
+  playerProfileMajorResults                     PlayerProfileMajors            playerId: String!
+  playerProfileScorecards                       HistoricalPlayerScorecards!    playerId: ID!
+  playerProfileStats                            [?]!                           playerId: ID!
+  playerProfileTournamentResults                PlayerProfileTournamentResults! playerId: ID!, tourCode: TourCode
+  playerTournamentStatus                        PlayerTournamentStatus         playerId: ID!
+  players                                       [?]!                           ids: [?]!
+  playersOddsComparison                         [?]!                           playerIds: [?]!
+  playoffScorecard                              PlayoffScorecard!              id: ID!
+  playoffScorecardV3                            TournamentPlayoffScorecards!   tournamentId: ID!
+  playoffShotDetails                            GroupShotDetails!              tournamentId: ID!, includeRadar: Boolean
+  playoffShotDetailsCompressed                  GroupShotDetailsCompressed!    tournamentId: ID!, includeRadar: Boolean
+  podcastEpisodes                               [?]!                           podcastId: String!, limit: Int, offset: Int
+  podcasts                                      [?]!                           
+  presentedBy                                   PresentedByConfig!             
+  priorityRankings                              PriorityRankings!              tourCode: TourCode!, year: Int
+  promoSection                                  PromoSectionContainer!         section: PromoSectionType!
+  rankingsWinners                               [?]!                           tourCode: TourCode
+  rsm                                           RSMStandings!                  year: Int
+  rsmLeaderboard                                RSMLeaderboard!                tournamentId: ID, limit: Int
+  ryderCupArticleDetailsCompressed              NewsArticleDetailsCompressed!  path: String!
+  ryderCupBroadcastCoverage                     RyderCupBroadcastCoverage!     eventRegion: EventRegion
+  ryderCupContentFragmentsCompressed            ContentFragmentsCompressed!    tourCode: TourCode!, path: String, limit: Int, offset: Int
+  ryderCupContentOptions                        RyderCupMediaSearchOptions!    
+  ryderCupContentPageTabs                       ContentFragmentTabs!           path: String!
+  ryderCupMixedMedia                            [?]!                           ascending: Boolean!, type: RyderCupContentType, team: RyderCupTeamType, year: Int, topic: String, categories: [?!], playerIds: [?!], articleTags: [?!], videoTags: [?!], limit: Int, offset: Int, currentContentId: String
+  ryderCupMixedMediaCompressed                  RyderCupContentCompressed!     ascending: Boolean!, type: RyderCupContentType, team: RyderCupTeamType, year: Int, topic: String, categories: [?!], playerIds: [?!], articleTags: [?!], videoTags: [?!], limit: Int, offset: Int, currentContentId: String
+  ryderCupPlayerProfileCompressed               RyderCupPlayerProfileCompressed! playerId: String!
+  ryderCupTeamRankingsCompressedV2              RyderCupTeamRankingsCompressed year: Int, eventQuery: RyderCupRankingsQueryInput
+  ryderCupTeamRankingsV2                        RyderCupRankingsV2             year: Int, eventQuery: RyderCupRankingsQueryInput
+  ryderCupTournament                            RyderCupTournament             year: Int!
+  ryderCupTournaments                           [?]!                           
+  ryderCupVideoById                             RCVideoPage                    brightcoveId: ID!
+  scatterData                                   ScatterData!                   tournamentId: String!, course: Int!, hole: Int!
+  scatterDataCompressed                         ScatterDataCompressed!         tournamentId: String!, course: Int!, hole: Int!
+  schedule                                      Schedule!                      tourCode: String!, year: String, filter: TournamentCategory
+  scheduleYears                                 ScheduleYears!                 tourCode: TourCode!
+  scorecardCompressedV3                         ScorecardCompressedV3!         tournamentId: ID!, playerId: ID!, officialEventData: Boolean
+  scorecardStats                                PlayerScorecardStats!          id: ID!, playerId: ID!
+  scorecardStatsComparison                      ScorecardStatsComparison       tournamentId: String!, playerIds: [?]!, round: Int, category: PlayerComparisonCategory!
+  scorecardStatsV3                              PlayerScorecardStats!          id: ID!, playerId: ID!
+  scorecardStatsV3Compressed                    PlayerScorecardStatsCompressed! id: ID!, playerId: ID!
+  scorecardV2                                   LeaderboardDrawerV2!           id: ID!, playerId: ID!
+  scorecardV3                                   ScorecardV3!                   tournamentId: ID!, playerId: ID!, officialEventData: Boolean
+  searchBarFeatures                             SearchBarFeatures!             tourCode: TourCode
+  shotDetailsCompressedV3                       ShotDetailsCompressedV3!       tournamentId: ID!, playerId: ID!, round: Int!, includeRadar: Boolean
+  shotDetailsV3                                 ShotDetails!                   tournamentId: ID!, playerId: ID!, round: Int!, includeRadar: Boolean
+  shotDetailsV4Compressed                       ShotDetailsV4Compressed!       tournamentId: ID!, playerId: ID!, round: Int!, includeRadar: Boolean
+  signatureStandings                            SignatureStandings!            tourCode: TourCode!
+  sponsoredArticles                             [?]!                           sponsor: ArticleSponsor!
+  sponsoredArticlesV2                           SponsoredArticles!             sponsor: ArticleSponsor!
+  statDetails                                   StatDetails!                   tourCode: TourCode!, statId: String!, year: Int, eventQuery: StatDetailEventQuery
+  statLeaders                                   StatLeaderCategory!            tourCode: TourCode!, category: StatCategory!, year: Int
+  statOverview                                  OverviewStats!                 tourCode: TourCode!, year: Int
+  statsLeadersMobile                            MobileStatLeaders!             tourCode: TourCode!, year: Int
+  teamStrokePlayLeaderboard                     TSPLeaderboard!                id: ID!
+  teamStrokePlayLeaderboardCompressed           LeaderboardCompressed!         id: ID!
+  teamStrokePlayScorecard                       TSPScorecard!                  tournamentId: ID!, roundNum: Int!, teamId: ID!
+  teamStrokePlayScorecardRounds                 TSPScorecardRounds!            tournamentId: ID!, teamId: ID!
+  teamStrokePlayTeeTimes                        TSPTeeTimes!                   tournamentId: ID!
+  teamStrokePlayTeeTimesCompressed              TeeTimesCompressed!            tournamentId: ID!
+  teeTimes                                      TeeTimes!                      id: ID!
+  teeTimesCompressed                            TeeTimesCompressed!            id: ID!
+  teeTimesCompressedV2                          TeeTimesCompressed!            id: ID!
+  teeTimesV2                                    TeeTimesV2!                    id: ID!
+  tglMatch                                      TGLMatch                       matchId: ID!
+  tglMatches                                    [?]!                           matchIds: [?]!
+  tglSchedule                                   TGLSchedule!                   year: Int, offset: Int, limit: Int
+  tourCup                                       TourCupRankingEvent!           id: ID!, type: TourCupType
+  tourCupCombined                               TourCupCombined!               tourCode: TourCode!, id: String, year: Int, eventQuery: StatDetailEventQuery
+  tourCupSplit                                  TourCupSplit                   tourCode: TourCode!, id: String, year: Int, eventQuery: StatDetailEventQuery
+  tourCups                                      [?]!                           tour: TourCode!, year: Int!
+  tourcastTable                                 TourcastTable!                 tournamentId: ID!
+  tourcastVideos                                [?]!                           tournamentId: ID!, playerId: ID!, round: Int!, hole: Int, shot: Int
+  tournamentGroupLocations                      TournamentGroupLocation!       tournamentId: ID!, round: Int!
+  tournamentHistory                             TournamentHistory              tournamentId: String!
+  tournamentOddsToWin                           TournamentOddsToWin!           tournamentId: ID!
+  tournamentOverview                            TournamentOverview!            tournamentId: ID!
+  tournamentPastResults                         HistoricalLeaderboard!         id: ID!, year: Int
+  tournamentRecap                               TournamentRecap!               tournamentId: String!, limit: Int, offset: Int
+  tournaments                                   [?]!                           ids: [?!]
+  tspPlayoffShotDetails                         TeamShotDetails!               tournamentId: ID!, includeRadar: Boolean
+  tspPlayoffShotDetailsCompressed               TeamShotDetailsCompressed!     tournamentId: ID!, includeRadar: Boolean
+  universityRankings                            UniversityRankings!            year: Int, week: Int, tourCode: TourCode
+  universityTotalPoints                         UniversityTotalPoints!         season: Int, week: Int
+  upcomingNetworks                              UpcomingBroadcastNetworks!     tournamentIds: [?]!, tourCode: TourCode
+  upcomingSchedule                              ScheduleUpcoming!              tourCode: String!, year: String, filter: TournamentCategory
+  videoById                                     Video                          brightcoveId: ID!, tourcast: Boolean!
+  videoFranchises                               TourCategories                 tourCode: TourCode
+  videoHero                                     VideoHero!                     tourCode: TourCode!, path: String
+  videoLandingPage                              WatchLanding                   tourCode: TourCode!
+  videoNavigation                               VideoNavigation                tourCode: TourCode!
+  videoRecommendations                          [?]!                           brightcoveId: ID, tournamentId: String, playerId: String, franchise: String, tour: String, tourCode: TourCode, season: String, limit: Int, offset: Int, language: VideoLanguage
+  videos                                        [?]!                           tournamentId: String, playerId: String, playerIds: [?!], rating: Int, category: String, franchise: String, franchises: [?!], tour: String, tourCode: TourCode, season: String, limit: Int, offset: Int, holeNumber: String, language: VideoLanguage
+  weather                                       WeatherSummary!                tournamentId: ID!
+  yourTour                                      YourTourStory!                 tourCode: TourCode!
+  yourTourNews                                  [?]!                           tourCode: TourCode!, limit: Int, offset: Int

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023547",
+        "tournamentName": "World Wide Technology Championship",
+        "seasonYear": "2023",
+        "displayDate": "Nov 2 - 5, 2023",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Los Cabos",
+        "city": "Los Cabos",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "919",
+            "courseName": "El Cardonal at Diamante",
+            "courseCode": "CD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021464",
+        "tournamentName": "Safeway Open",
+        "seasonYear": "2021",
+        "displayDate": "Sep 10 - 13, 2020",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Napa",
+        "city": "Napa",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "552",
+            "courseName": "Silverado Resort (North Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

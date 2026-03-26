@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026478",
+        "tournamentName": "Hero World Challenge",
+        "seasonYear": "2026",
+        "displayDate": "Dec 3 - 6, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Albany",
+        "city": "Albany",
+        "state": "",
+        "country": "BAH",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "232",
+            "courseName": "Albany GC",
+            "courseCode": "AB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

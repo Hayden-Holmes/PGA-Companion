@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023020",
+        "tournamentName": "Cadence Bank Houston Open",
+        "seasonYear": "2023",
+        "displayDate": "Nov 10 - 13, 2022",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "897",
+            "courseName": "Memorial Park Golf Course",
+            "courseCode": "MP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

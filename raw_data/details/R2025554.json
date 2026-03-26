@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025554",
+        "tournamentName": "Bank of Utah Championship",
+        "seasonYear": "2025",
+        "displayDate": "Oct 23 - 26, 2025",
+        "timezone": "America/Denver",
+        "tournamentLocation": "Ivins",
+        "city": "Ivins",
+        "state": "Utah",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "930",
+            "courseName": "Black Desert Resort",
+            "courseCode": "BD",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

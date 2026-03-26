@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026540",
+        "tournamentName": "VidantaWorld Mexico Open",
+        "seasonYear": "2026",
+        "displayDate": "Oct 29 - Nov 1, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Vallarta",
+        "city": "Vallarta",
+        "state": "",
+        "country": "MEX",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "978",
+            "courseName": "Vidanta Vallarta",
+            "courseCode": "VV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

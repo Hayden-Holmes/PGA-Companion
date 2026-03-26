@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021483",
+        "tournamentName": "Puerto Rico Open",
+        "seasonYear": "2021",
+        "displayDate": "Feb 25 - 28, 2021",
+        "timezone": "America/Puerto_Rico",
+        "tournamentLocation": "Rio Grande",
+        "city": "Rio Grande",
+        "state": "",
+        "country": "PUR",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "742",
+            "courseName": "Grand Reserve Golf Club",
+            "courseCode": "GR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024007",
+        "tournamentName": "The Genesis Invitational",
+        "seasonYear": "2024",
+        "displayDate": "Feb 15 - 18, 2024",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Pacific Palisades",
+        "city": "Pacific Palisades",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "500",
+            "courseName": "The Riviera Country Club",
+            "courseCode": "RC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

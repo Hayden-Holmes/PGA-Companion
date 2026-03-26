@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022003",
+        "tournamentName": "WM Phoenix Open",
+        "seasonYear": "2022",
+        "displayDate": "Feb 10 - 13, 2022",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Scottsdale",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "510",
+            "courseName": "TPC Scottsdale (Stadium Course)",
+            "courseCode": "TS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

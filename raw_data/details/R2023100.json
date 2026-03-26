@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2023",
+        "displayDate": "Jul 20 - 23, 2023",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Hoylake, Wirral",
+        "city": "Hoylake, Wirral",
+        "state": "",
+        "country": "ENG",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "923",
+            "courseName": "Royal Liverpool",
+            "courseCode": "RL",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

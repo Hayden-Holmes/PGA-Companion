@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2026",
+        "displayDate": "May 14 - 17, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Newtown Square",
+        "city": "Newtown Square",
+        "state": "Pennsylvania",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "773",
+            "courseName": "Aronimink Golf Club",
+            "courseCode": "AR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

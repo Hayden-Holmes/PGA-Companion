@@ -1,0 +1,43 @@
+
+============================================================
+Type: PlayerScorecardStats  (OBJECT)
+============================================================
+  id                                            ID!
+  rounds                                        [PlayerScorecardRoundStats!]!
+
+  ==========================================================
+  Type: PlayerScorecardRoundStats  (OBJECT)
+  ==========================================================
+    round                                         String!
+    displayName                                   String!
+    roundStatus                                   RoundStatus!
+    strokesGained                                 [StrokesGainedStats!]!
+    performance                                   [ScorecardStatsItem!]!
+    scoring                                       [ScorecardStatsItem!]!
+
+    ========================================================
+    Type: RoundStatus  (ENUM)
+    ========================================================
+      Values: ['IN_PROGRESS', 'SUSPENDED', 'COMPLETE', 'OFFICIAL', 'GROUPINGS_OFFICIAL', 'UPCOMING']
+
+    ========================================================
+    Type: StrokesGainedStats  (OBJECT)
+    ========================================================
+      statId                                        String!
+      graph                                         Boolean!
+      label                                         String!
+      shortLabel                                    String!
+      total                                         String!
+      totalNum                                      Float!
+      rank                                          String!
+      yearToDate                                    String!
+      yearToDateNum                                 Float!
+
+    ========================================================
+    Type: ScorecardStatsItem  (OBJECT)
+    ========================================================
+      label                                         String!
+      total                                         String!
+      rank                                          String!
+      yearToDate                                    String!
+      statId                                        String!

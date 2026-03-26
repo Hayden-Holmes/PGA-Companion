@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026480",
+        "tournamentName": "Truist Championship",
+        "seasonYear": "2026",
+        "displayDate": "May 7 - 10, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Charlotte",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "872",
+            "courseName": "Quail Hollow Club",
+            "courseCode": "QH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

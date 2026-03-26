@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024540",
+        "tournamentName": "Mexico Open at Vidanta",
+        "seasonYear": "2024",
+        "displayDate": "Feb 22 - 25, 2024",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Vallarta",
+        "city": "Vallarta",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "978",
+            "courseName": "Vidanta Vallarta",
+            "courseCode": "VV",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

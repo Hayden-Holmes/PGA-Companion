@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024519",
+        "tournamentName": "Men\u2019s Olympic Golf Competition",
+        "seasonYear": "2024",
+        "displayDate": "Aug 1 - 4, 2024",
+        "timezone": "Europe/Paris",
+        "tournamentLocation": "Paris",
+        "city": "Paris",
+        "state": "",
+        "country": "FRA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "250",
+            "courseName": "Le Golf National",
+            "courseCode": "GN",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

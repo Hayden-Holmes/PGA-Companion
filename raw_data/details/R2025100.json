@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2025",
+        "displayDate": "Jul 17 - 20, 2025",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Portrush",
+        "city": "Portrush",
+        "state": "",
+        "country": "NIR",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "885",
+            "courseName": "Royal Portrush Golf Club",
+            "courseCode": "RP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

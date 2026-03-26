@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022006",
+        "tournamentName": "Sony Open in Hawaii",
+        "seasonYear": "2022",
+        "displayDate": "Jan 13 - 16, 2022",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Honolulu",
+        "city": "Honolulu",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "006",
+            "courseName": "Waialae Country Club",
+            "courseCode": "WC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

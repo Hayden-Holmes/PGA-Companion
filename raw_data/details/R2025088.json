@@ -1,0 +1,35 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025088",
+        "tournamentName": "PGA TOUR Q-School presented by Korn Ferry",
+        "seasonYear": "2025",
+        "displayDate": "Dec 11 - 14, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ponte Vedra Beach",
+        "city": "Ponte Vedra Beach",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "922",
+            "courseName": "Dye's Valley Course",
+            "courseCode": "DV",
+            "hostCourse": true
+          },
+          {
+            "id": "927",
+            "courseName": "Sawgrass Country Club",
+            "courseCode": "CC",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

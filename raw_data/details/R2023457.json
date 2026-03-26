@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023457",
+        "tournamentName": "World Wide Technology Championship",
+        "seasonYear": "2023",
+        "displayDate": "Nov 3 - 6, 2022",
+        "timezone": "America/Cancun",
+        "tournamentLocation": "Riviera Maya",
+        "city": "Riviera Maya",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "733",
+            "courseName": "El Camale\u00f3n Golf Course at Mayakoba",
+            "courseCode": "EC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025026",
+        "tournamentName": "U.S. Open",
+        "seasonYear": "2025",
+        "displayDate": "Jun 12 - 15, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Oakmont",
+        "city": "Oakmont",
+        "state": "Pennsylvania",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "608",
+            "courseName": "Oakmont Country Club",
+            "courseCode": "OC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025528",
+        "tournamentName": "Butterfield Bermuda Championship",
+        "seasonYear": "2025",
+        "displayDate": "Nov 13 - 16, 2025",
+        "timezone": "Atlantic/Bermuda",
+        "tournamentLocation": "Southampton",
+        "city": "Southampton",
+        "state": "",
+        "country": "BER",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "765",
+            "courseName": "Port Royal Golf Course",
+            "courseCode": "PR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

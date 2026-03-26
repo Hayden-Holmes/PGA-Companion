@@ -1,0 +1,42 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024005",
+        "tournamentName": "AT&T Pebble Beach Pro-Am",
+        "seasonYear": "2024",
+        "displayDate": "Feb 1 - 4, 2024",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Pebble Beach",
+        "city": "Pebble Beach",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 3,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "005",
+            "courseName": "Pebble Beach Golf Links",
+            "courseCode": "PB",
+            "hostCourse": true
+          },
+          {
+            "id": "205",
+            "courseName": "Spyglass Hill Golf Course",
+            "courseCode": "SH",
+            "hostCourse": false
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

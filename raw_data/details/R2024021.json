@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024021",
+        "tournamentName": "Charles Schwab Challenge",
+        "seasonYear": "2024",
+        "displayDate": "May 23 - 26, 2024",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Fort Worth",
+        "city": "Fort Worth",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "021",
+            "courseName": "Colonial Country Club",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

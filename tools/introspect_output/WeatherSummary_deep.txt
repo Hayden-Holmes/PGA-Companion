@@ -1,0 +1,55 @@
+
+============================================================
+Type: WeatherSummary  (OBJECT)
+============================================================
+  title                                         String!
+  sponsorLogoAsset                              ImageAsset!
+  sponsorLogoDarkAsset                          ImageAsset!
+  modalSponsorLogoAsset                         ImageAsset!
+  modalSponsorLogoDarkAsset                     ImageAsset!
+  sponsorDescription                            String
+  accessibilityText                             String
+  hourly                                        [WeatherDetails!]!
+  daily                                         [WeatherDetails!]!
+  sponsorLink                                   String
+
+  ==========================================================
+  Type: WeatherDetails  (OBJECT)
+  ==========================================================
+    title                                         String!
+    condition                                     WeatherCondition!
+    windDirection                                 WindDirection!
+    windSpeedKPH                                  String!
+    windSpeedMPH                                  String!
+    humidity                                      String!
+    precipitation                                 String!
+    temperature                                   WeatherTemp!
+
+    ========================================================
+    Type: WeatherCondition  (ENUM)
+    ========================================================
+      Values: ['DAY_SUNNY', 'DAY_MOSTLY_SUNNY', 'DAY_PARTLY_CLOUDY', 'DAY_MOSTLY_CLOUDY', 'DAY_CLOUDY', 'DAY_RAINY', 'DAY_SCATTERED_SHOWERS', 'DAY_THUNDERSTORMS', 'DAY_FOG_MIST', 'DAY_SNOW', 'NIGHT_CLEAR', 'NIGHT_ISOLATED_CLOUDS', 'NIGHT_PARTLY_CLOUDY', 'NIGHT_MOSTLY_CLOUDY']
+
+    ========================================================
+    Type: WindDirection  (ENUM)
+    ========================================================
+      Values: ['NORTH', 'NORTH_EAST', 'EAST', 'SOUTH_EAST', 'SOUTH', 'SOUTH_WEST', 'WEST', 'NORTH_WEST']
+
+    ========================================================
+    Type: WeatherTemp  (UNION)
+    ========================================================
+      Union of: ['StandardWeatherTemp', 'RangeWeatherTemp']
+
+      ======================================================
+      Type: StandardWeatherTemp  (OBJECT)
+      ======================================================
+        tempC                                         String!
+        tempF                                         String!
+
+      ======================================================
+      Type: RangeWeatherTemp  (OBJECT)
+      ======================================================
+        minTempC                                      String!
+        minTempF                                      String!
+        maxTempC                                      String!
+        maxTempF                                      String!

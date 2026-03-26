@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022016",
+        "tournamentName": "Sentry Tournament of Champions",
+        "seasonYear": "2022",
+        "displayDate": "Jan 6 - 9, 2022",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Kapalua, Maui",
+        "city": "Kapalua, Maui",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "656",
+            "courseName": "Plantation Course at Kapalua",
+            "courseCode": "PC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+query TournamentPastResults($id: ID!, $year: Int) {
+  tournamentPastResults(id: $id, year: $year) {
+    id
+    rounds
+    additionalDataHeaders
+    winner {
+      id
+      firstName
+      lastName
+      totalStrokes
+      totalScore
+      countryName
+      purse
+      points
+      pointsLabel
+      roundScores {
+        label
+        total
+      }
+    }
+    players {
+      id
+      position
+      total
+      parRelativeScore
+      additionalData
+      player {
+        id
+        firstName
+        lastName
+        displayName
+        country
+        countryFlag
+        amateur
+      }
+      rounds {
+        score
+        parRelativeScore
+      }
+    }
+    availableSeasons {
+      year
+      displaySeason
+    }
+  }
+}

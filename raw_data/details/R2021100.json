@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2021",
+        "displayDate": "Jul 15 - 18, 2021",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Sandwich, Kent",
+        "city": "Sandwich, Kent",
+        "state": "",
+        "country": "ENG",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "778",
+            "courseName": "Royal St. George's GC",
+            "courseCode": "RG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

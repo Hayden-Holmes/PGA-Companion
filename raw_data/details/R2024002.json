@@ -1,0 +1,48 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024002",
+        "tournamentName": "The American Express",
+        "seasonYear": "2024",
+        "displayDate": "Jan 18 - 21, 2024",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "La Quinta",
+        "city": "La Quinta",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "704",
+            "courseName": "Pete Dye Stadium Course",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "202",
+            "courseName": "La Quinta Country Club",
+            "courseCode": "LQ",
+            "hostCourse": false
+          },
+          {
+            "id": "233",
+            "courseName": "Nicklaus Tournament Course",
+            "courseCode": "NT",
+            "hostCourse": false
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "2"
+          }
+        ]
+      }
+    ]
+  }
+}

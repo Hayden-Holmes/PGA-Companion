@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025019",
+        "tournamentName": "THE CJ CUP Byron Nelson",
+        "seasonYear": "2025",
+        "displayDate": "May 1 - 4, 2025",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "McKinney",
+        "city": "McKinney",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "921",
+            "courseName": "TPC Craig Ranch",
+            "courseCode": "CR",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

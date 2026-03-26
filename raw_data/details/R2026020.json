@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026020",
+        "tournamentName": "Texas Children's Houston Open",
+        "seasonYear": "2026",
+        "displayDate": "Mar 26 - 29, 2026",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Houston",
+        "city": "Houston",
+        "state": "Texas",
+        "country": "USA",
+        "currentRound": 1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "GROUPINGS_OFFICIAL",
+        "courses": [
+          {
+            "id": "897",
+            "courseName": "Memorial Park Golf Course",
+            "courseCode": "MP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024016",
+        "tournamentName": "The Sentry",
+        "seasonYear": "2024",
+        "displayDate": "Jan 4 - 7, 2024",
+        "timezone": "Pacific/Honolulu",
+        "tournamentLocation": "Kapalua, Maui",
+        "city": "Kapalua, Maui",
+        "state": "Hawaii",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "656",
+            "courseName": "Plantation Course at Kapalua",
+            "courseCode": "PC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

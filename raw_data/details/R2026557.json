@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026557",
+        "tournamentName": "Biltmore Championship Asheville",
+        "seasonYear": "2026",
+        "displayDate": "Sep 17 - 20, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Asheville",
+        "city": "Asheville",
+        "state": "North Carolina",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "942",
+            "courseName": "The Cliffs at Walnut Cove",
+            "courseCode": "TC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

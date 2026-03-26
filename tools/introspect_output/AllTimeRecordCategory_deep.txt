@@ -1,0 +1,19 @@
+
+============================================================
+Type: AllTimeRecordCategory  (OBJECT)
+============================================================
+  categoryId                                    String!
+  displayText                                   String!
+  subCategories                                 [AllTimeRecordSubCategory!]!
+
+  ==========================================================
+  Type: AllTimeRecordSubCategory  (OBJECT)
+  ==========================================================
+    displayText                                   String!
+    statistics                                    [AllTimeRecordStatistic!]!
+
+    ========================================================
+    Type: AllTimeRecordStatistic  (OBJECT)
+    ========================================================
+      recordId                                      String!
+      displayText                                   String!

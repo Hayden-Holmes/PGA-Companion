@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025525",
+        "tournamentName": "3M Open",
+        "seasonYear": "2025",
+        "displayDate": "Jul 24 - 27, 2025",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Blaine",
+        "city": "Blaine",
+        "state": "Minnesota",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "883",
+            "courseName": "TPC Twin Cities",
+            "courseCode": "TC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025480",
+        "tournamentName": "Truist Championship",
+        "seasonYear": "2025",
+        "displayDate": "May 8 - 11, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Flourtown",
+        "city": "Flourtown",
+        "state": "Pennsylvania",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "379",
+            "courseName": "The Philadelphia Cricket Club (Wissahickon Course)",
+            "courseCode": "PC",
+            "hostCourse": true
+          }
+        ],
+        "events": [
+          {
+            "id": "1"
+          },
+          {
+            "id": "5"
+          }
+        ]
+      }
+    ]
+  }
+}

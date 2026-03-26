@@ -1,0 +1,72 @@
+
+============================================================
+Type: StatLeaderCategory  (OBJECT)
+============================================================
+  tourCode                                      TourCode!
+  year                                          Int!
+  displayYear                                   String!
+  categoryHeader                                String!
+  statCategory                                  StatCategory!
+  otherCategories                               [StatCategoryConfig!]!
+  subCategories                                 [StatLeaderSubCategory!]!
+
+  ==========================================================
+  Type: TourCode  (ENUM)
+  ==========================================================
+    Values: ['R', 'H', 'M', 'S', 'C', 'I', 'Y', 'U', 'E']
+
+  ==========================================================
+  Type: StatCategory  (ENUM)
+  ==========================================================
+    Values: ['APPROACH_GREEN', 'AROUND_GREEN', 'MONEY_FINISHES', 'OFF_TEE', 'POINTS_RANKINGS', 'PUTTING', 'SCORING', 'STREAKS', 'STROKES_GAINED', 'FACTS_AND_FIGURES']
+
+  ==========================================================
+  Type: StatCategoryConfig  (OBJECT)
+  ==========================================================
+    category                                      String!
+    displayName                                   String!
+    subCategories                                 [StatSubCategory!]!
+    categoryType                                  StatCategoryConfigType
+
+    ========================================================
+    Type: StatSubCategory  (OBJECT)
+    ========================================================
+      displayName                                   String
+      stats                                         [StatCategoryStat!]!
+
+      ======================================================
+      Type: StatCategoryStat  (OBJECT)
+      ======================================================
+        statId                                        String!
+        statTitle                                     String!
+
+    ========================================================
+    Type: StatCategoryConfigType  (ENUM)
+    ========================================================
+      Values: ['ALL_TIME_RECORDS', 'TRADITIONAL_STAT']
+
+  ==========================================================
+  Type: StatLeaderSubCategory  (OBJECT)
+  ==========================================================
+    subCategoryName                               String!
+    stats                                         [LeaderStat!]!
+    subCatPromo                                   StatLeaderSubCategoryPromo
+
+    ========================================================
+    Type: LeaderStat  (OBJECT)
+    ========================================================
+      statId                                        String!
+      playerId                                      String!
+      statTitle                                     String!
+      statValue                                     String!
+      playerName                                    String!
+      rank                                          String!
+      country                                       String!
+      countryFlag                                   String!
+
+    ========================================================
+    Type: StatLeaderSubCategoryPromo  (OBJECT)
+    ========================================================
+      link                                          String!
+      image                                         String!
+      title                                         String!

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026527",
+        "tournamentName": "Baycurrent Classic",
+        "seasonYear": "2026",
+        "displayDate": "Oct 8 - 11, 2026",
+        "timezone": "Asia/Tokyo",
+        "tournamentLocation": "Yokohama",
+        "city": "Yokohama",
+        "state": "",
+        "country": "JPN",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "936",
+            "courseName": "Yokohama Country Club (West Course)",
+            "courseCode": "YH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

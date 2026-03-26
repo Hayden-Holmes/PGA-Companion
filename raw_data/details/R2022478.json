@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022478",
+        "tournamentName": "Hero World Challenge",
+        "seasonYear": "2022",
+        "displayDate": "Dec 2 - 5, 2021",
+        "timezone": "America/Nassau",
+        "tournamentLocation": "Albany",
+        "city": "Albany",
+        "state": "",
+        "country": "BAH",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "232",
+            "courseName": "Albany GC",
+            "courseCode": "AB",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

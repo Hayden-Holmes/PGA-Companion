@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021003",
+        "tournamentName": "Waste Management Phoenix Open",
+        "seasonYear": "2021",
+        "displayDate": "Feb 4 - 7, 2021",
+        "timezone": "America/Phoenix",
+        "tournamentLocation": "Scottsdale",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "510",
+            "courseName": "TPC Scottsdale (Stadium Course)",
+            "courseCode": "TS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

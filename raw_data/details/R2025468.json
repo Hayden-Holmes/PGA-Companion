@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2025468",
+        "tournamentName": "Ryder Cup",
+        "seasonYear": "2025",
+        "displayDate": "Sep 26 - 28, 2025",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Farmingdale",
+        "city": "Farmingdale",
+        "state": "New York",
+        "country": "USA",
+        "currentRound": 5,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "689",
+            "courseName": "Bethpage State Park (Black)",
+            "courseCode": "BP",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

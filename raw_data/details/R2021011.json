@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021011",
+        "tournamentName": "THE PLAYERS Championship",
+        "seasonYear": "2021",
+        "displayDate": "Mar 11 - 14, 2021",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ponte Vedra Beach",
+        "city": "Ponte Vedra Beach",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "011",
+            "courseName": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

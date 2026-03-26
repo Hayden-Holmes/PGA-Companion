@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026551",
+        "tournamentName": "Grant Thornton Invitational",
+        "seasonYear": "2026",
+        "displayDate": "Dec 11 - 13, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Naples",
+        "city": "Naples",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "920",
+            "courseName": "Tibur\u00f3n Golf Club",
+            "courseCode": "TG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

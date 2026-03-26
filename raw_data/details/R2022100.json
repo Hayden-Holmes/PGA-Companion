@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022100",
+        "tournamentName": "The Open Championship",
+        "seasonYear": "2022",
+        "displayDate": "Jul 14 - 17, 2022",
+        "timezone": "Europe/London",
+        "tournamentLocation": "Fife",
+        "city": "Fife",
+        "state": "",
+        "country": "SCO",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "668",
+            "courseName": "St. Andrews GC (Old Course)",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

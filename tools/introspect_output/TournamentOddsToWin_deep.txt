@@ -1,0 +1,22 @@
+
+============================================================
+Type: TournamentOddsToWin  (OBJECT)
+============================================================
+  tournamentId                                  ID!
+  tournamentName                                String!
+  tournamentLogoAsset                           ImageAsset!
+  players                                       [TournamentOddsPlayer!]!
+
+  ==========================================================
+  Type: TournamentOddsPlayer  (OBJECT)
+  ==========================================================
+    playerId                                      ID!
+    oddsToWin                                     String!
+    oddsSwing                                     OddsSwing
+    oddsOptionId                                  String
+    oddsSort                                      Float!
+
+    ========================================================
+    Type: OddsSwing  (ENUM)
+    ========================================================
+      Values: ['UP', 'DOWN', 'CONSTANT']

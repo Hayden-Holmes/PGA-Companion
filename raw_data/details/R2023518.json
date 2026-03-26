@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023518",
+        "tournamentName": "Barbasol Championship",
+        "seasonYear": "2023",
+        "displayDate": "Jul 13 - 16, 2023",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Nicholasville",
+        "city": "Nicholasville",
+        "state": "Kentucky",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "884",
+            "courseName": "Keene Trace Golf Club (Champion Trace)",
+            "courseCode": "KT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

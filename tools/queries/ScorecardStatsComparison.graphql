@@ -1,0 +1,37 @@
+query ScorecardStatsComparison(
+  $tournamentId: String!,
+  $playerIds: [String!]!,
+  $round: Int,
+  $category: PlayerComparisonCategory!
+) {
+  scorecardStatsComparison(
+    tournamentId: $tournamentId,
+    playerIds: $playerIds,
+    round: $round,
+    category: $category
+  ) {
+    tournamentId
+    category
+    roundNum
+    roundDisplay
+    table {
+      header
+      headerRow {
+        playerId
+        displayText
+        country
+      }
+      rows {
+        statName
+        statId
+        values {
+          displayValue
+          bold
+          rank
+          rankDeviation
+        }
+      }
+    }
+    noDataMessage
+  }
+}

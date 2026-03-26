@@ -1,0 +1,112 @@
+
+============================================================
+Type: StatDetails  (OBJECT)
+============================================================
+  tourCode                                      TourCode!
+  year                                          Int!
+  displaySeason                                 String!
+  statId                                        String!
+  statType                                      CategoryStatType!
+  tournamentPills                               [StatTournamentPill!]!
+  yearPills                                     [StatYearPills!]!
+  statTitle                                     String!
+  statDescription                               String!
+  tourAvg                                       String
+  sponsorLogoAsset                              ImageAsset!
+  lastProcessed                                 String!
+  statHeaders                                   [String!]!
+  statCategories                                [StatCategoryConfig!]!
+  rows                                          [StatDetailsRow!]!
+  cutOffNumber                                  Int
+  cutOffButtonText                              String
+
+  ==========================================================
+  Type: TourCode  (ENUM)
+  ==========================================================
+    Values: ['R', 'H', 'M', 'S', 'C', 'I', 'Y', 'U', 'E']
+
+  ==========================================================
+  Type: CategoryStatType  (ENUM)
+  ==========================================================
+    Values: ['YTD', 'EVENT']
+
+  ==========================================================
+  Type: StatTournamentPill  (OBJECT)
+  ==========================================================
+    tournamentId                                  String!
+    displayName                                   String!
+    endDateDisplay                                String
+
+  ==========================================================
+  Type: StatYearPills  (OBJECT)
+  ==========================================================
+    year                                          Int!
+    displaySeason                                 String!
+
+  ==========================================================
+  Type: StatCategoryConfig  (OBJECT)
+  ==========================================================
+    category                                      String!
+    displayName                                   String!
+    subCategories                                 [StatSubCategory!]!
+    categoryType                                  StatCategoryConfigType
+
+    ========================================================
+    Type: StatSubCategory  (OBJECT)
+    ========================================================
+      displayName                                   String
+      stats                                         [StatCategoryStat!]!
+
+      ======================================================
+      Type: StatCategoryStat  (OBJECT)
+      ======================================================
+        statId                                        String!
+        statTitle                                     String!
+
+    ========================================================
+    Type: StatCategoryConfigType  (ENUM)
+    ========================================================
+      Values: ['ALL_TIME_RECORDS', 'TRADITIONAL_STAT']
+
+  ==========================================================
+  Type: StatDetailsRow  (UNION)
+  ==========================================================
+    Union of: ['StatDetailsPlayer', 'StatDetailTourAvg']
+
+    ========================================================
+    Type: StatDetailsPlayer  (OBJECT)
+    ========================================================
+      playerId                                      String!
+      playerName                                    String!
+      country                                       String!
+      countryFlag                                   String!
+      rank                                          Int!
+      rankDiff                                      String!
+      rankLogoLight                                 String
+      rankLogoDark                                  String
+      rankChangeTendency                            StatRankMovement
+      stats                                         [CategoryPlayerStat!]!
+      filter                                        String
+
+      ======================================================
+      Type: StatRankMovement  (ENUM)
+      ======================================================
+        Values: ['UP', 'DOWN', 'CONSTANT']
+
+      ======================================================
+      Type: CategoryPlayerStat  (OBJECT)
+      ======================================================
+        statName                                      String!
+        statValue                                     String!
+        color                                         StatColor!
+
+        ====================================================
+        Type: StatColor  (ENUM)
+        ====================================================
+          Values: ['RED', 'GREEN', 'BLACK', 'GRAY']
+
+    ========================================================
+    Type: StatDetailTourAvg  (OBJECT)
+    ========================================================
+      displayName                                   String!
+      value                                         String!

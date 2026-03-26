@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2026011",
+        "tournamentName": "THE PLAYERS Championship",
+        "seasonYear": "2026",
+        "displayDate": "Mar 12 - 15, 2026",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ponte Vedra Beach",
+        "city": "Ponte Vedra Beach",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "011",
+            "courseName": "TPC Sawgrass - THE PLAYERS Stadium Course",
+            "courseCode": "SA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

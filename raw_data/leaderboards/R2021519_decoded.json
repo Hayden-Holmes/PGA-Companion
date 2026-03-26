@@ -1,0 +1,23 @@
+{
+  "__typename": "LeaderboardV3",
+  "id": "R2021519",
+  "tournamentId": "R2021519",
+  "timezone": "Asia/Tokyo",
+  "courses": [],
+  "formatType": "STROKE_PLAY",
+  "leaderboardRoundHeader": "",
+  "messages": [],
+  "players": [],
+  "tournamentStatus": "NOT_STARTED",
+  "rounds": [],
+  "isPlayoffActive": false,
+  "scorecardEnabled": false,
+  "profileEnabled": true,
+  "subEvent": false,
+  "standingsEnabled": true,
+  "standingsHeader": "FEDEXCUP",
+  "hideSov": false,
+  "disableOdds": false,
+  "disableBettingProfileColumn": false,
+  "disableLeaderboard": false
+}

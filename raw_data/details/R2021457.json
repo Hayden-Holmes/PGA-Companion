@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2021457",
+        "tournamentName": "Mayakoba Golf Classic presented by UNIFIN",
+        "seasonYear": "2021",
+        "displayDate": "Dec 3 - 6, 2020",
+        "timezone": "America/Cancun",
+        "tournamentLocation": "Riviera Maya",
+        "city": "Riviera Maya",
+        "state": "",
+        "country": "MEX",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "733",
+            "courseName": "El Camale\u00f3n Golf Course at Mayakoba",
+            "courseCode": "EC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

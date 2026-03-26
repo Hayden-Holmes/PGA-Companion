@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023010",
+        "tournamentName": "The Honda Classic",
+        "seasonYear": "2023",
+        "displayDate": "Feb 23 - 26, 2023",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Palm Beach Gardens",
+        "city": "Palm Beach Gardens",
+        "state": "Florida",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "734",
+            "courseName": "PGA National Resort (The Champion)",
+            "courseCode": "CC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

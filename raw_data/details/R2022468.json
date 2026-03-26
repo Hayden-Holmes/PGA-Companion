@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022468",
+        "tournamentName": "Ryder Cup",
+        "seasonYear": "2022",
+        "displayDate": "Sep 24 - 26, 2021",
+        "timezone": "America/Chicago",
+        "tournamentLocation": "Sheboygan",
+        "city": "Sheboygan",
+        "state": "Wisconsin",
+        "country": "USA",
+        "currentRound": -1,
+        "tournamentStatus": "NOT_STARTED",
+        "roundStatus": "UPCOMING",
+        "courses": [
+          {
+            "id": "904",
+            "courseName": "Whistling Straits",
+            "courseCode": "WS",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

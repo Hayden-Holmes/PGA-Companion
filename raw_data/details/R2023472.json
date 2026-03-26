@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023472",
+        "tournamentName": "Barracuda Championship",
+        "seasonYear": "2023",
+        "displayDate": "Jul 20 - 23, 2023",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Truckee",
+        "city": "Truckee",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 401,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "890",
+            "courseName": "Tahoe Mountain Club (Old Greenwood)",
+            "courseCode": "MT",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

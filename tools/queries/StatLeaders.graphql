@@ -1,0 +1,20 @@
+query StatLeaders($tourCode: TourCode!, $category: StatCategory!, $year: Int) {
+  statLeaders(tourCode: $tourCode, category: $category, year: $year) {
+    tourCode
+    year
+    statCategory
+    subCategories {
+      subCategoryName
+      stats {
+        statId
+        statTitle
+        statValue
+        playerId
+        playerName
+        rank
+        country
+        countryFlag
+      }
+    }
+  }
+}

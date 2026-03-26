@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2024",
+        "displayDate": "May 16 - 19, 2024",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Louisville",
+        "city": "Louisville",
+        "state": "Kentucky",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "671",
+            "courseName": "Valhalla Golf Club",
+            "courseCode": "VA",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

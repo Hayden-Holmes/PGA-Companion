@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022480",
+        "tournamentName": "Wells Fargo Championship",
+        "seasonYear": "2022",
+        "displayDate": "May 5 - 8, 2022",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Potomac",
+        "city": "Potomac",
+        "state": "Maryland",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "237",
+            "courseName": "TPC Potomac at Avenel Farm",
+            "courseCode": "AF",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

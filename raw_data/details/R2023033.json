@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023033",
+        "tournamentName": "PGA Championship",
+        "seasonYear": "2023",
+        "displayDate": "May 18 - 21, 2023",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Rochester",
+        "city": "Rochester",
+        "state": "New York",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "514",
+            "courseName": "Oak Hill Country Club - East Course",
+            "courseCode": "OH",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2024004",
+        "tournamentName": "Farmers Insurance Open",
+        "seasonYear": "2024",
+        "displayDate": "Jan 24 - 27, 2024",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "San Diego",
+        "city": "San Diego",
+        "state": "California",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "004",
+            "courseName": "Torrey Pines Golf Course (South Course)",
+            "courseCode": "SC",
+            "hostCourse": true
+          },
+          {
+            "id": "104",
+            "courseName": "Torrey Pines Golf Course (North Course)",
+            "courseCode": "NC",
+            "hostCourse": false
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

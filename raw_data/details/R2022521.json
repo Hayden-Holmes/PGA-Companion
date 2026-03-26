@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022521",
+        "tournamentName": "THE CJ CUP @ SUMMIT",
+        "seasonYear": "2022",
+        "displayDate": "Oct 14 - 17, 2021",
+        "timezone": "America/Los_Angeles",
+        "tournamentLocation": "Las Vegas",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "899",
+            "courseName": "The Summit Club",
+            "courseCode": "SC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

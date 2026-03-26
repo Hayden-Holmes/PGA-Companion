@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2023521",
+        "tournamentName": "THE CJ CUP in South Carolina",
+        "seasonYear": "2023",
+        "displayDate": "Oct 20 - 23, 2022",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Ridgeland",
+        "city": "Ridgeland",
+        "state": "South Carolina",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "902",
+            "courseName": "Congaree Golf Club",
+            "courseCode": "CG",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}

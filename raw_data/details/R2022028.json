@@ -1,0 +1,29 @@
+{
+  "data": {
+    "tournaments": [
+      {
+        "id": "R2022028",
+        "tournamentName": "BMW Championship",
+        "seasonYear": "2022",
+        "displayDate": "Aug 18 - 21, 2022",
+        "timezone": "America/New_York",
+        "tournamentLocation": "Wilmington",
+        "city": "Wilmington",
+        "state": "Delaware",
+        "country": "USA",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
+        "courses": [
+          {
+            "id": "901",
+            "courseName": "Wilmington Country Club",
+            "courseCode": "WC",
+            "hostCourse": true
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
+}
