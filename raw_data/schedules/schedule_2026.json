@@ -165,13 +165,7 @@
               "championId": "40098",
               "purse": "$9,100,000",
               "tournamentStatus": "COMPLETED"
-            }
-          ]
-        }
-      ],
-      "upcoming": [
-        {
-          "tournaments": [
+            },
             {
               "id": "R2026020",
               "tournamentName": "Texas Children's Houston Open",
@@ -181,10 +175,15 @@
               "state": "Texas",
               "country": "United States of America",
               "courseName": "Memorial Park Golf Course",
-              "tournamentStatus": "NOT_STARTED"
+              "champion": "Gary Woodland",
+              "championId": "31323",
+              "purse": "$9,900,000",
+              "tournamentStatus": "COMPLETED"
             }
           ]
-        },
+        }
+      ],
+      "upcoming": [
         {
           "tournaments": [
             {
@@ -196,7 +195,7 @@
               "state": "Texas",
               "country": "United States of America",
               "courseName": "TPC San Antonio - The Oaks Course",
-              "tournamentStatus": "NOT_STARTED"
+              "tournamentStatus": "IN_PROGRESS"
             },
             {
               "id": "R2026014",
@@ -239,7 +238,7 @@
               "city": "Miami",
               "state": "Florida",
               "country": "United States of America",
-              "courseName": "Trump National Doral (Blue Monster)",
+              "courseName": "Trump National Doral - Blue Monster Course",
               "tournamentStatus": "NOT_STARTED"
             }
           ]

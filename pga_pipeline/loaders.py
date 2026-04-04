@@ -1,13 +1,6 @@
 """
 pga_pipeline/loaders.py
 
-Idempotent upserts into PostgreSQL.
-
-Rules:
-  - Every insert uses ON CONFLICT DO UPDATE so reruns are safe.
-  - No data is silently dropped — conflicts update all non-key columns.
-  - Each function takes a list of dicts and a psycopg2 connection.
-  - Caller commits; these functions do not commit.
 """
 
 import logging
@@ -96,9 +89,3 @@ def upsert_rounds(conn, rows: list[dict]):
     _upsert(conn, "rounds", rows, ["round_id"])
 
 
-def upsert_raw_leaderboard_rows(conn, rows: list[dict]):
-    """
-    raw_leaderboard_rows: conflict on (event_id, player_id).
-    Assumes the schema has a unique constraint on these two columns.
-    """
-    _upsert(conn, "raw_leaderboard_rows", rows, ["event_id", "player_id"])

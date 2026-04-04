@@ -302,9 +302,9 @@
         "city": "Houston",
         "state": "Texas",
         "country": "USA",
-        "currentRound": 1,
-        "tournamentStatus": "NOT_STARTED",
-        "roundStatus": "GROUPINGS_OFFICIAL",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
         "courses": [
           {
             "id": "897",
@@ -325,9 +325,9 @@
         "city": "San Antonio",
         "state": "Texas",
         "country": "USA",
-        "currentRound": -1,
-        "tournamentStatus": "NOT_STARTED",
-        "roundStatus": "UPCOMING",
+        "currentRound": 3,
+        "tournamentStatus": "IN_PROGRESS",
+        "roundStatus": "SUSPENDED",
         "courses": [
           {
             "id": "770",
@@ -423,7 +423,7 @@
         "courses": [
           {
             "id": "008",
-            "courseName": "Trump National Doral (Blue Monster)",
+            "courseName": "Trump National Doral - Blue Monster Course",
             "courseCode": "DO",
             "hostCourse": true
           }

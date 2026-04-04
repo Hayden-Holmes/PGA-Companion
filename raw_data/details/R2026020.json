@@ -11,9 +11,9 @@
         "city": "Houston",
         "state": "Texas",
         "country": "USA",
-        "currentRound": 1,
-        "tournamentStatus": "NOT_STARTED",
-        "roundStatus": "GROUPINGS_OFFICIAL",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
         "courses": [
           {
             "id": "897",
