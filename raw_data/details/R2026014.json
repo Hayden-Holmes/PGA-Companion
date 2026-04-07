@@ -11,9 +11,9 @@
         "city": "Augusta",
         "state": "Georgia",
         "country": "USA",
-        "currentRound": -1,
+        "currentRound": 1,
         "tournamentStatus": "NOT_STARTED",
-        "roundStatus": "UPCOMING",
+        "roundStatus": "GROUPINGS_OFFICIAL",
         "courses": [
           {
             "id": "014",

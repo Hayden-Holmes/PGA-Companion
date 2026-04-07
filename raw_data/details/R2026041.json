@@ -11,9 +11,9 @@
         "city": "San Antonio",
         "state": "Texas",
         "country": "USA",
-        "currentRound": 3,
-        "tournamentStatus": "IN_PROGRESS",
-        "roundStatus": "SUSPENDED",
+        "currentRound": 4,
+        "tournamentStatus": "COMPLETED",
+        "roundStatus": "OFFICIAL",
         "courses": [
           {
             "id": "770",

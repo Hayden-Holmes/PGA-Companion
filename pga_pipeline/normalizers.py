@@ -4,11 +4,16 @@ pga_pipeline/normalizers.py
 Transforms raw API response dicts into clean dicts that match
 the target PostgreSQL schema columns exactly.
 
+Rules:
+  - Every field mapping is explicit. Nothing is guessed.
+  - If a field is absent from the source, it is set to None and logged.
+  - No DB calls happen here — pure data transformation.
+  - Functions return lists of dicts ready for loaders.py to insert.
 """
 
 import logging
 import re
-from datetime import date, datetime, timezone
+from datetime import datetime, timezone
 from typing import Optional
 
 logger = logging.getLogger(__name__)
@@ -18,24 +23,33 @@ logger = logging.getLogger(__name__)
 # Date helpers
 # ---------------------------------------------------------------------------
 
-def ms_to_date(ms_timestamp: Optional[int]) -> Optional[date]:
+def ms_to_date(ms_timestamp: int) -> Optional[datetime.date]:
     """Convert Unix millisecond timestamp to a date object (UTC)."""
     if ms_timestamp is None:
         return None
     return datetime.fromtimestamp(ms_timestamp / 1000, tz=timezone.utc).date()
 
 
-def parse_end_date(date_str: str, start_ms: int) -> Optional[date]:
+def parse_end_date(date_str: str, start_ms: int, season_year: str) -> Optional[datetime.date]:
     """
     Derive end date from schedule's `date` string field.
 
     The `date` field looks like: "Jan 15 - 18" or "Feb 26 - Mar 1"
     There is no clean end timestamp anywhere in the API.
+
+    Strategy:
+      - Parse the end day from the string.
+      - If the end part contains a month name, use that month.
+      - Otherwise use the same month as startDate.
+      - Combine with season_year as the year.
+
+    Returns None and logs a warning if parsing fails.
     """
     if not date_str or not start_ms:
         return None
 
     try:
+        year = int(season_year)
         start_date = ms_to_date(start_ms)
 
         # Normalise: "Jan 15 - 18"  or  "Feb 26 - Mar 1"
@@ -67,8 +81,7 @@ def parse_end_date(date_str: str, start_ms: int) -> Optional[date]:
             logger.warning("Cannot parse end date from: %r", date_str)
             return None
 
-        # Use the start date's calendar year, not season_year.
-        return datetime(start_date.year, end_month, end_day).date()
+        return datetime(year, end_month, end_day).date()
 
     except Exception as e:
         logger.warning("parse_end_date failed for %r: %s", date_str, e)
@@ -107,6 +120,8 @@ def flatten_schedule(schedule_response: dict) -> list[dict]:
       data.schedule.completed[].tournaments[]
       data.schedule.upcoming[].tournaments[]
 
+    Returns a flat list of raw ScheduleTournament dicts with a
+    `_section` key added ("completed" or "upcoming").
     """
     result = []
     sched = schedule_response.get("data", {}).get("schedule", {})
@@ -131,6 +146,15 @@ def normalize_tournament(
     """
     Build a tournaments table row from a schedule tournament entry
     and its corresponding details entry (may be None for upcoming).
+
+    Field sources:
+      tournament_id  <- schedule.id
+      event_id       <- schedule.id  (no separate event ID exists)
+      tournament_name <- schedule.tournamentName
+      season_year    <- details.seasonYear  (fallback: parse from schedule.startDate year)
+      start_date     <- schedule.startDate  (ms timestamp)
+      end_date       <- derived from schedule.date string
+      course_id      <- details.courses[hostCourse=true].id  (None if details absent)
     """
     tid = schedule_row.get("id")
     start_ms = schedule_row.get("startDate")
@@ -163,13 +187,13 @@ def normalize_tournament(
         logger.warning("tournament_id=%s: course_id is None (details absent or no courses)", tid)
 
     return {
-        "tournament_id":   tid,
+        "tournament_id": tid,
+        "event_id": tid,  # same ID — no separate event ID exists
         "tournament_name": schedule_row.get("tournamentName"),
-        "season_year":     int(season_year) if season_year else None,
-        "start_date":      ms_to_date(start_ms),
-        "end_date":        parse_end_date(date_str, start_ms) if start_ms else None,
-        "purse":           parse_purse(schedule_row.get("purse")),
-        "course_id":       course_id,
+        "season_year": int(season_year) if season_year else None,
+        "start_date": ms_to_date(start_ms),
+        "end_date": parse_end_date(date_str, start_ms, season_year) if season_year else None,
+        "course_id": course_id,
     }
 
 
@@ -182,18 +206,18 @@ def normalize_course(course_dict: dict, location_str: Optional[str] = None) -> d
     Build a courses table row.
     course_dict is from details.courses[] or leaderboard.courses[].
 
-    par and yardage come from courseStats (a separate fetch); set to None here.
+    par and yardage are absent from the API — both set to None.
     """
     cid = course_dict.get("id")
     if cid is None:
         logger.warning("Course dict missing id: %s", course_dict)
 
     return {
-        "course_id":   cid,
+        "course_id": cid,
         "course_name": course_dict.get("courseName"),
-        "location":    location_str,
-        "par":         None,  # populated later by extract_courses_from_course_stats
-        "yardage":     None,  # populated later by extract_courses_from_course_stats
+        "location": location_str,  # passed in from schedule city/state/country
+        "par": None,       # NOT AVAILABLE in any payload
+        "yardage": None,   # NOT AVAILABLE in any payload
     }
 
 
@@ -210,9 +234,9 @@ def normalize_player(player_dict: dict) -> dict:
         logger.warning("Player dict missing id: %s", player_dict)
 
     return {
-        "player_id":   pid,
+        "player_id": pid,
         "player_name": player_dict.get("displayName"),
-        "country":     player_dict.get("country"),
+        "country": player_dict.get("country"),
     }
 
 
@@ -227,13 +251,11 @@ def normalize_rounds(player_entry: dict, tournament_id: str) -> list[dict]:
     scoringData.rounds is a flat list of up to 4 gross score strings:
       ["63", "69", "68", "64"]
 
-    One row is created per round that has a numeric score.
+    One row is created per round that has a score.
 
-    Fields filled here:   round_id, player_id, tournament_id, round_number, score
-    Fields filled later by scorecard stats pass:
-      sg_total, sg_ott, sg_app, sg_arg, sg_putt,
-      driving_distance, fairways_hit, gir, scrambling, putts_per_gir,
-      birdies, pars, bogeys, double_bogeys
+    Fields that are NOT available from this payload (all set to None):
+      round_date, gir, fairways_hit, driving_distance, putts,
+      sg_total, sg_ott, sg_app, sg_arg, sg_putt
     """
     player_id = player_entry.get("id")
     scoring = player_entry.get("scoringData", {})
@@ -243,6 +265,8 @@ def normalize_rounds(player_entry: dict, tournament_id: str) -> list[dict]:
     for i, score_str in enumerate(round_scores):
         round_number = i + 1  # API is 0-indexed, schema is 1-indexed
 
+        # Score is a string like "63" — convert to int, handle non-numeric
+        # (e.g. "--" for rounds not yet played)
         try:
             score_int = int(score_str)
         except (ValueError, TypeError):
@@ -253,32 +277,79 @@ def normalize_rounds(player_entry: dict, tournament_id: str) -> list[dict]:
             continue
 
         rows.append({
-            "round_id":        f"{tournament_id}_{player_id}_{round_number}",
-            "player_id":       player_id,
-            "tournament_id":   tournament_id,
-            "round_number":    round_number,
-            "score":           score_int,
-            "sg_total":        None,
-            "sg_ott":          None,
-            "sg_app":          None,
-            "sg_arg":          None,
-            "sg_putt":         None,
-            "driving_distance": None,
-            "fairways_hit":    None,
-            "gir":             None,
-            "scrambling":      None,
-            "putts_per_gir":   None,
-            "birdies":         None,
-            "pars":            None,
-            "bogeys":          None,
-            "double_bogeys":   None,
+            "round_id": f"{tournament_id}_{player_id}_{round_number}",
+            "player_id": player_id,
+            "tournament_id": tournament_id,
+            "round_number": round_number,
+            "round_date": None,        # NOT AVAILABLE in any payload
+            "score": score_int,
+            "gir": None,               # NOT AVAILABLE — requires separate stats endpoint
+            "fairways_hit": None,      # NOT AVAILABLE — requires separate stats endpoint
+            "driving_distance": None,  # NOT AVAILABLE — requires separate stats endpoint
+            "putts": None,             # NOT AVAILABLE — requires separate stats endpoint
+            "sg_total": None,          # NOT AVAILABLE — requires separate stats endpoint
+            "sg_ott": None,            # NOT AVAILABLE — requires separate stats endpoint
+            "sg_app": None,            # NOT AVAILABLE — requires separate stats endpoint
+            "sg_arg": None,            # NOT AVAILABLE — requires separate stats endpoint
+            "sg_putt": None,           # NOT AVAILABLE — requires separate stats endpoint
         })
 
     return rows
 
 
 # ---------------------------------------------------------------------------
-# Season stats
+# Raw leaderboard rows
+# ---------------------------------------------------------------------------
+
+def normalize_raw_leaderboard_row(
+    player_entry: dict,
+    tournament_id: str,
+    season_year: int,
+) -> dict:
+    """
+    Build a raw_leaderboard_rows table row for one player.
+
+    round_N_score: gross stroke score per round (int), or None if not played.
+    total_score: total gross strokes (int).
+    """
+    player_id = player_entry.get("id")
+    player = player_entry.get("player", {})
+    scoring = player_entry.get("scoringData", {})
+    rounds = scoring.get("rounds") or []
+
+    def safe_round_score(index: int) -> Optional[int]:
+        if index >= len(rounds):
+            return None
+        try:
+            return int(rounds[index])
+        except (ValueError, TypeError):
+            return None
+
+    total_strokes_str = scoring.get("totalStrokes")
+    try:
+        total_score = int(total_strokes_str) if total_strokes_str else None
+    except (ValueError, TypeError):
+        total_score = None
+
+    return {
+        "event_id": tournament_id,
+        "season_year": season_year,
+        "player_id": player_id,
+        "player_name": player.get("displayName"),
+        "round_1_score": safe_round_score(0),
+        "round_2_score": safe_round_score(1),
+        "round_3_score": safe_round_score(2),
+        "round_4_score": safe_round_score(3),
+        "total_score": total_score,
+        "source_url": (
+            f"https://orchestrator.pgatour.com/graphql"
+            f"?op=LeaderboardCompressedV3&id={tournament_id}"
+        ),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Top-level normalize functions that process a whole leaderboard payload
 # ---------------------------------------------------------------------------
 
 def extract_season_stats(stat_details_list: list[dict]) -> list[dict]:
@@ -286,19 +357,24 @@ def extract_season_stats(stat_details_list: list[dict]) -> list[dict]:
     Flatten a list of statDetails responses into player_season_stats rows.
 
     Each statDetails response covers one stat for all players in a season.
+    rows[] is a union — we only process StatDetailsPlayer entries.
+    The primary stat value is stats[0].statValue (the "Avg" entry).
+
+    Returns one row per (player_id, season_year, stat_id).
     """
     rows = []
     for detail in stat_details_list:
-        stat_id    = detail.get("statId")
+        stat_id = detail.get("statId")
         stat_title = detail.get("statTitle")
-        tour_avg   = detail.get("tourAvg")
-        year       = detail.get("year")
+        tour_avg = detail.get("tourAvg")
+        year = detail.get("year")
 
         if year is None:
             logger.warning("statDetails missing year for statId=%s", stat_id)
             continue
 
         for row in detail.get("rows") or []:
+            # Skip StatDetailTourAvg rows — only process StatDetailsPlayer
             if row.get("__typename") != "StatDetailsPlayer":
                 continue
 
@@ -306,9 +382,9 @@ def extract_season_stats(stat_details_list: list[dict]) -> list[dict]:
             if not player_id:
                 continue
 
+            # Primary value is stats[0] — the "Avg" entry
             stats = row.get("stats") or []
             stat_value = stats[0].get("statValue") if stats else None
-            stat_name  = stats[0].get("statName")  if stats else None
 
             rank_val = row.get("rank")
             try:
@@ -317,22 +393,18 @@ def extract_season_stats(stat_details_list: list[dict]) -> list[dict]:
                 rank_int = None
 
             rows.append({
-                "player_id":   player_id,
+                "player_id": player_id,
                 "season_year": int(year),
-                "stat_id":     stat_id,
-                "stat_title":  stat_title,   # e.g. "SG: Total"
-                "stat_name":   stat_name,    # e.g. "Avg"
-                "stat_value":  stat_value,
-                "tour_avg":    tour_avg,
-                "rank":        rank_int,
+                "stat_id": stat_id,
+                "stat_name": stat_title,
+                "stat_value": stat_value,
+                "stat_title": stats[0].get("statName") if stats else None,
+                "tour_avg": tour_avg,
+                "rank": rank_int,
             })
 
     return rows
 
-
-# ---------------------------------------------------------------------------
-# Top-level extract functions — process a whole leaderboard payload
-# ---------------------------------------------------------------------------
 
 def extract_courses_from_course_stats(
     course_stats: dict, location: Optional[str]
@@ -350,11 +422,11 @@ def extract_courses_from_course_stats(
             logger.warning("courseStats course missing courseId: %s", c)
             continue
         rows.append({
-            "course_id":   cid,
+            "course_id": cid,
             "course_name": c.get("courseName"),
-            "location":    location,
-            "par":         c.get("par"),
-            "yardage":     parse_yardage(c.get("yardage")),
+            "location": location,
+            "par": c.get("par"),
+            "yardage": parse_yardage(c.get("yardage")),
         })
     return rows
 
@@ -378,6 +450,15 @@ def extract_rounds_from_leaderboard(decoded_lb: dict, tournament_id: str) -> lis
         rows.extend(normalize_rounds(player_entry, tournament_id))
     return rows
 
+
+def extract_raw_rows_from_leaderboard(
+    decoded_lb: dict, tournament_id: str, season_year: int
+) -> list[dict]:
+    """Return list of raw_leaderboard_rows dicts from a decoded leaderboard."""
+    return [
+        normalize_raw_leaderboard_row(p, tournament_id, season_year)
+        for p in decoded_lb.get("players") or []
+    ]
 
 # ---------------------------------------------------------------------------
 # Scorecard stats normalizer
@@ -468,13 +549,24 @@ def normalize_scorecard_stats(
     """
     Convert a scorecardStatsV3 response into round update dicts.
 
+    round "-1" is a pre-computed API aggregate ("All") — skipped entirely.
+    We compute tournament totals ourselves from rounds 1-4 in queries.
+    Rounds "1"-"4" map directly to round_number 1-4.
+
+    Only OFFICIAL rounds are included. UPCOMING rounds have empty stat
+    arrays and are skipped to avoid overwriting good data on a re-run.
+
+    round_id format matches normalize_rounds: {tournament_id}_{player_id}_{round_number}
+    Score is intentionally excluded — already set by the leaderboard pipeline.
     """
     rows = []
 
     for r in scorecard.get("rounds") or []:
+        # Skip the API aggregate row — not a real round
         if r.get("round") == "-1":
             continue
 
+        # Skip rounds with no data yet
         if r.get("roundStatus") not in ("OFFICIAL", "COMPLETE"):
             continue
 
@@ -492,24 +584,24 @@ def normalize_scorecard_stats(
         scoring = r.get("scoring") or []
 
         rows.append({
-            "round_id":        f"{tournament_id}_{player_id}_{round_number}",
-            "player_id":       player_id,
-            "tournament_id":   tournament_id,
-            "round_number":    round_number,
-            "sg_total":        _sg_num(sg, _SG_TOTAL),
-            "sg_ott":          _sg_num(sg, _SG_OFF_TEE),
-            "sg_app":          _sg_num(sg, _SG_APPROACH),
-            "sg_arg":          _sg_num(sg, _SG_ARG),
-            "sg_putt":         _sg_num(sg, _SG_PUTTING),
-            "driving_distance": _parse_leading_float(_perf_str(perf, _PERF_DRIVING_DIST)),
-            "fairways_hit":    _parse_leading_float(_perf_str(perf, _PERF_DRIVING_ACC)),
-            "gir":             _parse_leading_float(_perf_str(perf, _PERF_GIR)),
-            "scrambling":      _parse_leading_float(_perf_str(perf, _PERF_SCRAMBLING)),
-            "putts_per_gir":   _parse_leading_float(_perf_str(perf, _PERF_PUTTS_PER_GIR)),
-            "birdies":         _score_int(scoring, _SCORING_BIRDIES),
-            "pars":            _score_int(scoring, _SCORING_PARS),
-            "bogeys":          _score_int(scoring, _SCORING_BOGEYS),
-            "double_bogeys":   _score_int(scoring, _SCORING_DOUBLES),
+            "round_id":          f"{tournament_id}_{player_id}_{round_number}",
+            "player_id":         player_id,
+            "tournament_id":     tournament_id,
+            "round_number":      round_number,
+            "sg_total":          _sg_num(sg, _SG_TOTAL),
+            "sg_ott":            _sg_num(sg, _SG_OFF_TEE),
+            "sg_app":            _sg_num(sg, _SG_APPROACH),
+            "sg_arg":            _sg_num(sg, _SG_ARG),
+            "sg_putt":           _sg_num(sg, _SG_PUTTING),
+            "driving_distance":  _parse_leading_float(_perf_str(perf, _PERF_DRIVING_DIST)),
+            "fairways_hit":      _parse_leading_float(_perf_str(perf, _PERF_DRIVING_ACC)),
+            "gir":               _parse_leading_float(_perf_str(perf, _PERF_GIR)),
+            "scrambling":        _parse_leading_float(_perf_str(perf, _PERF_SCRAMBLING)),
+            "putts_per_gir":     _parse_leading_float(_perf_str(perf, _PERF_PUTTS_PER_GIR)),
+            "birdies":           _score_int(scoring, _SCORING_BIRDIES),
+            "pars":              _score_int(scoring, _SCORING_PARS),
+            "bogeys":            _score_int(scoring, _SCORING_BOGEYS),
+            "double_bogeys":     _score_int(scoring, _SCORING_DOUBLES),
         })
 
     return rows

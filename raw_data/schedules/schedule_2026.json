@@ -181,9 +181,7 @@
               "tournamentStatus": "COMPLETED"
             }
           ]
-        }
-      ],
-      "upcoming": [
+        },
         {
           "tournaments": [
             {
@@ -195,8 +193,17 @@
               "state": "Texas",
               "country": "United States of America",
               "courseName": "TPC San Antonio - The Oaks Course",
-              "tournamentStatus": "IN_PROGRESS"
-            },
+              "champion": "J.J. Spaun",
+              "championId": "39324",
+              "purse": "$9,800,000",
+              "tournamentStatus": "COMPLETED"
+            }
+          ]
+        }
+      ],
+      "upcoming": [
+        {
+          "tournaments": [
             {
               "id": "R2026014",
               "tournamentName": "Masters Tournament",

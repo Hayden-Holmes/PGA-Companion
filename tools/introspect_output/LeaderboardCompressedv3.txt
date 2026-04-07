@@ -1,0 +1,9 @@
+
+============================================================
+Type: LeaderboardCompressedV3  (OBJECT)
+Description:   Returns the leaderboard for a tournament where payload contains the leaderboard data in Base64 encoding.
+============================================================
+  FIELD                                         TYPE                                ARGS
+  -------------------------------------------- ---------------------------------- --------------------
+  id                                            ID!                                 
+  payload                                       String!                             
