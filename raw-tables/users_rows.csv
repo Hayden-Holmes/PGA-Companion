@@ -1,0 +1,5 @@
+user_id,username,email,created_at,password
+1,dev,dev@example.com,2026-04-01 16:05:40.178296+00,$2a$12$9HMreWRHoJqtOgSlKCl5AelMHQFKFMZT3UfPc3JT4ONrdTqLb.G7m
+2,jim,bean@gmail.com,2026-04-01 16:16:35.503805+00,$2a$10$mbY7zQf5duZVbb1t4X9NjOVXbcm16kIjBnlu4nYzw/jNUrZs9svhG
+3,max,myemail@max.com,2026-05-03 23:39:34.956432+00,$2a$10$iHXqGcnVz3eI6yUb3Iifhuqz8B2DVsmvnDdY9TmqKZpMRTFiJLIFK
+4,test,test@gmail.com,2026-05-04 00:09:35.474937+00,$2a$10$zME7C1EDlOqhBJH7kdTejeVOBpgj1OqvP4Fz2DC1LmpVzsPz1B5WC
